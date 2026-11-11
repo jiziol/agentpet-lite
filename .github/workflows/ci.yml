@@ -22,6 +22,18 @@ jobs:
           python-version: '3.12'
       - name: Check public file scope
         run: python3 scripts/prepare-source.py --check-index
+      - name: Enable animations on the disposable runner
+        run: |
+          # runner-images disables these effects; the native tests exercise them.
+          defaults read com.apple.universalaccess reduceMotion || true
+          defaults write com.apple.universalaccess reduceMotion -bool false
+          defaults write com.apple.universalaccess reduceTransparency -bool false
+          swift -e '
+            import AppKit
+            let reduced = NSWorkspace.shared.accessibilityDisplayShouldReduceMotion
+            print("Animation prerequisites: reduceMotion=\(reduced), doubleClickInterval=\(NSEvent.doubleClickInterval)")
+            precondition(!reduced, "Animation tests require Reduce Motion to be disabled")
+          '
       - name: Full verification
         run: bash scripts/verify-local.sh full --log-dir .build/ci-verification
       - name: Build and verify local app bundle
