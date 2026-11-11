@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-test:
+    name: Full verification (XCTest, Swift, Node, Python)
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public file scope
+        run: python3 scripts/prepare-source.py --check-index
+      - name: Full verification
+        run: bash scripts/verify-local.sh full --log-dir .build/ci-verification
+      - name: Build and verify local app bundle
+        run: AGENTPET_APP_NAME="AgentPet Lite" bash scripts/build-local.sh
+      - name: Upload verification logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-logs
+          path: .build/ci-verification
+          if-no-files-found: ignore

@@ -1,0 +1,947 @@
+/* AgentPet , 简体中文 */
+
+/* Tabs */
+"General" = "通用";
+"Pet" = "宠物";
+"Bubble" = "气泡";
+"About" = "关于";
+
+/* General / common */
+"Launch" = "启动";
+"Launch at login" = "登录时启动";
+"AgentPet Lite starts automatically when you sign in." = "登录时自动启动 AgentPet Lite。";
+"Notifications" = "通知";
+"Show chat bubble" = "显示聊天气泡";
+"Messages" = "消息";
+"System" = "系统";
+"Custom" = "自定义";
+"One message per line; a random one is shown." = "每行一句；随机显示其中一句。";
+"Reset to defaults" = "恢复默认";
+"Reset to default" = "恢复默认";
+"Sounds" = "声音";
+"Agent integrations" = "Agent 集成";
+"Hook installed" = "已安装 Hook";
+"Coming soon" = "即将推出";
+"Enable" = "启用";
+"Open Settings" = "打开设置";
+"Quit AgentPet Lite" = "退出 AgentPet Lite";
+"Upload…" = "上传…";
+"Default" = "默认";
+"Working" = "工作中";
+"Waiting" = "等待中";
+"Done" = "完成";
+/* Bubble tab */
+"Bubble mode" = "气泡模式";
+"Multi-agent bubble" = "多 Agent 气泡";
+"Structured rows with icons, state dots, and activity messages." = "带图标、状态点和活动消息的结构化行。";
+"Appearance" = "外观";
+"Theme" = "主题";
+"Font size" = "字号";
+"Opacity" = "不透明度";
+"Show idle message" = "显示空闲消息";
+"The pet's chatter while no agent is running." = "没有 Agent 运行时宠物的碎碎念。";
+"Display" = "显示";
+"Rows" = "行";
+"Sessions" = "会话";
+"Filter" = "筛选";
+"Include states" = "包含状态";
+"Which session states appear in the bubble." = "气泡中显示哪些会话状态。";
+"Visible agents" = "可见 Agent";
+"Row content" = "行内容";
+"Preview" = "预览";
+"Presets" = "预设";
+"Original" = "原始";
+"Standard" = "标准";
+"Detailed" = "详细";
+"Tap a chip above to add tokens" = "点击上方的标签添加元素";
+"All tokens are in use" = "所有元素都已使用";
+"Preview updates as you add, remove, or reorder tokens below." = "在下方添加、删除或重新排序元素时，预览会实时更新。";
+"Style" = "样式";
+"Separator" = "分隔符";
+"State dot" = "状态点";
+"Agent icons" = "Agent 图标";
+"Brand logos" = "品牌标志";
+"SF Symbols" = "SF Symbols";
+"Change…" = "更改…";
+"Activity messages" = "活动消息";
+"Vocabulary" = "词汇风格";
+"Bubble messages" = "气泡消息";
+"Simple bubble" = "简单气泡";
+"All agents" = "所有 Agent";
+"Turn on multi-agent bubble above for per-agent rows with icons and activity." = "开启上方的多 Agent 气泡，即可为每个 Agent 显示带图标和活动的独立行。";
+
+/* About & Pet tab */
+"Author" = "作者";
+"Version" = "版本";
+"Choose pet" = "选择宠物";
+"Animations" = "动画";
+"Size on screen" = "屏幕上的大小";
+"Browse pets…" = "浏览宠物…";
+"Create pet…" = "创建宠物…";
+"No pets yet. Tap Browse to add one." = "还没有宠物。点击“浏览”来添加。";
+"Hover a clip to preview it." = "将鼠标悬停在片段上即可预览。";
+"No pet selected" = "未选择宠物";
+"State" = "状态";
+/* Bubble pickers / tokens */
+"All rows" = "全部行";
+"Carousel" = "轮播";
+"Compact" = "紧凑";
+"All sessions" = "所有会话";
+"Grouped by agent" = "按 Agent 分组";
+"All states" = "所有状态";
+"Done and above" = "完成及以上";
+"Working & Waiting" = "工作中和等待中";
+"Working only" = "仅工作中";
+"One row at a time. Auto-cycles every 3 s — swipe or drag to browse." = "每次一行，每 3 秒自动轮换，可滑动或拖动浏览。";
+"One row per agent kind (×N when multiple)" = "每种 Agent 一行（多个时显示 ×N）";
+"One row per session" = "每个会话一行";
+"Show every row at once, up to the max below." = "一次显示所有行，上限见下方。";
+"Summary header, first two rows, then fold the rest." = "摘要标题、前两行，其余折叠。";
+"Plain dot" = "普通圆点";
+"Claude style" = "Claude 风格";
+"Flat color-coded circle" = "扁平彩色圆点";
+"Spinning ✻ asterisk while active" = "活动时旋转的 ✻ 星号";
+"Agent icon" = "Agent 图标";
+"Chat title" = "聊天标题";
+"Project folder" = "项目文件夹";
+"Activity message" = "活动消息";
+"State label" = "状态标签";
+"Elapsed time" = "已用时间";
+"Title" = "标题";
+"Project" = "项目";
+"Message" = "消息";
+"Elapsed" = "耗时";
+"Icon" = "图标";
+"Dot" = "圆点";
+
+/* Theme & activity vocabulary names */
+"Light" = "浅色";
+"Dark" = "深色";
+"Chef" = "厨师";
+"Engineer" = "工程师";
+"Wizard" = "巫师";
+"Explorer" = "探险家";
+"Scientist" = "科学家";
+
+/* Demo panel, notifications, sounds, footers */
+"Fire webhooks for many agents with your current settings" = "用当前设置为多个 Agent 触发 webhook";
+"Add" = "添加";
+"Quick scenarios" = "快捷场景";
+"Spawn 3 working" = "生成 3 个工作中";
+"Finish all" = "全部完成";
+"Clear all" = "清除全部";
+"Active webhooks" = "活动 Webhook";
+"No webhooks yet. Add one from the right →" = "还没有 Webhook。从右侧添加 →";
+"Notifications on" = "通知已开启";
+"Notifications muted" = "通知已静音";
+"Notifications denied" = "通知被拒绝";
+"Notifications unavailable" = "通知不可用";
+"Enable notifications" = "启用通知";
+"Available once installed as AgentPet Lite.app" = "以 AgentPet Lite.app 安装后可用";
+"Turn on in System Settings to get alerts" = "在系统设置中开启以接收提醒";
+"Alerts when an agent finishes or needs input" = "Agent 完成或需要输入时提醒";
+"Muted, the toggle turns alerts back on" = "已静音，拨动开关重新开启提醒";
+"When an agent finishes" = "当 Agent 完成时";
+"When an agent needs input" = "当 Agent 需要输入时";
+"Per-agent overrides win over \"All agents\". A custom line replaces the live/theme text and the real pet honours it." = "针对单个 Agent 的设置优先于\"所有 Agent\"。自定义文案会替换实时/主题文本，真实宠物也会生效。";
+"Whimsical phrases shown while agents work, e.g. \"Brewing…\" or \"Compiling…\"." = "Agent 工作时显示的趣味短语，例如 \"Brewing…\" 或 \"Compiling…\"。";
+
+/* Pet chat & idle messages */
+"Thinking…" = "思考中…";
+"Working on it…" = "处理中…";
+"On it!" = "马上做！";
+"Crunching code…" = "埋头敲代码…";
+"Hmm, let me see…" = "嗯，让我看看…";
+"Cooking something up…" = "正在酝酿…";
+"Deep in thought…" = "陷入沉思…";
+"Brain go brrr…" = "大脑高速运转…";
+"Almost there…" = "快好了…";
+"Wiring it up…" = "正在接线…";
+"I need you!" = "需要你！";
+"Your turn 👀" = "该你了 👀";
+"Waiting on you…" = "在等你…";
+"Can you check this?" = "能帮我看看这个吗？";
+"Psst, need input!" = "嘿，需要你的输入！";
+"Awaiting orders…" = "等待指令…";
+"Help me out?" = "帮帮我？";
+"Stuck, need you!" = "卡住了，需要你！";
+"All done! ✅" = "全部完成！✅";
+"Finished!" = "完成！";
+"Ta-da!" = "哒哒！";
+"Done and dusted!" = "大功告成！";
+"Nailed it!" = "搞定！";
+"That's a wrap!" = "收工！";
+"Mission complete!" = "任务完成！";
+"🎉 Woohoo!" = "🎉 哇哦！";
+"We did it!" = "我们做到了！";
+"Victory!" = "胜利！";
+"Yesss!" = "太棒了！";
+"High five! 🙌" = "击掌！🙌";
+"Champion!" = "冠军！";
+"Let's grill some bugs." = "来抓几只 bug 吧。";
+"I miss you. Open a branch for me." = "想你了，给我开个分支吧。";
+"Tiny commit, tiny dopamine." = "小提交，小确幸。";
+"The build is quiet. Too quiet." = "构建很安静，安静得可疑。";
+"Ship something small. Future you is watching." = "发布点小东西吧，未来的你正看着呢。";
+"Your TODOs are pretending not to see us." = "你的 TODO 正假装没看见我们。";
+"No agents running. The keyboard has entered standby drama." = "没有 Agent 在跑，键盘开始上演待机大戏。";
+"Turn coffee into code. Carefully." = "把咖啡变成代码，小心点。";
+"Open one file. Intimidate it professionally." = "打开一个文件，专业地震慑它。";
+"The repo is calm. Suspicious, but calm." = "仓库很平静。可疑，但平静。";
+"Refactor lightly. Leave with dignity." = "轻轻重构，体面收场。";
+"One clean diff can fix the whole afternoon." = "一个干净的 diff 能救活整个下午。";
+"Waiting for your input" = "等待你的输入";
+"Your turn — over to you" = "轮到你了";
+"Needs your input" = "需要你的输入";
+
+/* App language picker */
+"Language" = "语言";
+
+/* App: onboarding, create-pet, browser, menu */
+"A desktop pet that watches your AI coding agents. Two quick steps to get going." = "盯着你的 AI 编码 Agent 的桌面宠物。两步即可开始。";
+"Added" = "已添加";
+"Browse pets" = "浏览宠物";
+"Cancel" = "取消";
+"Category" = "分类";
+"Choose image…" = "选择图片…";
+"Community" = "社区";
+"Create" = "创建";
+"Create pet" = "创建宠物";
+"Get alerted when an agent finishes or needs input." = "Agent 完成或需要输入时收到提醒。";
+"Get started" = "开始";
+"Install a hook so AgentPet Lite can see when an agent works, finishes, or needs you." = "安装 hook，让 AgentPet Lite 知道 Agent 何时工作、完成或需要你。";
+"Loading pets…" = "正在加载宠物…";
+"Nothing running right now." = "当前没有运行中的 Agent。";
+"Pet info" = "宠物信息";
+"Pet size" = "宠物大小";
+"Retry" = "重试";
+"Sort by agent kind" = "按 Agent 类型排序";
+"Spritesheet" = "精灵图";
+"Use the same 8×9 transparent spritesheet format as downloaded pets." = "使用与下载宠物相同的 8×9 透明精灵图格式。";
+"Welcome to AgentPet Lite" = "欢迎使用 AgentPet Lite";
+
+/* Codex connection help */
+"Connect Codex" = "连接 Codex";
+"The hook is installed. Codex blocks unknown command hooks until you trust them once , a Codex security feature, not an AgentPet bug. Do this one time:" = "Hook 已安装。Codex 会拦截未知的命令 hook，直到你信任一次 , 这是 Codex 的安全机制，并非 AgentPet 的问题。只需操作一次：";
+"Open Terminal and run: codex (launches the Codex CLI)" = "打开终端并运行：codex（启动 Codex CLI）";
+"Type /hooks and press Enter to list the hooks." = "输入 /hooks 并回车以列出 hook。";
+"Press t to Trust all hooks." = "按 t 键信任所有 hook。";
+"Quit and reopen Codex (both the CLI and the desktop app)." = "退出并重新打开 Codex（CLI 和桌面应用都要）。";
+"Run any prompt , your pet now shows the Codex session." = "运行任意提示 , 宠物就会显示 Codex 会话。";
+"Trust is shared, so trusting once in the CLI also covers the Codex desktop app. If /hooks shows nothing, add  [features] hooks = true  to ~/.codex/config.toml, then retry." = "信任是共享的，在 CLI 中信任一次，Codex 桌面应用也会生效。如果 /hooks 没有任何内容，请在 ~/.codex/config.toml 中添加  [features] hooks = true  后重试。";
+"Codex hooks docs" = "Codex hooks 文档";
+"Got it" = "知道了";
+"How to connect Codex" = "如何连接 Codex";
+"Installed , needs a one-time trust (tap ?)" = "已安装 , 需要一次性信任（点击 ?）";
+
+/* Care (tamagotchi) */
+"Care" = "养成";
+"Companion" = "伙伴";
+"Hunger" = "饥饿度";
+"Today" = "今天";
+"Lifetime" = "累计";
+"Growth sources" = "养成来源";
+"Hatchling" = "初生";
+"Scout" = "侦察兵";
+"Hero" = "英雄";
+"Legend" = "传奇";
+"Full" = "吃饱了";
+"Satisfied" = "满足";
+"Peckish" = "有点饿";
+"Hungry" = "饿了";
+"Starving" = "饿坏了";
+"Last fed %@" = "上次进食 %@";
+"pet.status.fedAgo" = "%@进食";
+"%@ / %@ XP to next level" = "%@ / %@ 经验升级";
+"The pet eats real work: tokens burnt by your agents and finished sessions." = "宠物吃的是真实工作：Agent 消耗的 token 和完成的会话。";
+"Tokens eaten" = "已吃 token";
+"Full! The daily bowl is empty." = "吃饱啦！今天的碗空了。";
+"Sessions finished" = "完成的会话";
+"Streak" = "连续天数";
+"%d days" = "%d 天";
+"Total tokens eaten" = "累计吃掉的 token";
+"Total sessions" = "累计会话";
+"Local token usage" = "本地 Token 用量";
+"Available token usage from local Codex and Claude Code sessions earns experience." = "可读取的 Codex 和 Claude Code 本地会话 Token 用量计入养成经验。";
+"Task completion rewards" = "任务完成奖励";
+"About token usage" = "Token 用量说明";
+"Token usage: available local Codex and Claude Code session usage counts toward pet experience." = "Token 用量：根据可读取的 Codex 和 Claude Code 本地会话用量累计养成经验。";
+"Successfully completed agent turns also earn experience." = "成功完成的代理回合也会获得经验奖励。";
+"Connected: subscription limits below." = "已连接：订阅额度见下方。";
+"Optional: install OpenUsage to track every provider's limits." = "可选：安装 OpenUsage 以跟踪所有服务商的额度。";
+"Active" = "已启用";
+"Connected" = "已连接";
+"Get it" = "去安装";
+"left" = "剩余";
+"Level up! Lv %d ⭐" = "升级啦！Lv %d ⭐";
+"Getting hungry… run an agent?" = "有点饿了……跑个 Agent 吧？";
+"A little snack? One small task?" = "来点小零食？一个小任务就行？";
+"My tummy is rumbling…" = "肚子咕咕叫了……";
+"Feed me some tokens, please." = "请喂我一点 token 吧。";
+"Starving… nothing to eat for days…" = "饿坏了……好几天没吃东西了……";
+"So weak… one tiny session, please…" = "好虚弱……求一个小小的会话……";
+"No tokens… no energy…" = "没有 token……没有能量……";
+"Remember me? Your pet? The hungry one?" = "还记得我吗？你的宠物？那只饿着的？";
+"Careful… your AI budget is almost gone." = "小心……你的 AI 预算快用完了。";
+"Low fuel: a usage limit is nearly reached!" = "燃料不足：某个用量额度快到上限了！";
+"Maybe save some tokens for tomorrow…" = "要不给明天留点 token 吧……";
+"1 day" = "1 天";
+
+/* Care v2: per-pet + web sync + popover */
+"Your pet" = "你的宠物";
+"Every pet levels up on its own: experience belongs to the companion you raise it with." = "每只宠物独立升级：经验属于陪你一起成长的那只伙伴。";
+"All companions" = "所有伙伴";
+"Each companion keeps its own experience. Switch pets in the Pet tab to raise another one." = "每只伙伴都有自己的经验。在宠物标签页切换，去养另一只吧。";
+"Raising" = "养成中";
+"Sign in on the site, open your profile, and enter the pairing code here." = "在网站登录，打开主页，然后在这里输入配对码。";
+"Pairing code" = "配对码";
+"Connecting…" = "连接中……";
+"Connect" = "连接";
+"Restore" = "恢复";
+"Code not recognized. Codes expire after 10 minutes." = "无法识别该配对码。配对码 10 分钟后过期。";
+"Could not reach the server." = "无法连接服务器。";
+"Today %@ tokens · %d meals" = "今天 %@ token · %d 餐";
+"Today %@ tokens · 1 meal" = "今天 %@ token · 1 餐";
+
+/* Care v3: GitHub link + stats popover */
+"Last fed" = "上次进食";
+"%@ tokens · 1 meal" = "%@ token · 1 餐";
+"%@ tokens · %d meals" = "%@ token · %d 餐";
+"%@ tokens · %d sessions" = "%@ token · %d 会话";
+
+/* Care HUD */
+"Burn, last 7 days" = "近 7 天消耗";
+"Limits" = "额度";
+"days fed" = "天有进食";
+"tokens eaten" = "已吃 token";
+"completed" = "已完成";
+"1 meal" = "1 餐";
+"%d meals" = "%d 餐";
+
+/* Care v5: native limits + to-next-level */
+"≈ %@ tokens to Lv %d" = "≈ %@ token 升到 Lv %d";
+"Subscription limits" = "订阅额度";
+"Subscription limits are for monitoring and reminders. They do not grant experience." = "订阅额度仅用于监测与提醒，不计入养成经验。";
+"No subscription data is available yet." = "暂未获取到订阅额度数据。";
+"Connected: adds limits for every other provider." = "已连接：补充其他所有服务商的额度。";
+
+/* Care v6: quota used + reset */
+"%d%% used" = "已用 %d%%";
+"resets in %dd" = "%d 天后重置";
+"resets in %dh" = "%d 小时后重置";
+"resets in %dm" = "%d 分钟后重置";
+
+/* Coffee / donate */
+"Quét mã bằng app ngân hàng bất kỳ" = "用任意银行 App 扫码";
+/* Privacy clarity */
+/* Coffee methods */
+/* HUD footer */
+"Settings" = "设置";
+"Updates" = "更新";
+"Quit" = "退出";
+"Checking…" = "检查中…";
+
+
+/* Achievements + per-project pets + break reminder (PR #27/#28) */
+"First Meal" = "首次进食";
+"100 Sessions" = "100 次会话";
+"500 Sessions" = "500 次会话";
+"1M Tokens" = "1M Token";
+"10M Tokens" = "10M Token";
+"50M Tokens" = "50M Token";
+"Level 5" = "5 级";
+"Level 10" = "10 级";
+"Level 20" = "20 级";
+"Level 35" = "35 级";
+"7-Day Streak" = "7 天连续";
+"14-Day Streak" = "14 天连续";
+"30-Day Streak" = "30 天连续";
+"Night Owl" = "夜猫子";
+"Finish your first agent session" = "完成第一个 agent 会话";
+"Finish 100 agent sessions" = "完成 100 次 agent 会话";
+"Finish 500 agent sessions" = "完成 500 次 agent 会话";
+"Burn 1M tokens" = "消耗 1M token";
+"Burn 10M tokens" = "消耗 10M token";
+"Burn 50M tokens" = "消耗 50M token";
+"Reach Level 5" = "达到 5 级";
+"Reach Level 10" = "达到 10 级";
+"Reach Level 20" = "达到 20 级";
+"Reach Level 35 (Legend)" = "达到 35 级（传奇）";
+"Feed your pet 7 days in a row" = "连续 7 天喂养宠物";
+"Feed your pet 14 days in a row" = "连续 14 天喂养宠物";
+"Feed your pet 30 days in a row" = "连续 30 天喂养宠物";
+"Finish a session after midnight" = "在午夜后完成一次会话";
+"%d achievements unlocked! 🏆" = "解锁 %d 个成就！🏆";
+"Achievement unlocked: %@ 🏆" = "成就解锁：%@ 🏆";
+"Achievements" = "成就";
+"Hover a badge to see how to unlock it" = "将鼠标悬停在徽章上查看解锁方式";
+"Add a project folder to give it its own pet." = "添加项目文件夹来分配专属宠物。";
+"Add project…" = "添加项目…";
+"Agents" = "Agent";
+"Animate pets" = "宠物动画";
+"Animation speed" = "动画速度";
+"Default pet" = "默认宠物";
+"Hide idle project pets" = "空闲时隐藏项目宠物";
+"Level up" = "升级";
+"Sleepy" = "困倦";
+"Model" = "模型";
+"No pets installed" = "未安装宠物";
+"No project pets yet." = "还没有项目宠物。";
+"Project pets" = "项目宠物";
+"Remind me to take breaks" = "提醒我休息";
+"Show a configured project's pet only while it's working; hide it when idle." = "仅在配置的项目运行时显示其宠物；空闲时隐藏。";
+"Spawn one pet per active project instead of one shared pet." = "为每个活动项目生成一个宠物，而非共用一个。";
+"Split pet" = "拆分宠物";
+"Sprite frame rate. Idle is always capped at 2 fps." = "精灵帧率。空闲时始终限制为 2 fps。";
+"The home pet nudges you to rest after a work stretch." = "主宠物会在你工作一段时间后提醒休息。";
+"Turn off to freeze pet/bubble animation (lower CPU)." = "关闭以冻结宠物/气泡动画（降低 CPU）。";
+"missing" = "缺失";
+"Est. cost (Claude)" = "预估费用（Claude）";
+"Today %@ · Month %@" = "今天 %@ · 本月 %@";
+"Allow" = "允许";
+"Deny" = "拒绝";
+"Click to open this terminal" = "点击打开此终端";
+"Bash approval gate" = "Bash 审批开关";
+"Approve Bash from the bubble" = "在气泡中审批 Bash";
+"Claude Code Bash requests show Allow/Deny in the bubble instead of the terminal." = "Claude Code 的 Bash 请求会在气泡中显示允许/拒绝，而不必回到终端。";
+
+"%d%% remaining" = "剩余 %d%%";
+"5-hour" = "5小时";
+"Weekly" = "周额度";
+"%d-minute window" = "%d分钟";
+"Primary quota" = "主额度";
+"Secondary quota" = "次额度";
+"Unavailable" = "不可用";
+
+/* Read result retention */
+"Read result retention" = "已读结果保留时间";
+"Hide immediately" = "立即隐藏";
+"5 seconds" = "5 秒";
+"15 seconds" = "15 秒";
+"30 seconds" = "30 秒";
+"1 minute" = "1 分钟";
+"Keep visible" = "一直保留";
+"After you open a success or failure notification, hide it after this delay. Running, waiting and unread notifications stay visible." = "成功或失败通知被点开后，按所选时间隐藏。执行中、待审批和未读通知继续显示。";
+
+/* Codex low quota reminder switch */
+"Codex low quota reminder" = "Codex 低额度提醒";
+"When your five-hour quota falls below 10%, show an animation and message once per reset window." = "五小时额度剩余低于 10% 时，播放动画并显示文字；每个重置窗口仅提醒一次。";
+
+/* Unified pet speech */
+"Pet bubble" = "宠物气泡";
+"Show Codex progress above your pet. When five-hour quota falls below 10%, remind you once with an animation and message." = "在宠物头顶显示 Codex 会话进度文字；五小时额度剩余低于 10% 时，每个重置窗口仅提醒一次动画和文字。";
+
+/* Shared task and pet bubble background opacity */
+"Bubble background opacity" = "气泡背景不透明度";
+"Lower values reveal content behind both bubbles. Text and icons stay readable; 0% hides the background without blurring." = "数值越低越能看清气泡后方内容，文字与图标保持清晰；0% 隐藏背景，不模糊后方画面。";
+
+"3 seconds" = "3 秒";
+
+"Hide AgentPet Lite menu bar icon" = "隐藏 AgentPet Lite 菜单栏图标";
+
+"Clear ended tasks" = "清除已结束任务";
+
+"You can show the icon again here or open Settings from the pet's Status panel." = "可在这里恢复图标，也可从宠物的 Status 面板打开设置。";
+
+"Pomodoro" = "番茄时钟";
+
+"Focus" = "专注";
+
+"Break" = "休息";
+
+"min" = "分";
+
+"Focus minutes" = "专注分钟数";
+
+"Break minutes" = "休息分钟数";
+
+"Pause" = "暂停";
+
+"Resume" = "继续";
+
+"End" = "结束";
+
+"Start focus" = "开始专注";
+
+"Start break" = "开始休息";
+
+"Phase finished" = "本阶段已结束";
+
+"Focus finished. Start a break in Status." = "专注结束了，去Status开始休息吧。";
+
+"Break finished. Start your next focus in Status." = "休息结束了，去Status开始下一轮吧。";
+
+/* System notices: shared Pet bubble control */
+"Show Agent messages, Pomodoro alerts, and Codex low-quota and recovery reminders above your pet." = "在宠物头顶显示 Agent 消息、番茄到点、Codex 低额度及恢复提醒。";
+
+/* Lightweight system notice text */
+"Codex quota: " = "Codex额度提醒：";
+"Codex restored: " = "Codex额度恢复：";
+"Pomodoro: " = "番茄时钟：";
+"Timer: " = "番茄：";
+"Codex: " = "Codex：";
+"5h quota: %d%% left" = "5小时额度剩余 %d%%";
+"5h quota restored, %d%% left" = "5小时额度已恢复，剩余 %d%%";
+"Quota restored, %d%% left" = "额度已恢复，剩余 %d%%";
+"%d min focus done, break %d min" = "%d分钟专注完成，可休息%d分钟";
+"%d min break done, ready to focus" = "%d分钟休息结束，可继续专注";
+"Focus done, break %d min" = "专注完成，可休息%d分钟";
+"Break done, ready to focus" = "休息结束，可继续专注";
+
+/* Settings UI .74 */
+"Application appearance" = "应用外观";
+"Animation effects" = "动画效果";
+"Pet motion and related bubble/clock effects. Tasks, alerts and countdowns continue when off." = "控制宠物动作及相关气泡、时钟动效；关闭后任务、提醒和倒计时继续。";
+"Sprite animation speed" = "精灵动画速度";
+"Sprite clips only; idle is capped at 2 fps. Videos play at their original speed." = "仅调整精灵片段；空闲最多 2 fps。视频按素材原速播放。";
+"Bubble font size" = "气泡字号";
+"Bubble text opacity" = "气泡文字不透明度";
+"Text opacity affects bubble text and Agent prefixes only. Icons, status lights and progress bars keep their colors." = "文字不透明度只影响气泡文字与 Agent 前缀；图标、状态灯和进度条保持原色。";
+"Task bubble" = "任务气泡";
+"Task bubble click-through" = "任务气泡点击穿透";
+"Double-click the pet to toggle. While a task needs approval or attention, the bubble stays clickable." = "双击宠物可切换。有任务待批准或需要处理时，气泡仍保持可点击。";
+"Bubble click-through: " = "气泡点击穿透：";
+"Click-through: " = "穿透：";
+"On" = "已开启";
+"Off" = "已关闭";
+"Could not enable. Handle waiting tasks first" = "开启失败，请优先处理等待任务";
+"Task bubble click-through is on" = "任务气泡点击穿透已开启";
+"Task bubble click-through is on but paused while a task needs attention" = "任务气泡点击穿透已开启，当前待处理任务期间暂停";
+"Tasks are always on. Running, waiting and unread tasks remain visible." = "默认显示真实任务。运行中、待处理及未读任务继续保留。";
+"Agent messages" = "Agent 消息";
+"Message display duration" = "消息停留时长";
+"%d seconds" = "%d 秒";
+"1 second" = "1 秒";
+"10 seconds" = "10 秒";
+"Public replies are always on: up to 6 messages, 20 characters each. A full feed moves the oldest message out early." = "默认显示公开回复，最多 6 条、每条正文 20 字；满位后最旧消息会提前移出。";
+"Show Superchat" = "显示 Superchat";
+"Quota notices show for 8 seconds. Pomodoro alerts stay until confirmation or the next phase. Turning this off keeps Agent messages and the timer running." = "额度提醒显示 8 秒；番茄到点保留到确认或开始下一阶段。关闭不影响 Agent 消息和计时。";
+"Pet idle chatter" = "宠物闲聊";
+"Idle chatter is hidden. Enable it in General / Pet display." = "闲聊已隐藏，可在通用／宠物显示中开启。";
+"Message source" = "文案来源";
+"Built-in" = "内置";
+"One phrase per line, used only while idle." = "每行一句，只在空闲时使用。";
+"Add at least one non-empty phrase." = "请至少填写一句非空文案。";
+"Speech style" = "语气风格";
+"15 local phrases per style; no model requests. Tasks, Agent replies and Superchat take priority." = "每组 15 条本地文案，不调用模型；任务、Agent 回复和 Superchat 优先。";
+"Tsundere protector" = "傲娇护短";
+"Lazy comfort" = "慵懒治愈";
+"Geek partner" = "极客搭档";
+"Next phrase" = "下一句";
+"Advanced filters" = "高级筛选";
+"Visible sources affect task rows and public replies; they do not stop session tracking." = "来源筛选影响任务行和公开回复，不停止会话跟踪。";
+"Claude Code advanced" = "Claude Code 高级设置";
+"Pet display" = "宠物显示";
+"Menu bar" = "菜单栏";
+"Show pet" = "显示宠物";
+"Show chat on menu bar" = "菜单栏显示消息";
+"Apply" = "应用";
+"One phrase per line. Apply to use it only while idle." = "每行一句，点击应用后仅用于空闲闲聊。";
+"Sample tasks" = "模拟任务";
+"Add sample task" = "添加模拟任务";
+"No sample tasks yet. Add one on the right." = "还没有模拟任务，可从右侧添加。";
+"Remove sample task" = "删除模拟任务";
+
+"Installed" = "已安装";
+
+"Not installed" = "未安装";
+
+"Managed by DSH" = "由 DSH 管理";
+
+"Background opacity" = "背景不透明度";
+
+"Text opacity" = "文字不透明度";
+
+"Random chatter every 20 seconds; 15 local phrases per style. Tasks, Agent replies and Superchat take priority." = "空闲时每 20 秒随机换句；每组 15 条本地文案。任务、Agent 回复和 Superchat 优先。";
+
+/* Maintenance edition attribution */
+
+/* Lite project information */
+"A local desktop companion for your coding agents." = "陪伴编程 Agent 的本地桌面宠物。";
+"Licenses" = "许可";
+"Source code" = "源代码";
+"View bundled licenses" = "查看随包许可证";
+"Third-party assets have their own licenses. The source code license does not cover all artwork." = "第三方素材适用各自的许可；源代码许可不涵盖全部美术素材。";
+"Acknowledgements" = "致谢";
+"Whale girl animations · PC2005-cloud/dsh-pet" = "鲸鱼娘动画 · PC2005-cloud/dsh-pet";
+"The whale girl animation assets are for non-commercial use. Keep the original project link when presenting or distributing derivatives." = "鲸鱼娘动画素材仅限非商业使用；介绍、展示或分发二创作品时须保留原项目链接。";
+
+"Task and bubble preview" = "模拟任务与气泡预览";
+
+"Hide task and bubble preview" = "收起模拟任务与气泡预览";
+
+"Use sample tasks to preview the pet and task bubble. This does not test Agent connections." = "用模拟任务查看宠物动作和任务气泡效果；不能用于验证 Agent 接入。";
+
+"Completed" = "已完成";
+
+"Failed" = "失败";
+
+"Stopped" = "已停止";
+
+"Sample task %d" = "模拟任务 %d";
+
+"Working on the sample task" = "正在处理模拟任务";
+
+"Sample reply: the requested change is ready for review." = "模拟回复：修改已完成，可以查看结果。";
+
+"Clicking a preview task marks only that sample as read. No Agent app is opened." = "点击预览任务只会将该模拟任务标为已读，不会打开真实 Agent。";
+
+"Mark sample task as read" = "将模拟任务标为已读";
+
+"Show sample Agent reply" = "显示模拟 Agent 回复";
+
+"Idle" = "空闲";
+
+
+"Celebrate" = "庆祝";
+
+// Optional bundled DSH bridge
+"How to connect DSH" = "DSH 接入目标和手动安装";
+
+/* Animation management */
+"Select animations to remove" = "选择要移除的动画";
+"Remove selected animations" = "移除选中的动画";
+"Remove animations?" = "移除动画？";
+"Remove %ld animation(s) from “%@”? Other groups and original source files are kept." = "从“%2$@”组移除 %1$ld 个动画？其他分组和用户原始文件会保留。";
+"Select animations to remove." = "请先选择要移除的动画。";
+"The animation group changed. Review your selection and try again." = "动画分组已变化，请检查选择后重试。";
+"Each group must keep at least one valid native animation from this pet. Imported animations do not replace this protection." = "每组至少保留一个有效的该宠物原生动作。自定义导入项不能替代这项保障。";
+"Animation library exceeds the size limit." = "动画清单超过大小上限。";
+"Animation removed, but unused managed files could not be cleaned up:" = "动画已移除，但未引用的应用自管文件未能清理：";
+"This pet is busy. Try again when the current operation finishes." = "该宠物正在处理动画，请等待当前操作完成后重试。";
+"The pet has no valid native fallback. Repair its pack before removing animations." = "该宠物没有有效的原生回退，请先修复素材包再移除动画。";
+"Marked for removal" = "待移除";
+"Not marked for removal" = "未标记移除";
+"Pet assignment" = "宠物配置";
+"Different pets come with different animations. When a purpose has no dedicated animation, this pet’s default animation is used. You can adjust or import animations in Animations." = "不同宠物自带的动作有所不同。未配置专用动作时，将使用该宠物的默认动作；你可以在‘动画’中调整或导入。";
+"Gallery pets may not include dedicated animations for all 9 purposes and can still be used normally. After adding one, select its existing animations or import your own in Animations." = "图库宠物可能未配置完整的 9 类动作，仍可正常使用。添加后，你可以在‘动画’中为各用途选择现有动作，或导入自己的动画。";
+"Dismiss animation hint" = "关闭动画提示";
+
+"Animation Remove" = "移除";
+
+"Import successful · %ld" = "导入成功 · %ld 个";
+
+// Local agent interface connection tests
+"Integration details" = "接入详情";
+"Checking configuration" = "正在检测配置…";
+"Test again" = "再次 Test";
+"connection.testing" = "正在连接本地接口…";
+"connection.connected" = "本次本地接口连接成功";
+"connection.cancelled" = "测试已取消，临时接口已停止。";
+"connection.timeout" = "连接超时，临时接口已停止。请检查 CLI 安装后重试。";
+"connection.missingCLI" = "未找到 CLI。请安装该客户端并确认可执行文件在 PATH 中。";
+"connection.startFailed" = "无法启动临时接口。请检查 CLI 安装与临时目录权限。";
+"connection.unreachable" = "接口未返回有效应答。请核对已安装 CLI 是否支持所需协议后重试。";
+"connection.invalidResponse" = "接口应答无效，请核对客户端版本。";
+"connection.rejected" = "接口拒绝握手。请按客户端文档核对协议兼容性。";
+"connection.authentication" = "接口要求认证。请通过客户端正常登录；Test 不复制凭据或更改权限。";
+"connection.versionUnsupported" = "不支持此 OpenCode 版本。请使用 V1 ≥1.18.34 或 V2 ≥2.0.29 后重试。";
+"connection.outputLimit" = "接口输出超过限制，临时进程已停止。";
+"connection.agyUnsupported" = "此 agy CLI 尚无已核实的公开无推理本地握手路径，不能报告连接成功。请通过正常使用验证 Hook。";
+"connection.unmaintained" = "此兼容入口不新增连接测试维护，未启动客户端进程。";
+"connection.scope" = "仅测试本次临时本地接口，不验证模型权限、Hook、气泡、任务生命周期或导航；配置状态不变。";
+"connection.scope.codex" = "Codex：隔离 app-server stdio initialize → initialized，不创建线程或 turn。此握手不需要模型账号登录。";
+"connection.scope.opencode" = "OpenCode：V2 通过 api --standalone GET /api/info 使用原生私有服务认证；V1 使用 ACP initialize。不打开共享服务或会话。";
+"connection.scope.pi" = "Pi：离线 RPC get_state，不保存会话，不加载工具、MCP 或扩展；不验证模型认证。";
+"connection.scope.dsh" = "只读检查 DSH 日常桌面接入。不安装插件、不发起模型对话、不修改配置，也不触发跳转或阅读回执。";
+"connection.scope.antigravity" = "本测试不发送 prompt，也不启动 Remote Control 守护进程。";
+"connection.scope.claude" = "现有安装与移除继续按兼容入口政策保留。";
+"integration.install" = "Install 仅注册 AgentPet Lite；Remove 仅清除可识别的 AgentPet Lite 注册，保留客户端、共享配置与用户数据。";
+"integration.stale" = "已识别的旧 AgentPet Lite 注册需要更新。“已配置”只表示注册存在。请先安全 Remove，再 Install；归属校验和备份继续生效，有冲突时先处理。";
+"integration.codex" = "请在 Codex /hooks 中审阅并信任本应用的 Hook；应用不代写原生信任或更改共享策略。";
+"integration.opencode.install" = "Install 仅注册 AgentPet Lite 插件；Remove 仅解除插件注册，不会影响 OpenCode 客户端本体、共享配置与已有历史数据。";
+"integration.opencode" = "插件将根据版本自动适配。v1 重启客户端即可；v2 会话精确跳转仅支持 2.2.2及以上版本（需已加载 TUI 插件）";
+"integration.opencode.reload" = "变更后请重启客户端，在真实使用中观察桌宠气泡与互动效果（Test 按钮仅校验连通性，不能替代真实使用验证）。";
+"integration.agy" = "此入口仅注册 agy Hook，不更改权限，也不注册权限门。";
+"integration.pi" = "Pi 依赖 agent_settled（≥0.80.4，基线 1.3.0）。Install 注册扩展；自定义 PI_CODING_AGENT_DIR 暂需手动管理。";
+"integration.reload" = "变更注册后重开实际客户端，通过正常使用核对 Hook 与气泡。Test 不替代这项验证。";
+"integration.compatibility" = "仅保留兼容入口，不新增适配、版本修复或专项验收。";
+"操作已完成。接入说明见对应的ⓘ。" = "操作已完成。接入说明见对应的ⓘ。";
+"已配置" = "已配置";
+"未配置" = "未配置";
+"connection.status.connected" = "连接成功";
+"connection.status.failed" = "连接失败";
+"connection.status.timedOut" = "连接超时";
+"connection.status.cancelled" = "已取消测试";
+"connection.status.unsupported" = "暂不支持连接测试";
+"integration.checkFailed" = "本次配置检测失败；若卡片显示状态，则是上次已知结果。成功刷新前，配置操作已停用。";
+
+"Drag to select a region. Shift-click selects a range; Shift-drag adds to the selection." = "拖动鼠标框选；按住 Shift 点击可连续选择，Shift 拖动可追加选择。";
+
+// DSH beginner connection guide
+"dsh.guide.title" = "将 DSH 接入 AgentPet Lite";
+"dsh.guide.intro" = "在 DSH 安装独立发行的 @agentpet-lite/dsh-bridge，可让 AgentPet Lite 显示任务与公开回复。协议兼容的插件更新无需同步更新 AgentPet Lite。";
+"dsh.guide.configured" = "已发现插件登记；请通过 Test 核实实际协议与连接。";
+"dsh.guide.prepare.title" = "启动并初始化 DSH";
+"dsh.guide.prepare" = "安装官方 DeepSeek Harness 桌面版（支持 0.2.1-rc.2 及以上版本）。首次安装请先打开运行一次，完成基础设置与本地环境初始化。（老用户可跳过此步）";
+"dsh.guide.quit.title" = "彻底退出 DSH";
+"dsh.guide.quit" = "在菜单栏选择“退出”或按 ⌘Q 完全退出应用（注意：仅关闭窗口仍会在后台运行）。安装插件前需确保 DSH 已完全关闭。";
+"dsh.guide.install.title" = "在 DSH 安装插件";
+"dsh.guide.install" = "在 DSH 打开“插件 → 添加插件”，填写已发布的 npm 包版本，或选择插件发行版提供的预编译 .tgz。AgentPet 不内附或安装插件。";
+"dsh.guide.verify.title" = "重启 DSH，开始使用";
+"dsh.guide.verify" = "配置成功后卡片将显示“已配置”。重新打开 DSH 正常发起对话，桌面宠物即可自动响应并展示气泡。";
+"dsh.guide.test" = "Test 只检查实际协议、事件连接与能力，不调用模型、导航或标记已读。插件安装、更新与移除均由 DSH 管理。";
+"dsh.guide.advanced" = "高级：目录与手动安装";
+"dsh.guide.location" = "通常保留默认数据目录即可；仅在使用自定义 DSH 环境时更改。";
+"dsh.guide.manual" = "使用独立发行的 npm 包或 .tgz，在 DSH 插件管理器安装。npm 包发布后才能按包名安装；未发布候选使用本地 .tgz。";
+"更改数据目录…" = "更改数据目录…";
+"显示插件包" = "显示插件包";
+
+// DSH desktop readiness check (no ACP)
+"dsh.test.testing" = "正在检查 DSH 接入环境，等待真实 bridge 信号（最多 17 秒）…";
+"dsh.test.desktopRequired" = "DSH 请在桌面应用中检查实际接入环境。";
+"dsh.test.status.readyToInstall" = "环境已准备好，可以安装插件";
+"dsh.test.next.readyToInstall" = "请在 DSH 插件管理器安装 @agentpet-lite/dsh-bridge，再次 Test。AgentPet 不代为安装。";
+"dsh.test.status.startRequired" = "插件已配置，未检测到 DSH 运行";
+"dsh.test.next.startRequired" = "请打开所选 DSH 桌面应用后再次 Test。若刚安装插件，需要重启 DSH 才能加载。";
+"dsh.test.status.repairRequired" = "插件配置需要处理";
+"dsh.test.next.repairRequired" = "请在 DSH 插件管理器检查详情。协议兼容的插件无需与 AgentPet 内附版本一致。";
+"dsh.test.status.connected" = "已确认 DSH bridge 通信";
+"dsh.test.next.connected" = "已核实所选 DSH 实例的兼容桥接连接。完整气泡、人工待办及导航请在正常使用中验证。";
+"dsh.test.status.unconfirmed" = "环境检查通过，通信尚未确认";
+"dsh.test.next.unconfirmed" = "等待结束仍未收到可核对的 bridge 信号。DSH 空闲或尚无会话时也可能如此，不据此判定故障。若刚安装请重启 DSH，核对 ⓘ 中的数据目录，并在下次正常使用时再次 Test；无需额外创建测试对话。";
+"dsh.test.status.failed" = "DSH 环境尚未准备好";
+"dsh.test.next.failed" = "请核对所选官方 DSH 应用与数据目录后再次 Test。宿主 SDK 兼容由插件管理。";
+"dsh.test.status.cancelled" = "已取消检查";
+"dsh.test.next.cancelled" = "本次检查已停止。没有启动临时 DSH、安装插件或修改会话。";
+"dsh.test.check.application" = "所选官方 DSH 桌面应用";
+"dsh.test.check.profile" = "所选 DSH 数据目录";
+"dsh.test.check.plugin" = "DSH 插件登记（仅诊断）";
+"dsh.test.check.running" = "DSH 桌面应用正在运行";
+"dsh.test.check.running.failed" = "未检测到 DSH 桌面应用运行";
+"dsh.test.check.communication" = "已验证的实时桥接与事件连接";
+
+"dsh.test.status.endpointUnavailable" = "收到 bridge 上报，端点尚未确认";
+"dsh.test.next.endpointUnavailable" = "本次收到对应 Profile 的上报，但无法连接 bridge 端点，或无法确认它属于所选 DSH 应用。请核对 ⓘ 中的应用与数据目录，按需重启 DSH 后再次 Test。Test 不修改 socket 权限。";
+
+// Animation groups and shipped names (display only)
+"pet.animation.group.idle" = "空闲";
+"pet.animation.group.working" = "工作";
+"pet.animation.group.waiting" = "等待";
+"pet.animation.group.success" = "成功";
+"pet.animation.group.failure" = "失败";
+"pet.animation.group.quota" = "余额不足";
+"pet.animation.group.levelup" = "升级";
+"pet.animation.group.tap" = "点击";
+"pet.animation.group.drag" = "拖拽";
+"pet.animation.purpose" = "用途";
+"pet.animation.selectionHelp" = "各组均可多选：选择一个时固定播放，选择多个时每次触发随机选取一个。悬停可预览。";
+"pet.animation.importing" = "正在校验并导入动画…";
+"pet.animation.dropHelp" = "将 MOV 拖入此组，或在空白处右键 Add。";
+"pet.animation.importSummary" = "已导入 %ld 个动画到“%@”。";
+"pet.animation.selected" = "已选择";
+"pet.animation.notSelected" = "未选择";
+"pet.animation.sprite" = "原精灵片段 %ld";
+"pet.animation.deepseek.dsh:悠闲哼歌" = "悠闲哼歌";
+"pet.animation.deepseek.dsh:三球抛接" = "三球抛接";
+"pet.animation.deepseek.dsh:优雅女仆舞" = "优雅女仆舞";
+"pet.animation.deepseek.dsh:是啊，吃什么" = "是啊，吃什么";
+"pet.animation.deepseek.dsh:玩游戏气急败坏" = "玩游戏气急败坏";
+"pet.animation.deepseek.dsh:原地小憩沉眠" = "原地小憩沉眠";
+"pet.animation.deepseek.dsh:吃白饭" = "吃白饭";
+"pet.animation.deepseek.dsh:哈欠连天" = "哈欠连天";
+"pet.animation.deepseek.dsh:超大伸懒腰" = "超大伸懒腰";
+"pet.animation.deepseek.dsh:写代码" = "写代码";
+"pet.animation.deepseek.dsh:工作状态-忙碌点按" = "工作状态-忙碌点按";
+"pet.animation.deepseek.dsh:轻快记录" = "轻快记录";
+"pet.animation.deepseek.dsh:吃Token" = "吃 Token";
+"pet.animation.deepseek.dsh:东张西望" = "东张西望";
+"pet.animation.deepseek.dsh:工作状态-原地踱步张望" = "工作状态-原地踱步张望";
+"pet.animation.deepseek.dsh:工作状态-思考冒泡" = "工作状态-思考冒泡";
+"pet.animation.deepseek.dsh:用鲸鱼尾巴拍打地面" = "用鲸鱼尾巴拍打地面";
+"pet.animation.deepseek.dsh:工作状态-雀跃庆祝" = "工作状态-雀跃庆祝";
+"pet.animation.deepseek.dsh:点击回应-元气挥手" = "点击回应-元气挥手";
+"pet.animation.deepseek.dsh:点击回应-开心跃动" = "点击回应-开心跃动";
+"pet.animation.deepseek.dsh:轻快摇摆舞" = "轻快摇摆舞";
+"pet.animation.deepseek.dsh:可爱宅舞" = "可爱宅舞";
+"pet.animation.deepseek.dsh:工作状态-垂头叹气冒汗" = "工作状态-垂头叹气冒汗";
+"pet.animation.deepseek.dsh:点击回应-傲娇生气" = "点击回应-傲娇生气";
+"pet.animation.deepseek.dsh:余额-分文不剩" = "余额-分文不剩";
+"pet.animation.deepseek.dsh:余额-袋空如洗" = "余额-袋空如洗";
+"pet.animation.deepseek.dsh:拆礼物" = "拆礼物";
+"pet.animation.deepseek.dsh:整体换装试色" = "整体换装试色";
+"pet.animation.deepseek.dsh:原地跳跃抓碎头顶物品" = "原地跳跃抓碎头顶物品";
+"pet.animation.deepseek.dsh:点击回应-害羞惊讶" = "点击回应-害羞惊讶";
+"pet.animation.deepseek.dsh:点击回应-挠痒咯咯笑" = "点击回应-挠痒咯咯笑";
+"pet.animation.deepseek.dsh:打瞌睡被惊醒" = "打瞌睡被惊醒";
+"pet.animation.deepseek.dsh:被鼠标拖拽悬空反馈" = "被鼠标拖拽悬空反馈";
+
+// Integration native dialogs and links
+"Codex Hooks 官方文档" = "Codex Hooks 官方文档";
+"OpenCode 版本迁移说明" = "OpenCode 版本迁移说明";
+"未找到 DSH 应用，请先安装并启动一次 DSH。" = "未找到 DSH 应用，请先安装并启动一次 DSH。";
+"选择 DSH 数据目录" = "选择 DSH 数据目录";
+"选择包含 profiles/desktop 的 DSH 数据目录。不会创建或初始化新 Profile。" = "选择包含 profiles/desktop 的 DSH 数据目录。不会创建或初始化新 Profile。";
+"确认 DSH 接入目标" = "确认 DSH 接入目标";
+"继续" = "继续";
+"取消" = "取消";
+"已通过 DSH 插件管理器移除 AgentPet 接入。其他插件、会话和宠物数据保留。" = "已通过 DSH 插件管理器移除 AgentPet 接入。其他插件、会话和宠物数据保留。";
+"已通过 DSH 插件管理器配置 AgentPet 接入。请重新打开 DSH 后使用。" = "已通过 DSH 插件管理器配置 AgentPet 接入。请重新打开 DSH 后使用。";
+"已移除全局 AgentPet 接入。请重开所用客户端，使内存中已加载的接入停止生效。客户端、其他插件、用户数据与恢复备份均保留。" = "已移除全局 AgentPet 接入。请重开所用客户端，使内存中已加载的接入停止生效。客户端、其他插件、用户数据与恢复备份均保留。";
+"已写入 Codex 接入。请在 Codex 的 /hooks 中审阅并信任 AgentPet 项，然后重开所用客户端。" = "已写入 Codex 接入。请在 Codex 的 /hooks 中审阅并信任 AgentPet 项，然后重开所用客户端。";
+"已写入对应版本的 OpenCode 接入。V1 重开客户端；V2 请在当前任务结束后执行 opencode reload，再继续使用。" = "已写入对应版本的 OpenCode 接入。V1 重开客户端；V2 请在当前任务结束后执行 opencode reload，再继续使用。";
+"已写入接入，请重开所用客户端后使用。" = "已写入接入，请重开所用客户端后使用。";
+"dsh.target.confirmBody" = "应用：%@\n数据目录：%@\nProfile：desktop\n\n请确认这是日常使用的 DSH 数据目录。应用不会自动关闭 DSH；请先保存工作并完全退出。";
+"dsh.package.notFound" = "无法在 Finder 中定位插件包。文件位于：%@";
+"dsh.package.revealed" = "插件包和安装说明位于：%@。此操作不会安装插件。";
+"dsh.target.description" = "DSH: %@\nDSH home: %@\nProfile: desktop";
+
+// Client integration notices
+"Codex 已关闭 hooks，请先在客户端配置中启用。" = "Codex 已关闭 hooks，请先在客户端配置中启用。";
+"安装或更新后，在 Codex 的 /hooks 中审阅并信任 AgentPet 项，再重开所用 Codex 客户端。此处不检测原生信任状态。" = "安装或更新后，在 Codex 的 /hooks 中审阅并信任 AgentPet 项，再重开所用 Codex 客户端。此处不检测原生信任状态。";
+"安装、更新或移除后，重开所用客户端，使接入变更生效。" = "安装、更新或移除后，重开所用客户端，使接入变更生效。";
+"兼容入口，暂不维护或专项验收；变更后请重开客户端。" = "兼容入口，暂不维护或专项验收；变更后请重开客户端。";
+
+// Integration configuration notes
+"现有 toolkit 包含 AgentPet bridge；请先在 DSH 拆分旧组合，避免重复加载。Lite 不会卸载其他 toolkit 功能。" = "现有 toolkit 包含 AgentPet bridge；请先在 DSH 拆分旧组合，避免重复加载。Lite 不会卸载其他 toolkit 功能。";
+"当前为旧名独立包 @acerz/dsh-agentpet-bridge。请完全退出 DSH，先 Remove，再 Install 新包 @agentpet-lite/dsh-bridge；其他 toolkit 功能和配置保留。" = "当前为旧名独立包 @acerz/dsh-agentpet-bridge。请完全退出 DSH，先 Remove，再 Install 新包 @agentpet-lite/dsh-bridge；其他 toolkit 功能和配置保留。";
+"已登记的 bridge 安装内容缺失或损坏；Update 可修复，也可 Remove。" = "bridge 安装内容缺失或已修改。请完全退出 DSH 后先 Remove 再 Install 修复。";
+"bridge 文件缺失或已修改；Update 可修复，也可 Remove。" = "bridge 安装内容缺失或已修改。请完全退出 DSH 后先 Remove 再 Install 修复。";
+"Codex 已关闭 hooks。请先在 Codex 配置中启用 hooks，再安装接入；应用不会修改原生信任或管理策略。" = "Codex 已关闭 hooks。请先在 Codex 配置中启用 hooks，再安装接入；应用不会修改原生信任或管理策略。";
+"接入写入后检查未通过，请刷新并检查配置。" = "接入写入后检查未通过，请刷新并检查配置。";
+"仍检测到 AgentPet 注册，请检查配置。" = "仍检测到 AgentPet 注册，请检查配置。";
+"CODEX_HOME 必须为绝对路径，请先确认 CLI 与应用使用相同配置目录。" = "CODEX_HOME 必须为绝对路径，请先确认 CLI 与应用使用相同配置目录。";
+"检测到 OPENCODE_CONFIG_DIR 自定义目录。当前按钮仅管理标准全局目录，请人工确认接入位置。" = "检测到 OPENCODE_CONFIG_DIR 自定义目录。当前按钮仅管理标准全局目录，请人工确认接入位置。";
+"OPENCODE_CONFIG_CONTENT 中存在 AgentPet 引用，请先人工确认，避免重复接入。" = "OPENCODE_CONFIG_CONTENT 中存在 AgentPet 引用，请先人工确认，避免重复接入。";
+"agy 的 agentpet 组已禁用，请先人工确认该组配置。" = "agy 的 agentpet 组已禁用，请先人工确认该组配置。";
+"无法识别或暂不支持该 OpenCode 版本。请使用 OpenCode V1（≥1.18.34）或 V2（≥2.0.29）后重试。" = "无法识别或暂不支持该 OpenCode 版本。请使用 OpenCode V1（≥1.18.34）或 V2（≥2.0.29）后重试。";
+"该 OpenCode 版本过旧。接入需要 V1 ≥1.18.34 或 V2 ≥2.0.29。" = "该 OpenCode 版本过旧。接入需要 V1 ≥1.18.34 或 V2 ≥2.0.29。";
+"未找到本机 OpenCode CLI，无法选择 V1/V2 插件。请先安装 OpenCode，再 Refresh。" = "未找到本机 OpenCode CLI，无法选择 V1/V2 插件。请先安装 OpenCode，再 Refresh。";
+"无法创建 OpenCode 版本检测的临时文件。" = "无法创建 OpenCode 版本检测的临时文件。";
+"无法运行 OpenCode --version，请检查本机 CLI。" = "无法运行 OpenCode --version，请检查本机 CLI。";
+"OpenCode 版本检测超时，未安装接入。" = "OpenCode 版本检测超时，未安装接入。";
+"OpenCode --version 执行失败，未安装接入。" = "OpenCode --version 执行失败，未安装接入。";
+
+/* Agent Orchestrator experimental source */
+"ao.experiment.badge" = "实验功能";
+"ao.experiment.details" = "Agent Orchestrator 实验功能说明";
+"ao.experiment.toggle" = "显示 Agent Orchestrator 实验任务";
+"ao.experiment.scope" = "将 AO 同一项目的会话汇总为一个任务气泡；完成未读结果持续保留。项目点击优先打开已有编排器，否则打开看板；独立代理精确打开对应会话。";
+"ao.experiment.unavailable" = "当前版本仅提供说明入口，实验功能暂不可用，保持关闭。";
+"ao.experiment.permission" = "跳转使用 AO 原生外部入口，无需 macOS 辅助功能。需使用支持导航 v1 的 AO 构建；官方 v0.14.6 尚未包含此实验入口。";
+"ao.experiment.step.1" = "使用带外部导航 v1 补丁的 AO 构建，并保持应用运行。";
+"ao.experiment.step.2" = "在 AO 中打开目标项目，确认其看板与现有编排器可以访问。";
+"ao.experiment.step.3" = "在实验版 %@ 的“高级筛选”中开启 Agent Orchestrator；此任务来源默认关闭。";
+"ao.experiment.step.4" = "点击项目任务气泡：优先打开已有编排器，否则进入同项目看板。版本不支持或页面未确认时会报告失败。";
+"ao.experiment.safety" = "精确打开本条原生会话并确认后，仅将本条结果标为已读；项目看板不会标读其他成员，也不会批准请求。关闭来源仅隐藏展示，保留跟踪记录。";
+"ao.experiment.disabled" = "AO 实验显示已关闭，未开始跳转。";
+
+/* Source maintenance status */
+"source.tag.maintenanceEnded" = "已停止维护";
+"source.tag.unmaintained" = "不维护";
+
+"ao.navigation.stale" = "AO 连接已变化或过期，请刷新项目观察后重试；未标记已读。";
+
+"ao.navigation.unsupported" = "当前 AO 实例没有有效的原生导航 v1 入口，请使用带入口的 AO 构建；无需开启辅助功能。";
+
+"ao.navigation.unconfirmed" = "AO 未确认目标页面已在前台打开，请在带入口的构建中重试；未标记已读。";
+
+"等待状态更新" = "等待状态更新";
+"dsh.manage.button" = "Manage";
+"dsh.manage.notice" = "请在 DSH 的“插件 → 添加插件”中安装或更新 @agentpet-lite/dsh-bridge。该插件独立发行，AgentPet 不代为安装或替换。";
+"dsh.test.status.incompatible" = "桥接协议不兼容";
+"dsh.test.next.incompatible" = "请在 DSH 安装支持 AgentPet 协议 v1 的桥接插件。插件发行版本无需与 AgentPet 相同。";
+"dsh.test.status.limited" = "桥已连接，部分能力不可用";
+"dsh.test.next.limited" = "生命周期通信可用，但桌面 Client、人工交互或导航能力缺失。请检查 DSH 客户端及插件状态。";
+"dsh.test.check.protocol" = "桥接协议兼容";
+"dsh.test.check.pending" = "人工待办能力与唯一 Client";
+"dsh.test.check.navigation" = "精确导航能力与唯一 Client";
+"dsh.test.check.speech" = "公开回复预览能力";
+"dsh.health.ambiguous" = "同一 Profile 存在多个桥接实例，未选择任何一个。";
+
+/* AO native results retain their unread indicator while the host is idle. */
+"回合已完成，未读" = "回合已完成，未读";
+"回合结果未知，未读" = "回合结果未知，未读";
+
+"ao.project.unread.button" = "未读 %d";
+"ao.project.unread.hint" = "打开下一条未读会话；精确跳转确认后仅标读该会话";
+"ao.project.unread.unavailable" = "仍有未读结果，但当前尚未确认可精确跳转的会话关联";
+
+"source.tag.unsupported" = "不适配";
+
+/* Daily recorded Token usage */
+"usage.title" = "Token 用量";
+"usage.about" = "用量说明";
+"usage.today" = "今日";
+"usage.window" = "30 天";
+"usage.last30Days" = "最近 30 天";
+"usage.chart" = "每日 Token 堆叠图";
+"usage.notStarted" = "未开始统计";
+"usage.partial" = "部分覆盖";
+"usage.unknown" = "覆盖未知";
+"usage.recorded" = "已记录";
+"usage.configure" = "统计设置";
+"usage.checking" = "正在读取用量";
+"usage.tokens" = "Token";
+"usage.input" = "输入";
+"usage.cacheRead" = "缓存读";
+"usage.cacheWrite" = "缓存写";
+"usage.output" = "输出";
+"usage.dayHint" = "悬停查看当日明细，点击固定；方向键切换日期。";
+"usage.collecting" = "统计已启用";
+"usage.startDate" = "统计起点：%@";
+"usage.countingScope" = "输入、缓存读写及输出（含推理）";
+"usage.collectionScope" = "自接入起记录；移除后隐藏但保留数据";
+"usage.startScope" = "接入后自动开始统计，重启保留起点；不导入之前的历史和测试数据。移除接入后停止，重新接入不补算停用期间。";
+"usage.coverageScope" = "日期按当前本地时区划分。缺失或无法读取的记录不当作零，部分覆盖与未知状态会保留提示。";
+"integration.agy.scope" = "此项接入 Antigravity CLI（agy 命令行），不代表 Antigravity 桌面客户端已适配；DSH／TUI 内的 agy 由 DSH 集成管理。";
+"usage.error.storage" = "用量存储不可用。";
+"usage.error.unavailable" = "用量记录不存在或无法读取。";
+"usage.error.unsupported" = "部分原生记录格式尚不支持。";
+"usage.error.corrupt" = "部分记录损坏，统计覆盖不完整。";
+"usage.error.limit" = "读取达到容量限制，统计覆盖不完整。";
+"usage.error.invalid" = "部分用量元数据未通过校验。";
+"usage.error.partial" = "记录仍在写入，等待下次读取。";
+"usage.error.legacyFork" = "旧 OpenCode 分叉会话去重尚未完整验证。";
+"usage.error.totalMismatch" = "原生总量与分桶不符，采用分桶之和。";
+"usage.issue.changedTime" = "部分用量元数据未通过校验。";
+"usage.issue.conflictingRevision" = "部分用量元数据未通过校验。";
+"usage.issue.invalidRecord" = "部分用量元数据未通过校验。";
+"usage.issue.missingFiles" = "用量记录不存在或无法读取。";
+"usage.autoRefresh" = "（默认 60s 刷新）";
+"usage.dataScope" = "仅汇总本地上报数据，非官方账单";
+"usage.dshScope" = "共享目录与内核TUI；不含独立后端";
+"usage.agyScope" = "仅含 DSH 内核调用（不含独立 CLI）";
+"usage.label.tokens" = "统计内容：";
+"usage.label.data" = "数据性质：";
+"usage.label.integration" = "接入规则：";
+"usage.label.dsh" = "DSH 范围：";
+"usage.label.agy" = "agy 范围：";
+
+"usage.dayDetail" = "用量明细";
+
+"usage.beforeStartDay" = "这一天尚未开始统计。启用前的历史不回填。";
+
+"usage.missingDay" = "暂时没有可确认的记录。数据缺失不作为零用量。";
+
+"usage.partialDay" = "仅包含已记录的时段。";
+
+"usage.zeroDay" = "记录完整，这一天的用量确认为 0。";
+
+/* OpenCode session navigation capability */
+"navigation.opencode.unsupported" = "OpenCode V2 导航需 ≥2.2.2 且已加载 TUI 插件；请 Update 接入，任务结束后 reload 并重开 TUI";
+"navigation.opencode.failed" = "OpenCode 会话跳转未成功；请在原客户端中手动切换";
+
+"navigation.opencode.hint" = "点击打开对应 OpenCode 会话（V2 导航需 ≥2.2.2 且已加载 TUI 插件）";
+
+"navigation.opencode.unavailable" = "此会话尚未关联活跃 TUI；请先在原客户端中打开";
+
+"navigation.opencode.ambiguous" = "多个 TUI 实例持有此会话；请在原客户端中手动切换";
+
+/* Status HUD */
+"status.lastFed" = "%@进食";
+"status.quotaTitle" = "Codex额度";
+"status.todayUsage" = "今日用量";
+"status.windowUsage" = "%d天累计用量";
+"status.rangeDays" = "%d天";
+"status.quotaLoading" = "正在读取额度…";
+"status.quotaStale" = "显示上次额度，刷新待确认";
+"status.quotaBarMeaning" = "条形表示剩余可用额度。";
+
+/* Saved AO attention reminders are independent of current session status. */
+"ao.attention.title" = "AO 提醒 · %@";
+"ao.attention.previousInput" = "此前等待用户输入";
+"ao.attention.previousAttention" = "此前等待人工处理";
+"ao.attention.historyHint" = "这是此前保存的等待提醒，不代表会话仍在等待。当前状态以任务状态行为准。";
+"ao.attention.acknowledge" = "知道了";
+"ao.attention.acknowledgeHint" = "仅收起这一条提醒；不会批准操作，也不会标记会话回复已读。";

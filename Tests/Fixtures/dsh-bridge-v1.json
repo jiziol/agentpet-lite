@@ -1,0 +1,19 @@
+{
+  "contractVersion": "1.0",
+  "supportedProtocolMajor": 1,
+  "statusEnvelopeSchema": 1,
+  "capabilities": [
+    "lifecycle.v1",
+    "pending.v1",
+    "navigation.v1",
+    "speech.v1",
+    "bindings.v1"
+  ],
+  "operations": [
+    "status",
+    "binding",
+    "navigate"
+  ],
+  "observationSchema": 1,
+  "publicTextSchema": "agentpet.dsh.speech.v1"
+}

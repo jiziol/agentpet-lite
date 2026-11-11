@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/PC2005-cloud/dsh-pet",
+  "readmeCommit": "e4c8c2af8b8b982d199d39fdec9de3ed5f84ecc5",
+  "mediaRelease": "assets-mov",
+  "archiveURL": "https://github.com/PC2005-cloud/dsh-pet/releases/download/assets-mov/dsh-pet-mov-assets-mov.zip",
+  "archiveSHA256": "b3fe34fa42f28d297da8525cd08d0ac2706c96c14d3cf1eb386137a59b79a3c0",
+  "selectedClips": 33,
+  "groups": {
+    "idle": 9,
+    "working": 4,
+    "waiting": 4,
+    "success": 5,
+    "failure": 2,
+    "quota": 2,
+    "levelup": 3,
+    "tap": 3,
+    "drag": 1
+  },
+  "fallbackPoster": "posters/悠闲哼歌.png",
+  "originalSpritesheetIncluded": false,
+  "readmeSHA256": "af97d6100284d702252989525f6a16ade943a3d65a364feff200f8e50d335cb2",
+  "userProvidedMedia": {
+    "suppliedBy": "user",
+    "date": "2026-10-20",
+    "note": "R2 drag replacement and edge-peek art supplied for this project; not part of the upstream dsh-pet release and not relicensed as upstream assets.",
+    "files": {
+      "videos/被鼠标拖拽悬空反馈.mov": "f0bebf295e78bfcf57c808f299b85323f2f5fa29274c604774557c5823d6e2e3",
+      "posters/被鼠标拖拽悬空反馈.png": "ff6b73a2b4c787cca87ee28a18fed54cbed609b00567ad30bbd03315d7ef27a2",
+      "edge-peek.png": "404099c2922566557c3e2a8826bf1f60ca53388b4798636721891970440d8067"
+    },
+    "publicRedistribution": "The supplying maintainer confirmed on 2026-11-12 that all three separately supplied files were AI-generated and permitted in the public source and DMG; declaration recorded separately from upstream assets.",
+    "permissionConfirmedOn": "2026-11-12",
+    "provenance": "AI-generated, as declared by the supplying maintainer; original files and provenance metadata retained."
+  },
+  "dragReplacement": "The existing drag purpose/id keeps the same filename; its media was replaced by the user-provided 10s HEVC-alpha clip.",
+  "factoryPreset": {
+    "displayName": "deepseek酱",
+    "configuredOn": "2026-10-23",
+    "groupOrder": [
+      "idle",
+      "working",
+      "waiting",
+      "success",
+      "failure",
+      "quota",
+      "levelup",
+      "tap",
+      "drag"
+    ],
+    "selection": "All 33 curated native clips; purpose membership and within-group order match the requested factory preset. No runtime preference or care state is bundled.",
+    "freshCareLevel": 0
+  },
+  "posterProvenance": "Posters are derived from the corresponding video clips; PNGs are not present in the upstream MOV release archive. The separately supplied drag poster is listed under userProvidedMedia."
+}

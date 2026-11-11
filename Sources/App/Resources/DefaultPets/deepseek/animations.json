@@ -1,0 +1,500 @@
+{
+  "version": 1,
+  "clips": [
+    {
+      "id": "dsh:悠闲哼歌",
+      "name": "悠闲哼歌",
+      "category": "小动作",
+      "file": "videos/悠闲哼歌.mov",
+      "poster": "posters/悠闲哼歌.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "0265f37a9b906a4b7b52efda210ad43f095756ab9e18314c7d53a6fba5dba00e",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "悠闲哼歌"
+    },
+    {
+      "id": "dsh:三球抛接",
+      "name": "三球抛接",
+      "category": "玩耍",
+      "file": "videos/三球抛接.mov",
+      "poster": "posters/三球抛接.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "5c2e4b0e336757fb3d018afe78c8ee5a4c424f16505f23d52dc2c8bfe8fe8d2e",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "三球抛接"
+    },
+    {
+      "id": "dsh:优雅女仆舞",
+      "name": "优雅女仆舞",
+      "category": "玩耍",
+      "file": "videos/优雅女仆舞.mov",
+      "poster": "posters/优雅女仆舞.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "150e5e28eccf9c782fdd43cfa71453aafd04af83b1cbd81f44f9d24a99844a77",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "优雅女仆舞"
+    },
+    {
+      "id": "dsh:是啊，吃什么",
+      "name": "是啊，吃什么",
+      "category": "文字",
+      "file": "videos/是啊，吃什么.mov",
+      "poster": "posters/是啊，吃什么.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "7738cbd2e4fce3bd7dde8aaed45c4f75a88fad5cb3c09d1e3678f4dfb1cb4b9e",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "是啊，吃什么"
+    },
+    {
+      "id": "dsh:玩游戏气急败坏",
+      "name": "玩游戏气急败坏",
+      "category": "玩耍",
+      "file": "videos/玩游戏气急败坏.mov",
+      "poster": "posters/玩游戏气急败坏.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "fe85984a577fecb72211550c7b37ff9c01c0c7e0e05efa3d3ec99c0fa47167ff",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "玩游戏气急败坏"
+    },
+    {
+      "id": "dsh:原地小憩沉眠",
+      "name": "原地小憩沉眠",
+      "category": "小动作",
+      "file": "videos/原地小憩沉眠.mov",
+      "poster": "posters/原地小憩沉眠.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "e9c8090e1d74f0f1144b5072d3d15c387d0e5d0b3f266fd5ff8f2989106b7a57",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "原地小憩沉眠"
+    },
+    {
+      "id": "dsh:吃白饭",
+      "name": "吃白饭",
+      "category": "吃什么",
+      "file": "videos/吃白饭.mov",
+      "poster": "posters/吃白饭.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "d278c98c694e6adeb242db7e7c2a356e5ee181cc0652380e9e5d1a4d674d66c3",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "吃白饭"
+    },
+    {
+      "id": "dsh:哈欠连天",
+      "name": "哈欠连天",
+      "category": "小动作",
+      "file": "videos/哈欠连天.mov",
+      "poster": "posters/哈欠连天.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "55df70993d6618cfdc2571eabb60fbbb79ade077f3bdd90936f4748fe53eefbf",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "哈欠连天"
+    },
+    {
+      "id": "dsh:超大伸懒腰",
+      "name": "超大伸懒腰",
+      "category": "小动作",
+      "file": "videos/超大伸懒腰.mov",
+      "poster": "posters/超大伸懒腰.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "b26fbc85934615f17a9b45001b5e0c58664a98b22e616e8234885f6f10f4cf5f",
+      "purposes": [
+        "idle"
+      ],
+      "displayName": "超大伸懒腰"
+    },
+    {
+      "id": "dsh:写代码",
+      "name": "写代码",
+      "category": "小动作",
+      "file": "videos/写代码.mov",
+      "poster": "posters/写代码.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "cc417cc36ea9181521b6657f9350680498258c31a72343b6df6cfbb86c6b0e52",
+      "purposes": [
+        "working"
+      ],
+      "displayName": "写代码"
+    },
+    {
+      "id": "dsh:工作状态-忙碌点按",
+      "name": "工作状态-忙碌点按",
+      "category": "工作状态动画",
+      "file": "videos/工作状态-忙碌点按.mov",
+      "poster": "posters/工作状态-忙碌点按.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "1c439ab025ff31b67b6c6d2b72223d5281a3c5c27762fbf1f7d92342762b8187",
+      "purposes": [
+        "working"
+      ],
+      "displayName": "工作状态-忙碌点按"
+    },
+    {
+      "id": "dsh:轻快记录",
+      "name": "轻快记录",
+      "category": "小动作",
+      "file": "videos/轻快记录.mov",
+      "poster": "posters/轻快记录.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "b17d109c5f5575be444586e323ccef64ea2595131ec07688b370307e7c208799",
+      "purposes": [
+        "working"
+      ],
+      "displayName": "轻快记录"
+    },
+    {
+      "id": "dsh:吃Token",
+      "name": "吃Token",
+      "category": "吃什么",
+      "file": "videos/吃Token.mov",
+      "poster": "posters/吃Token.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "743a5f27bbccdd2dd46714ad94bc2957017dea3930b8e5074faa93cce9f29ec6",
+      "purposes": [
+        "working"
+      ],
+      "displayName": "吃Token"
+    },
+    {
+      "id": "dsh:东张西望",
+      "name": "东张西望",
+      "category": "待机 / 转向",
+      "file": "videos/东张西望.mov",
+      "poster": "posters/东张西望.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "afaeb96534502e3f5c8392acc36da553e4ba3e6e48eb2facbab9756c302349e0",
+      "purposes": [
+        "waiting"
+      ],
+      "displayName": "东张西望"
+    },
+    {
+      "id": "dsh:工作状态-原地踱步张望",
+      "name": "工作状态-原地踱步张望",
+      "category": "工作状态动画",
+      "file": "videos/工作状态-原地踱步张望.mov",
+      "poster": "posters/工作状态-原地踱步张望.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "b2f167962bcdb2aba13785455a9b87e831fb9126d215a16ae68972f6ac947096",
+      "purposes": [
+        "waiting"
+      ],
+      "displayName": "工作状态-原地踱步张望"
+    },
+    {
+      "id": "dsh:工作状态-思考冒泡",
+      "name": "工作状态-思考冒泡",
+      "category": "工作状态动画",
+      "file": "videos/工作状态-思考冒泡.mov",
+      "poster": "posters/工作状态-思考冒泡.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "9d0f22cbb3673e9243c1fe03bfe447b433e58f4ffb9b499aecfe5a0b85216aa5",
+      "purposes": [
+        "waiting"
+      ],
+      "displayName": "工作状态-思考冒泡"
+    },
+    {
+      "id": "dsh:用鲸鱼尾巴拍打地面",
+      "name": "用鲸鱼尾巴拍打地面",
+      "category": "小动作",
+      "file": "videos/用鲸鱼尾巴拍打地面.mov",
+      "poster": "posters/用鲸鱼尾巴拍打地面.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "4765479cadd78a68b85cf31bc9e925876bf181216a94175e30e5da199dcf49a2",
+      "purposes": [
+        "waiting"
+      ],
+      "displayName": "用鲸鱼尾巴拍打地面"
+    },
+    {
+      "id": "dsh:工作状态-雀跃庆祝",
+      "name": "工作状态-雀跃庆祝",
+      "category": "工作状态动画",
+      "file": "videos/工作状态-雀跃庆祝.mov",
+      "poster": "posters/工作状态-雀跃庆祝.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "f3b2424f6d557290cef7303c82e57f463322c3569729122ae26a9531a87de245",
+      "purposes": [
+        "success"
+      ],
+      "displayName": "工作状态-雀跃庆祝"
+    },
+    {
+      "id": "dsh:点击回应-元气挥手",
+      "name": "点击回应-元气挥手",
+      "category": "点击回应",
+      "file": "videos/点击回应-元气挥手.mov",
+      "poster": "posters/点击回应-元气挥手.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "cccdf7aa36eec498b89a03f537b3c780f15365cf639951abda52077b18b7413d",
+      "purposes": [
+        "success"
+      ],
+      "displayName": "点击回应-元气挥手"
+    },
+    {
+      "id": "dsh:点击回应-开心跃动",
+      "name": "点击回应-开心跃动",
+      "category": "点击回应",
+      "file": "videos/点击回应-开心跃动.mov",
+      "poster": "posters/点击回应-开心跃动.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "85cbfc2780e817ae644f3baadb128516d7f59a2c120c9f0ada38d850a02c56c9",
+      "purposes": [
+        "success"
+      ],
+      "displayName": "点击回应-开心跃动"
+    },
+    {
+      "id": "dsh:轻快摇摆舞",
+      "name": "轻快摇摆舞",
+      "category": "玩耍",
+      "file": "videos/轻快摇摆舞.mov",
+      "poster": "posters/轻快摇摆舞.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "cc9a48bfe37e467982517f65b72b357b7e6833c086af1feba46bd79ebea64138",
+      "purposes": [
+        "success"
+      ],
+      "displayName": "轻快摇摆舞"
+    },
+    {
+      "id": "dsh:可爱宅舞",
+      "name": "可爱宅舞",
+      "category": "玩耍",
+      "file": "videos/可爱宅舞.mov",
+      "poster": "posters/可爱宅舞.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "12ee1e236efb1c7170ea9d31406ec595e17df3c05f09037905965168bb4c0f3c",
+      "purposes": [
+        "success"
+      ],
+      "displayName": "可爱宅舞"
+    },
+    {
+      "id": "dsh:工作状态-垂头叹气冒汗",
+      "name": "工作状态-垂头叹气冒汗",
+      "category": "工作状态动画",
+      "file": "videos/工作状态-垂头叹气冒汗.mov",
+      "poster": "posters/工作状态-垂头叹气冒汗.png",
+      "duration": 4.916666666666667,
+      "width": 640,
+      "height": 360,
+      "sha256": "34517630a5ed909f2a5f66eea3d185a2c3e66e2d061c59b1991acf76ee955756",
+      "purposes": [
+        "failure"
+      ],
+      "displayName": "工作状态-垂头叹气冒汗"
+    },
+    {
+      "id": "dsh:点击回应-傲娇生气",
+      "name": "点击回应-傲娇生气",
+      "category": "点击回应",
+      "file": "videos/点击回应-傲娇生气.mov",
+      "poster": "posters/点击回应-傲娇生气.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "6ec02c02689ff52b712850ff182dbf96495e76ab7e3749e1aabe9685267e731d",
+      "purposes": [
+        "failure"
+      ],
+      "displayName": "点击回应-傲娇生气"
+    },
+    {
+      "id": "dsh:余额-分文不剩",
+      "name": "余额-分文不剩",
+      "category": "余额事件",
+      "file": "videos/余额-分文不剩.mov",
+      "poster": "posters/余额-分文不剩.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "8b2d2d71ccddf388586745a7e579662ff1c2840f2ec3604f49aa2b01bb2efa24",
+      "purposes": [
+        "quota"
+      ],
+      "displayName": "余额-分文不剩"
+    },
+    {
+      "id": "dsh:余额-袋空如洗",
+      "name": "余额-袋空如洗",
+      "category": "余额事件",
+      "file": "videos/余额-袋空如洗.mov",
+      "poster": "posters/余额-袋空如洗.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "03b902f771f1645029de90ca73c93542558d459c53d8104c2c833027a9b3cfb0",
+      "purposes": [
+        "quota"
+      ],
+      "displayName": "余额-袋空如洗"
+    },
+    {
+      "id": "dsh:拆礼物",
+      "name": "拆礼物",
+      "category": "玩耍",
+      "file": "videos/拆礼物.mov",
+      "poster": "posters/拆礼物.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "7288d788b041f02a56fba1b77e13a69a46230734283c9a8326e0b76d12cbf029",
+      "purposes": [
+        "levelup"
+      ],
+      "displayName": "拆礼物"
+    },
+    {
+      "id": "dsh:整体换装试色",
+      "name": "整体换装试色",
+      "category": "小动作",
+      "file": "videos/整体换装试色.mov",
+      "poster": "posters/整体换装试色.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "577fb69d40ba1d26509a9fb3c0ef39f345586f8727a2be90c5ac67d0505d5448",
+      "purposes": [
+        "levelup"
+      ],
+      "displayName": "整体换装试色"
+    },
+    {
+      "id": "dsh:原地跳跃抓碎头顶物品",
+      "name": "原地跳跃抓碎头顶物品",
+      "category": "玩耍",
+      "file": "videos/原地跳跃抓碎头顶物品.mov",
+      "poster": "posters/原地跳跃抓碎头顶物品.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "cfeb01c1dd4de93b1719cca2381d10f6036f013b7f27ab6f4f1da99770d09aa0",
+      "purposes": [
+        "levelup"
+      ],
+      "displayName": "原地跳跃抓碎头顶物品"
+    },
+    {
+      "id": "dsh:点击回应-害羞惊讶",
+      "name": "点击回应-害羞惊讶",
+      "category": "点击回应",
+      "file": "videos/点击回应-害羞惊讶.mov",
+      "poster": "posters/点击回应-害羞惊讶.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "85bc405f15ff669711c3c2a47f759b07abdcd6ca74f15133bcdada5e79382c26",
+      "purposes": [
+        "tap"
+      ],
+      "displayName": "点击回应-害羞惊讶"
+    },
+    {
+      "id": "dsh:点击回应-挠痒咯咯笑",
+      "name": "点击回应-挠痒咯咯笑",
+      "category": "点击回应",
+      "file": "videos/点击回应-挠痒咯咯笑.mov",
+      "poster": "posters/点击回应-挠痒咯咯笑.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "4c7d2ea59badd28245b36f4d041814ab58d1182c73bc9abef0e1b4b748a5577b",
+      "purposes": [
+        "tap"
+      ],
+      "displayName": "点击回应-挠痒咯咯笑"
+    },
+    {
+      "id": "dsh:打瞌睡被惊醒",
+      "name": "打瞌睡被惊醒",
+      "category": "小动作",
+      "file": "videos/打瞌睡被惊醒.mov",
+      "poster": "posters/打瞌睡被惊醒.png",
+      "duration": 10.041666666666666,
+      "width": 640,
+      "height": 360,
+      "sha256": "d493bc35de89335aa2a9f5c4df7648877a69c804cf4262d5240bee8d3703a956",
+      "purposes": [
+        "tap"
+      ],
+      "displayName": "打瞌睡被惊醒"
+    },
+    {
+      "id": "dsh:被鼠标拖拽悬空反馈",
+      "name": "被鼠标拖拽悬空反馈",
+      "category": "拖拽",
+      "file": "videos/被鼠标拖拽悬空反馈.mov",
+      "poster": "posters/被鼠标拖拽悬空反馈.png",
+      "duration": 10.0,
+      "width": 640,
+      "height": 360,
+      "sha256": "f0bebf295e78bfcf57c808f299b85323f2f5fa29274c604774557c5823d6e2e3",
+      "purposes": [
+        "drag"
+      ],
+      "displayName": "被鼠标拖拽悬空反馈"
+    }
+  ]
+}

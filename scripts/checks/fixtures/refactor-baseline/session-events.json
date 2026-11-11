@@ -1,0 +1,1788 @@
+{
+  "schema": 1,
+  "origin": "synthetic-metadata-only",
+  "scenarios": [
+    {
+      "id": "codex-read-complete-restart",
+      "kind": "codex",
+      "session": "synthetic-codex",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "capture",
+          "at": 1.1,
+          "capture": "running"
+        },
+        {
+          "op": "open",
+          "at": 2,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 3,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "open",
+          "at": 3.5,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "done",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "prune",
+          "at": 100,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "capture",
+          "at": 100.1,
+          "capture": "completion"
+        },
+        {
+          "op": "restart",
+          "at": 100.5,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "open",
+          "at": 101,
+          "capture": "completion",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "prune",
+          "at": 132,
+          "expect": {
+            "exists": true,
+            "state": "idle",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "prune",
+          "at": 800,
+          "expect": {
+            "exists": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "antigravity-read-complete-restart",
+      "kind": "antigravity",
+      "session": "synthetic-antigravity",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "capture",
+          "at": 1.1,
+          "capture": "running"
+        },
+        {
+          "op": "open",
+          "at": 2,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 3,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "open",
+          "at": 3.5,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "done",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "prune",
+          "at": 100,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "capture",
+          "at": 100.1,
+          "capture": "completion"
+        },
+        {
+          "op": "restart",
+          "at": 100.5,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "open",
+          "at": 101,
+          "capture": "completion",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "prune",
+          "at": 132,
+          "expect": {
+            "exists": true,
+            "state": "idle",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "prune",
+          "at": 800,
+          "expect": {
+            "exists": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "opencode-read-complete-restart",
+      "kind": "opencode",
+      "session": "synthetic-opencode",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "capture",
+          "at": 1.1,
+          "capture": "running"
+        },
+        {
+          "op": "open",
+          "at": 2,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 3,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "open",
+          "at": 3.5,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "done",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "prune",
+          "at": 100,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "capture",
+          "at": 100.1,
+          "capture": "completion"
+        },
+        {
+          "op": "restart",
+          "at": 100.5,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "open",
+          "at": 101,
+          "capture": "completion",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "prune",
+          "at": 132,
+          "expect": {
+            "exists": true,
+            "state": "idle",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "prune",
+          "at": 800,
+          "expect": {
+            "exists": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-parallel-input",
+      "kind": "claude",
+      "session": "synthetic-claude-input",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "q1",
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "waiting"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 5,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "asked",
+          "at": 6,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "open",
+          "at": 6.1,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 7,
+          "requests": [
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 8,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 3,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 9,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-parallel-input",
+      "kind": "codex",
+      "session": "synthetic-codex-input",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "q1",
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "waiting"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 5,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "asked",
+          "at": 6,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "open",
+          "at": 6.1,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 7,
+          "requests": [
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 8,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 3,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 9,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "antigravity-parallel-input",
+      "kind": "antigravity",
+      "session": "synthetic-antigravity-input",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "q1",
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "waiting"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 5,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "asked",
+          "at": 6,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "open",
+          "at": 6.1,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 7,
+          "requests": [
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 8,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 3,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 9,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "opencode-parallel-input",
+      "kind": "opencode",
+      "session": "synthetic-opencode-input",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "q1",
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "waiting"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 5,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "asked",
+          "at": 6,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "open",
+          "at": 6.1,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 7,
+          "requests": [
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 8,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 3,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 9,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "pi-parallel-input",
+      "kind": "pi",
+      "session": "synthetic-pi-input",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "q1",
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "waiting"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 5,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "q2"
+            ]
+          }
+        },
+        {
+          "op": "asked",
+          "at": 6,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "open",
+          "at": 6.1,
+          "capture": "waiting",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q2",
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 7,
+          "requests": [
+            "q2"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "q3"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 8,
+          "requests": [
+            "q3"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 3,
+          "requests": [
+            "q1"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 9,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-async-accepted-not-answer",
+      "kind": "codex",
+      "session": "synthetic-async",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "UserPromptSubmit",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 1,
+          "turn": "turn-A",
+          "started": 1,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "native",
+          "at": 2,
+          "nativeJSON": "{\"timestamp\":\"1970-01-01T00:00:02Z\",\"type\":\"response_item\",\"payload\":{\"type\":\"function_call\",\"name\":\"functions.request_user_input_async\",\"call_id\":\"synthetic_call_A\",\"arguments\":\"{\\\"questions\\\":[{\\\"options\\\":[{}]},{\\\"options\\\":[]}]}\"}}",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "synthetic_call_A#0",
+              "synthetic_call_A#1"
+            ]
+          }
+        },
+        {
+          "op": "native",
+          "at": 3,
+          "nativeJSON": "{\"timestamp\":\"1970-01-01T00:00:03Z\",\"type\":\"response_item\",\"payload\":{\"type\":\"function_call_output\",\"call_id\":\"synthetic_call_A\",\"output\":\"{\\\"accepted\\\":true}\"}}",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "synthetic_call_A#0",
+              "synthetic_call_A#1"
+            ]
+          }
+        },
+        {
+          "op": "event",
+          "at": 4,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "synthetic_call_A#0",
+              "synthetic_call_A#1"
+            ]
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 5,
+          "turn": "turn-A",
+          "started": 1,
+          "result": "completed",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "result": "completed",
+            "pending": [
+              "synthetic_call_A#0",
+              "synthetic_call_A#1"
+            ]
+          }
+        },
+        {
+          "op": "native",
+          "at": 6,
+          "nativeJSON": "{\"timestamp\":\"1970-01-01T00:00:06Z\",\"type\":\"response_item\",\"payload\":{\"type\":\"message\",\"role\":\"user\",\"content\":[{\"type\":\"input_text\",\"text\":\"<send_user_message_question_reply>[{\\\"questionItemId\\\":\\\"[\\\\\\\"request_user_input_async\\\\\\\",\\\\\\\"synthetic_call_A\\\\\\\",0]\\\"}]</send_user_message_question_reply>\"}]}}",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "synthetic_call_A#1"
+            ]
+          }
+        },
+        {
+          "op": "native",
+          "at": 7,
+          "nativeJSON": "{\"timestamp\":\"1970-01-01T00:00:07Z\",\"type\":\"response_item\",\"payload\":{\"type\":\"message\",\"role\":\"user\",\"content\":[{\"type\":\"input_text\",\"text\":\"<send_user_message_question_reply>[{\\\"questionItemId\\\":\\\"[\\\\\\\"request_user_input_async\\\\\\\",\\\\\\\"synthetic_call_A\\\\\\\",1]\\\"}]</send_user_message_question_reply>\"}]}}",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true,
+            "result": "completed",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 8,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true,
+            "result": "completed",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-old-turn-and-click",
+      "kind": "codex",
+      "session": "synthetic-turns",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "UserPromptSubmit"
+        },
+        {
+          "op": "lifecycle",
+          "at": 1,
+          "turn": "old",
+          "started": 1
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "old-q"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "old-q"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "old"
+        },
+        {
+          "op": "open",
+          "at": 2.5,
+          "capture": "old",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "old-q"
+            ]
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 3,
+          "turn": "old",
+          "started": 1,
+          "result": "completed",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "old-q"
+            ]
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 4,
+          "turn": "new",
+          "started": 4,
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "open",
+          "at": 4.1,
+          "capture": "old",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "old-q"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "asked",
+          "at": 5,
+          "requests": [
+            "fresh-q"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "fresh-q"
+            ]
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 6,
+          "turn": "old",
+          "started": 1,
+          "result": "cancelled",
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "fresh-q"
+            ]
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 4,
+          "turn": "new",
+          "started": 4,
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "fresh-q"
+            ]
+          }
+        },
+        {
+          "op": "restart",
+          "at": 7,
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "fresh-q"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "opencode-disconnect-unknown",
+      "kind": "opencode",
+      "session": "synthetic-disconnect",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running",
+            "disconnected": false,
+            "pending": []
+          }
+        },
+        {
+          "op": "capture",
+          "at": 1.1,
+          "capture": "running"
+        },
+        {
+          "op": "disconnect",
+          "at": 2,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true,
+            "disconnected": true,
+            "pending": [],
+            "resultAbsent": true
+          }
+        },
+        {
+          "op": "open",
+          "at": 2.1,
+          "capture": "running",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true,
+            "disconnected": true,
+            "pending": [],
+            "resultAbsent": true
+          }
+        },
+        {
+          "op": "restart",
+          "at": 3,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true,
+            "disconnected": true,
+            "pending": [],
+            "resultAbsent": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-cancel-clears-input",
+      "kind": "codex",
+      "session": "synthetic-cancel",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "UserPromptSubmit"
+        },
+        {
+          "op": "lifecycle",
+          "at": 1,
+          "turn": "cancel-turn",
+          "started": 1
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "cancel-q"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "cancel-q"
+            ]
+          }
+        },
+        {
+          "op": "lifecycle",
+          "at": 3,
+          "turn": "cancel-turn",
+          "started": 1,
+          "result": "cancelled",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false,
+            "result": "cancelled",
+            "pending": []
+          }
+        },
+        {
+          "op": "answered",
+          "at": 4,
+          "requests": [
+            "cancel-q"
+          ],
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false,
+            "result": "cancelled",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 5,
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false,
+            "result": "cancelled",
+            "pending": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "same-cwd-session-isolation",
+      "kind": "codex",
+      "session": "synthetic-A",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "UserPromptSubmit",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 1,
+          "event": "UserPromptSubmit",
+          "session": "synthetic-B",
+          "expect": {
+            "exists": true,
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "event",
+          "at": 2,
+          "event": "Stop",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "event",
+          "at": 2,
+          "event": "Stop",
+          "session": "synthetic-B",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "A"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "A",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "read",
+            "unread": false
+          }
+        },
+        {
+          "op": "restart",
+          "at": 4,
+          "session": "synthetic-B",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        },
+        {
+          "op": "prune",
+          "at": 100,
+          "session": "synthetic-B",
+          "expect": {
+            "exists": true,
+            "state": "done",
+            "indicator": "unread",
+            "unread": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "opencode-permission-reply",
+      "kind": "opencode",
+      "session": "synthetic-permission",
+      "actions": [
+        {
+          "op": "event",
+          "at": 1,
+          "event": "working",
+          "expect": {
+            "state": "working",
+            "indicator": "running"
+          }
+        },
+        {
+          "op": "asked",
+          "at": 2,
+          "requests": [
+            "permission-A"
+          ],
+          "requestKind": "permission",
+          "expect": {
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "permission-A"
+            ]
+          }
+        },
+        {
+          "op": "capture",
+          "at": 2.1,
+          "capture": "permission"
+        },
+        {
+          "op": "open",
+          "at": 3,
+          "capture": "permission",
+          "expect": {
+            "state": "waiting",
+            "indicator": "read",
+            "pending": [
+              "permission-A"
+            ]
+          }
+        },
+        {
+          "op": "asked",
+          "at": 4,
+          "requests": [
+            "reply-A"
+          ],
+          "requestKind": "reply",
+          "expect": {
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "permission-A",
+              "reply-A"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 5,
+          "requests": [
+            "permission-A"
+          ],
+          "requestKind": "permission",
+          "expect": {
+            "state": "waiting",
+            "indicator": "attention",
+            "pending": [
+              "reply-A"
+            ]
+          }
+        },
+        {
+          "op": "answered",
+          "at": 6,
+          "requests": [
+            "reply-A"
+          ],
+          "requestKind": "reply",
+          "expect": {
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        },
+        {
+          "op": "restart",
+          "at": 7,
+          "expect": {
+            "state": "working",
+            "indicator": "running",
+            "pending": []
+          }
+        }
+      ]
+    }
+  ]
+}

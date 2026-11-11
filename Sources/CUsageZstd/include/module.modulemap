@@ -1,0 +1,4 @@
+module CUsageZstd {
+    header "UsageZstd.h"
+    export *
+}

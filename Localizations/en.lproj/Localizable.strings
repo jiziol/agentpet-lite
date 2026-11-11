@@ -1,0 +1,947 @@
+/* AgentPet localizable strings , English (base). Keys are the English UI text. */
+
+/* Tabs */
+"General" = "General";
+"Pet" = "Pet";
+"Bubble" = "Bubble";
+"About" = "About";
+
+/* General / common */
+"Launch" = "Launch";
+"Launch at login" = "Launch at login";
+"AgentPet Lite starts automatically when you sign in." = "AgentPet Lite starts automatically when you sign in.";
+"Notifications" = "Notifications";
+"Show chat bubble" = "Show chat bubble";
+"Messages" = "Messages";
+"System" = "System";
+"Custom" = "Custom";
+"One message per line; a random one is shown." = "One message per line; a random one is shown.";
+"Reset to defaults" = "Reset to defaults";
+"Reset to default" = "Reset to default";
+"Sounds" = "Sounds";
+"Agent integrations" = "Agent integrations";
+"Hook installed" = "Hook installed";
+"Coming soon" = "Coming soon";
+"Enable" = "Enable";
+"Open Settings" = "Open Settings";
+"Quit AgentPet Lite" = "Quit AgentPet Lite";
+"Upload…" = "Upload…";
+"Default" = "Default";
+"Working" = "Working";
+"Waiting" = "Waiting";
+"Done" = "Done";
+/* Bubble tab */
+"Bubble mode" = "Bubble mode";
+"Multi-agent bubble" = "Multi-agent bubble";
+"Structured rows with icons, state dots, and activity messages." = "Structured rows with icons, state dots, and activity messages.";
+"Appearance" = "Appearance";
+"Theme" = "Theme";
+"Font size" = "Font size";
+"Opacity" = "Opacity";
+"Show idle message" = "Show idle message";
+"The pet's chatter while no agent is running." = "The pet's chatter while no agent is running.";
+"Display" = "Display";
+"Rows" = "Rows";
+"Sessions" = "Sessions";
+"Filter" = "Filter";
+"Include states" = "Include states";
+"Which session states appear in the bubble." = "Which session states appear in the bubble.";
+"Visible agents" = "Visible agents";
+"Row content" = "Row content";
+"Preview" = "Preview";
+"Presets" = "Presets";
+"Original" = "Original";
+"Standard" = "Standard";
+"Detailed" = "Detailed";
+"Tap a chip above to add tokens" = "Tap a chip above to add tokens";
+"All tokens are in use" = "All tokens are in use";
+"Preview updates as you add, remove, or reorder tokens below." = "Preview updates as you add, remove, or reorder tokens below.";
+"Style" = "Style";
+"Separator" = "Separator";
+"State dot" = "State dot";
+"Agent icons" = "Agent icons";
+"Brand logos" = "Brand logos";
+"SF Symbols" = "SF Symbols";
+"Change…" = "Change…";
+"Activity messages" = "Activity messages";
+"Vocabulary" = "Vocabulary";
+"Bubble messages" = "Bubble messages";
+"Simple bubble" = "Simple bubble";
+"All agents" = "All agents";
+"Turn on multi-agent bubble above for per-agent rows with icons and activity." = "Turn on multi-agent bubble above for per-agent rows with icons and activity.";
+
+/* About & Pet tab */
+"Author" = "Author";
+"Version" = "Version";
+"Choose pet" = "Choose pet";
+"Animations" = "Animations";
+"Size on screen" = "Size on screen";
+"Browse pets…" = "Browse pets…";
+"Create pet…" = "Create pet…";
+"No pets yet. Tap Browse to add one." = "No pets yet. Tap Browse to add one.";
+"Hover a clip to preview it." = "Hover a clip to preview it.";
+"No pet selected" = "No pet selected";
+"State" = "State";
+/* Bubble pickers / tokens */
+"All rows" = "All rows";
+"Carousel" = "Carousel";
+"Compact" = "Compact";
+"All sessions" = "All sessions";
+"Grouped by agent" = "Grouped by agent";
+"All states" = "All states";
+"Done and above" = "Done and above";
+"Working & Waiting" = "Working & Waiting";
+"Working only" = "Working only";
+"One row at a time. Auto-cycles every 3 s — swipe or drag to browse." = "One row at a time. Auto-cycles every 3 s — swipe or drag to browse.";
+"One row per agent kind (×N when multiple)" = "One row per agent kind (×N when multiple)";
+"One row per session" = "One row per session";
+"Show every row at once, up to the max below." = "Show every row at once, up to the max below.";
+"Summary header, first two rows, then fold the rest." = "Summary header, first two rows, then fold the rest.";
+"Plain dot" = "Plain dot";
+"Claude style" = "Claude style";
+"Flat color-coded circle" = "Flat color-coded circle";
+"Spinning ✻ asterisk while active" = "Spinning ✻ asterisk while active";
+"Agent icon" = "Agent icon";
+"Chat title" = "Chat title";
+"Project folder" = "Project folder";
+"Activity message" = "Activity message";
+"State label" = "State label";
+"Elapsed time" = "Elapsed time";
+"Title" = "Title";
+"Project" = "Project";
+"Message" = "Message";
+"Elapsed" = "Elapsed";
+"Icon" = "Icon";
+"Dot" = "Dot";
+
+/* Theme & activity vocabulary names */
+"Light" = "Light";
+"Dark" = "Dark";
+"Chef" = "Chef";
+"Engineer" = "Engineer";
+"Wizard" = "Wizard";
+"Explorer" = "Explorer";
+"Scientist" = "Scientist";
+
+/* Demo panel, notifications, sounds, footers */
+"Fire webhooks for many agents with your current settings" = "Fire webhooks for many agents with your current settings";
+"Add" = "Add";
+"Quick scenarios" = "Quick scenarios";
+"Spawn 3 working" = "Spawn 3 working";
+"Finish all" = "Finish all";
+"Clear all" = "Clear all";
+"Active webhooks" = "Active webhooks";
+"No webhooks yet. Add one from the right →" = "No webhooks yet. Add one from the right →";
+"Notifications on" = "Notifications on";
+"Notifications muted" = "Notifications muted";
+"Notifications denied" = "Notifications denied";
+"Notifications unavailable" = "Notifications unavailable";
+"Enable notifications" = "Enable notifications";
+"Available once installed as AgentPet Lite.app" = "Available once installed as AgentPet Lite.app";
+"Turn on in System Settings to get alerts" = "Turn on in System Settings to get alerts";
+"Alerts when an agent finishes or needs input" = "Alerts when an agent finishes or needs input";
+"Muted, the toggle turns alerts back on" = "Muted, the toggle turns alerts back on";
+"When an agent finishes" = "When an agent finishes";
+"When an agent needs input" = "When an agent needs input";
+"Per-agent overrides win over \"All agents\". A custom line replaces the live/theme text and the real pet honours it." = "Per-agent overrides win over \"All agents\". A custom line replaces the live/theme text and the real pet honours it.";
+"Whimsical phrases shown while agents work, e.g. \"Brewing…\" or \"Compiling…\"." = "Whimsical phrases shown while agents work, e.g. \"Brewing…\" or \"Compiling…\".";
+
+/* Pet chat & idle messages */
+"Thinking…" = "Thinking…";
+"Working on it…" = "Working on it…";
+"On it!" = "On it!";
+"Crunching code…" = "Crunching code…";
+"Hmm, let me see…" = "Hmm, let me see…";
+"Cooking something up…" = "Cooking something up…";
+"Deep in thought…" = "Deep in thought…";
+"Brain go brrr…" = "Brain go brrr…";
+"Almost there…" = "Almost there…";
+"Wiring it up…" = "Wiring it up…";
+"I need you!" = "I need you!";
+"Your turn 👀" = "Your turn 👀";
+"Waiting on you…" = "Waiting on you…";
+"Can you check this?" = "Can you check this?";
+"Psst, need input!" = "Psst, need input!";
+"Awaiting orders…" = "Awaiting orders…";
+"Help me out?" = "Help me out?";
+"Stuck, need you!" = "Stuck, need you!";
+"All done! ✅" = "All done! ✅";
+"Finished!" = "Finished!";
+"Ta-da!" = "Ta-da!";
+"Done and dusted!" = "Done and dusted!";
+"Nailed it!" = "Nailed it!";
+"That's a wrap!" = "That's a wrap!";
+"Mission complete!" = "Mission complete!";
+"🎉 Woohoo!" = "🎉 Woohoo!";
+"We did it!" = "We did it!";
+"Victory!" = "Victory!";
+"Yesss!" = "Yesss!";
+"High five! 🙌" = "High five! 🙌";
+"Champion!" = "Champion!";
+"Let's grill some bugs." = "Let's grill some bugs.";
+"I miss you. Open a branch for me." = "I miss you. Open a branch for me.";
+"Tiny commit, tiny dopamine." = "Tiny commit, tiny dopamine.";
+"The build is quiet. Too quiet." = "The build is quiet. Too quiet.";
+"Ship something small. Future you is watching." = "Ship something small. Future you is watching.";
+"Your TODOs are pretending not to see us." = "Your TODOs are pretending not to see us.";
+"No agents running. The keyboard has entered standby drama." = "No agents running. The keyboard has entered standby drama.";
+"Turn coffee into code. Carefully." = "Turn coffee into code. Carefully.";
+"Open one file. Intimidate it professionally." = "Open one file. Intimidate it professionally.";
+"The repo is calm. Suspicious, but calm." = "The repo is calm. Suspicious, but calm.";
+"Refactor lightly. Leave with dignity." = "Refactor lightly. Leave with dignity.";
+"One clean diff can fix the whole afternoon." = "One clean diff can fix the whole afternoon.";
+"Waiting for your input" = "Waiting for your input";
+"Your turn — over to you" = "Your turn — over to you";
+"Needs your input" = "Needs your input";
+
+/* App language picker */
+"Language" = "Language";
+
+/* App: onboarding, create-pet, browser, menu */
+"A desktop pet that watches your AI coding agents. Two quick steps to get going." = "A desktop pet that watches your AI coding agents. Two quick steps to get going.";
+"Added" = "Added";
+"Browse pets" = "Browse pets";
+"Cancel" = "Cancel";
+"Category" = "Category";
+"Choose image…" = "Choose image…";
+"Community" = "Community";
+"Create" = "Create";
+"Create pet" = "Create pet";
+"Get alerted when an agent finishes or needs input." = "Get alerted when an agent finishes or needs input.";
+"Get started" = "Get started";
+"Install a hook so AgentPet Lite can see when an agent works, finishes, or needs you." = "Install a hook so AgentPet Lite can see when an agent works, finishes, or needs you.";
+"Loading pets…" = "Loading pets…";
+"Nothing running right now." = "Nothing running right now.";
+"Pet info" = "Pet info";
+"Pet size" = "Pet size";
+"Retry" = "Retry";
+"Sort by agent kind" = "Sort by agent kind";
+"Spritesheet" = "Spritesheet";
+"Use the same 8×9 transparent spritesheet format as downloaded pets." = "Use the same 8×9 transparent spritesheet format as downloaded pets.";
+"Welcome to AgentPet Lite" = "Welcome to AgentPet Lite";
+
+/* Codex connection help */
+"Connect Codex" = "Connect Codex";
+"The hook is installed. Codex blocks unknown command hooks until you trust them once , a Codex security feature, not an AgentPet bug. Do this one time:" = "The hook is installed. Codex blocks unknown command hooks until you trust them once , a Codex security feature, not an AgentPet bug. Do this one time:";
+"Open Terminal and run: codex (launches the Codex CLI)" = "Open Terminal and run: codex (launches the Codex CLI)";
+"Type /hooks and press Enter to list the hooks." = "Type /hooks and press Enter to list the hooks.";
+"Press t to Trust all hooks." = "Press t to Trust all hooks.";
+"Quit and reopen Codex (both the CLI and the desktop app)." = "Quit and reopen Codex (both the CLI and the desktop app).";
+"Run any prompt , your pet now shows the Codex session." = "Run any prompt , your pet now shows the Codex session.";
+"Trust is shared, so trusting once in the CLI also covers the Codex desktop app. If /hooks shows nothing, add  [features] hooks = true  to ~/.codex/config.toml, then retry." = "Trust is shared, so trusting once in the CLI also covers the Codex desktop app. If /hooks shows nothing, add  [features] hooks = true  to ~/.codex/config.toml, then retry.";
+"Codex hooks docs" = "Codex hooks docs";
+"Got it" = "Got it";
+"How to connect Codex" = "How to connect Codex";
+"Installed , needs a one-time trust (tap ?)" = "Installed , needs a one-time trust (tap ?)";
+
+/* Care (tamagotchi) */
+"Care" = "Care";
+"Companion" = "Companion";
+"Hunger" = "Hunger";
+"Today" = "Today";
+"Lifetime" = "Lifetime";
+"Growth sources" = "Growth sources";
+"Hatchling" = "Hatchling";
+"Scout" = "Scout";
+"Hero" = "Hero";
+"Legend" = "Legend";
+"Full" = "Full";
+"Satisfied" = "Satisfied";
+"Peckish" = "Peckish";
+"Hungry" = "Hungry";
+"Starving" = "Starving";
+"Last fed %@" = "Last fed %@";
+"pet.status.fedAgo" = "Fed %@";
+"%@ / %@ XP to next level" = "%@ / %@ XP to next level";
+"The pet eats real work: tokens burnt by your agents and finished sessions." = "The pet eats real work: tokens burnt by your agents and finished sessions.";
+"Tokens eaten" = "Tokens eaten";
+"Full! The daily bowl is empty." = "Full! The daily bowl is empty.";
+"Sessions finished" = "Sessions finished";
+"Streak" = "Streak";
+"Est. cost (Claude)" = "Est. cost (Claude)";
+"Today %@ · Month %@" = "Today %@ · Month %@";
+"%d days" = "%d days";
+"Total tokens eaten" = "Total tokens eaten";
+"Total sessions" = "Total sessions";
+"Local token usage" = "Local token usage";
+"Available token usage from local Codex and Claude Code sessions earns experience." = "Available token usage from local Codex and Claude Code sessions earns experience.";
+"Task completion rewards" = "Task completion rewards";
+"About token usage" = "About token usage";
+"Token usage: available local Codex and Claude Code session usage counts toward pet experience." = "Token usage: available local Codex and Claude Code session usage counts toward pet experience.";
+"Successfully completed agent turns also earn experience." = "Successfully completed agent turns also earn experience.";
+"Connected: subscription limits below." = "Connected: subscription limits below.";
+"Optional: install OpenUsage to track every provider's limits." = "Optional: install OpenUsage to track every provider's limits.";
+"Active" = "Active";
+"Connected" = "Connected";
+"Get it" = "Get it";
+"left" = "left";
+"Level up! Lv %d ⭐" = "Level up! Lv %d ⭐";
+"Getting hungry… run an agent?" = "Getting hungry… run an agent?";
+"A little snack? One small task?" = "A little snack? One small task?";
+"My tummy is rumbling…" = "My tummy is rumbling…";
+"Feed me some tokens, please." = "Feed me some tokens, please.";
+"Starving… nothing to eat for days…" = "Starving… nothing to eat for days…";
+"So weak… one tiny session, please…" = "So weak… one tiny session, please…";
+"No tokens… no energy…" = "No tokens… no energy…";
+"Remember me? Your pet? The hungry one?" = "Remember me? Your pet? The hungry one?";
+"Careful… your AI budget is almost gone." = "Careful… your AI budget is almost gone.";
+"Low fuel: a usage limit is nearly reached!" = "Low fuel: a usage limit is nearly reached!";
+"Maybe save some tokens for tomorrow…" = "Maybe save some tokens for tomorrow…";
+"1 day" = "1 day";
+
+/* Care v2: per-pet + web sync + popover */
+"Your pet" = "Your pet";
+"Every pet levels up on its own: experience belongs to the companion you raise it with." = "Every pet levels up on its own: experience belongs to the companion you raise it with.";
+"All companions" = "All companions";
+"Each companion keeps its own experience. Switch pets in the Pet tab to raise another one." = "Each companion keeps its own experience. Switch pets in the Pet tab to raise another one.";
+"Raising" = "Raising";
+"Sign in on the site, open your profile, and enter the pairing code here." = "Sign in on the site, open your profile, and enter the pairing code here.";
+"Pairing code" = "Pairing code";
+"Connecting…" = "Connecting…";
+"Connect" = "Connect";
+"Restore" = "Restore";
+"Code not recognized. Codes expire after 10 minutes." = "Code not recognized. Codes expire after 10 minutes.";
+"Could not reach the server." = "Could not reach the server.";
+"Today %@ tokens · %d meals" = "Today %@ tokens · %d meals";
+"Today %@ tokens · 1 meal" = "Today %@ tokens · 1 meal";
+
+/* Care v3: GitHub link + stats popover */
+"Last fed" = "Last fed";
+"%@ tokens · 1 meal" = "%@ tokens · 1 meal";
+"%@ tokens · %d meals" = "%@ tokens · %d meals";
+"%@ tokens · %d sessions" = "%@ tokens · %d sessions";
+
+/* Care HUD */
+"Burn, last 7 days" = "Burn, last 7 days";
+"Limits" = "Limits";
+"days fed" = "days fed";
+"tokens eaten" = "tokens eaten";
+"completed" = "completed";
+"1 meal" = "1 meal";
+"%d meals" = "%d meals";
+
+/* Care v5: native limits + to-next-level */
+"≈ %@ tokens to Lv %d" = "≈ %@ tokens to Lv %d";
+"Subscription limits" = "Subscription limits";
+"Subscription limits are for monitoring and reminders. They do not grant experience." = "Subscription limits are for monitoring and reminders. They do not grant experience.";
+"No subscription data is available yet." = "No subscription data is available yet.";
+"Connected: adds limits for every other provider." = "Connected: adds limits for every other provider.";
+
+/* Care v6: quota used + reset */
+"%d%% used" = "%d%% used";
+"resets in %dd" = "resets in %dd";
+"resets in %dh" = "resets in %dh";
+"resets in %dm" = "resets in %dm";
+
+/* Coffee / donate */
+"Quét mã bằng app ngân hàng bất kỳ" = "Scan with any banking app";
+/* Privacy clarity */
+/* Coffee methods */
+/* HUD footer */
+"Settings" = "Settings";
+"Updates" = "Updates";
+"Quit" = "Quit";
+"Checking…" = "Checking…";
+
+/* Achievements + per-project pets + break reminder (PR #27/#28) */
+"First Meal" = "First Meal";
+"100 Sessions" = "100 Sessions";
+"500 Sessions" = "500 Sessions";
+"1M Tokens" = "1M Tokens";
+"10M Tokens" = "10M Tokens";
+"50M Tokens" = "50M Tokens";
+"Level 5" = "Level 5";
+"Level 10" = "Level 10";
+"Level 20" = "Level 20";
+"Level 35" = "Level 35";
+"7-Day Streak" = "7-Day Streak";
+"14-Day Streak" = "14-Day Streak";
+"30-Day Streak" = "30-Day Streak";
+"Night Owl" = "Night Owl";
+"Finish your first agent session" = "Finish your first agent session";
+"Finish 100 agent sessions" = "Finish 100 agent sessions";
+"Finish 500 agent sessions" = "Finish 500 agent sessions";
+"Burn 1M tokens" = "Burn 1M tokens";
+"Burn 10M tokens" = "Burn 10M tokens";
+"Burn 50M tokens" = "Burn 50M tokens";
+"Reach Level 5" = "Reach Level 5";
+"Reach Level 10" = "Reach Level 10";
+"Reach Level 20" = "Reach Level 20";
+"Reach Level 35 (Legend)" = "Reach Level 35 (Legend)";
+"Feed your pet 7 days in a row" = "Feed your pet 7 days in a row";
+"Feed your pet 14 days in a row" = "Feed your pet 14 days in a row";
+"Feed your pet 30 days in a row" = "Feed your pet 30 days in a row";
+"Finish a session after midnight" = "Finish a session after midnight";
+"%d achievements unlocked! 🏆" = "%d achievements unlocked! 🏆";
+"Achievement unlocked: %@ 🏆" = "Achievement unlocked: %@ 🏆";
+"Achievements" = "Achievements";
+"Hover a badge to see how to unlock it" = "Hover a badge to see how to unlock it";
+"Add a project folder to give it its own pet." = "Add a project folder to give it its own pet.";
+"Add project…" = "Add project…";
+"Agents" = "Agents";
+"Animate pets" = "Animate pets";
+"Animation speed" = "Animation speed";
+"Default pet" = "Default pet";
+"Hide idle project pets" = "Hide idle project pets";
+"Level up" = "Level up";
+"Sleepy" = "Sleepy";
+"Model" = "Model";
+"No pets installed" = "No pets installed";
+"No project pets yet." = "No project pets yet.";
+"Project pets" = "Project pets";
+"Remind me to take breaks" = "Remind me to take breaks";
+"Show a configured project's pet only while it's working; hide it when idle." = "Show a configured project's pet only while it's working; hide it when idle.";
+"Spawn one pet per active project instead of one shared pet." = "Spawn one pet per active project instead of one shared pet.";
+"Split pet" = "Split pet";
+"Sprite frame rate. Idle is always capped at 2 fps." = "Sprite frame rate. Idle is always capped at 2 fps.";
+"The home pet nudges you to rest after a work stretch." = "The home pet nudges you to rest after a work stretch.";
+"Turn off to freeze pet/bubble animation (lower CPU)." = "Turn off to freeze pet/bubble animation (lower CPU).";
+"missing" = "missing";
+
+"Allow" = "Allow";
+"Deny" = "Deny";
+"Click to open this terminal" = "Click to open this terminal";
+"Bash approval gate" = "Bash approval gate";
+"Approve Bash from the bubble" = "Approve Bash from the bubble";
+"Claude Code Bash requests show Allow/Deny in the bubble instead of the terminal." = "Claude Code Bash requests show Allow/Deny in the bubble instead of the terminal.";
+
+"%d%% remaining" = "%d%% remaining";
+"5-hour" = "5h";
+"Weekly" = "Weekly";
+"%d-minute window" = "%d min";
+"Primary quota" = "Primary";
+"Secondary quota" = "Secondary";
+"Unavailable" = "Unavailable";
+
+/* Read result retention */
+"Read result retention" = "Read result retention";
+"Hide immediately" = "Hide immediately";
+"5 seconds" = "5 seconds";
+"15 seconds" = "15 seconds";
+"30 seconds" = "30 seconds";
+"1 minute" = "1 minute";
+"Keep visible" = "Keep visible";
+"After you open a success or failure notification, hide it after this delay. Running, waiting and unread notifications stay visible." = "After you open a success or failure notification, hide it after this delay. Running, waiting and unread notifications stay visible.";
+
+/* Codex low quota reminder switch */
+"Codex low quota reminder" = "Codex low quota reminder";
+"When your five-hour quota falls below 10%, show an animation and message once per reset window." = "When your five-hour quota falls below 10%, show an animation and message once per reset window.";
+
+/* Unified pet speech */
+"Pet bubble" = "Pet bubble";
+"Show Codex progress above your pet. When five-hour quota falls below 10%, remind you once with an animation and message." = "Show Codex progress above your pet. When five-hour quota falls below 10%, remind you once with an animation and message.";
+
+/* Shared task and pet bubble background opacity */
+"Bubble background opacity" = "Bubble background opacity";
+"Lower values reveal content behind both bubbles. Text and icons stay readable; 0% hides the background without blurring." = "Lower values reveal content behind both bubbles. Text and icons stay readable; 0% hides the background without blurring.";
+
+"3 seconds" = "3 seconds";
+
+"Hide AgentPet Lite menu bar icon" = "Hide AgentPet Lite menu bar icon";
+
+"Clear ended tasks" = "Clear ended tasks";
+
+"You can show the icon again here or open Settings from the pet's Status panel." = "You can show the icon again here or open Settings from the pet's Status panel.";
+
+"Pomodoro" = "Pomodoro";
+
+"Focus" = "Focus";
+
+"Break" = "Break";
+
+"min" = "min";
+
+"Focus minutes" = "Focus minutes";
+
+"Break minutes" = "Break minutes";
+
+"Pause" = "Pause";
+
+"Resume" = "Resume";
+
+"End" = "End";
+
+"Start focus" = "Start focus";
+
+"Start break" = "Start break";
+
+"Phase finished" = "Phase finished";
+
+"Focus finished. Start a break in Status." = "Focus finished. Start a break in Status.";
+
+"Break finished. Start your next focus in Status." = "Break finished. Start your next focus in Status.";
+
+/* System notices: shared Pet bubble control */
+"Show Agent messages, Pomodoro alerts, and Codex low-quota and recovery reminders above your pet." = "Show Agent messages, Pomodoro alerts, and Codex low-quota and recovery reminders above your pet.";
+
+/* Lightweight system notice text */
+"Codex quota: " = "Codex quota: ";
+"Codex restored: " = "Codex restored: ";
+"Pomodoro: " = "Pomodoro: ";
+"Timer: " = "Timer: ";
+"Codex: " = "Codex: ";
+"5h quota: %d%% left" = "5h quota: %d%% left";
+"5h quota restored, %d%% left" = "5h quota restored, %d%% left";
+"Quota restored, %d%% left" = "Quota restored, %d%% left";
+"%d min focus done, break %d min" = "%d min focus done, break %d min";
+"%d min break done, ready to focus" = "%d min break done, ready to focus";
+"Focus done, break %d min" = "Focus done, break %d min";
+"Break done, ready to focus" = "Break done, ready to focus";
+
+/* Settings UI .74 */
+"Application appearance" = "Application appearance";
+"Animation effects" = "Animation effects";
+"Pet motion and related bubble/clock effects. Tasks, alerts and countdowns continue when off." = "Pet motion and related bubble/clock effects. Tasks, alerts and countdowns continue when off.";
+"Sprite animation speed" = "Sprite animation speed";
+"Sprite clips only; idle is capped at 2 fps. Videos play at their original speed." = "Sprite clips only; idle is capped at 2 fps. Videos play at their original speed.";
+"Bubble font size" = "Bubble font size";
+"Bubble text opacity" = "Bubble text opacity";
+"Text opacity affects bubble text and Agent prefixes only. Icons, status lights and progress bars keep their colors." = "Text opacity affects bubble text and Agent prefixes only. Icons, status lights and progress bars keep their colors.";
+"Task bubble" = "Task bubble";
+"Task bubble click-through" = "Task bubble click-through";
+"Double-click the pet to toggle. While a task needs approval or attention, the bubble stays clickable." = "Double-click the pet to toggle. While a task needs approval or attention, the bubble stays clickable.";
+"Bubble click-through: " = "Bubble click-through: ";
+"Click-through: " = "Click-through: ";
+"On" = "On";
+"Off" = "Off";
+"Could not enable. Handle waiting tasks first" = "Could not enable. Handle waiting tasks first";
+"Task bubble click-through is on" = "Task bubble click-through is on";
+"Task bubble click-through is on but paused while a task needs attention" = "Task bubble click-through is on but paused while a task needs attention";
+"Tasks are always on. Running, waiting and unread tasks remain visible." = "Tasks are always on. Running, waiting and unread tasks remain visible.";
+"Agent messages" = "Agent messages";
+"Message display duration" = "Message display duration";
+"%d seconds" = "%d seconds";
+"1 second" = "1 second";
+"10 seconds" = "10 seconds";
+"Public replies are always on: up to 6 messages, 20 characters each. A full feed moves the oldest message out early." = "Public replies are always on: up to 6 messages, 20 characters each. A full feed moves the oldest message out early.";
+"Show Superchat" = "Show Superchat";
+"Quota notices show for 8 seconds. Pomodoro alerts stay until confirmation or the next phase. Turning this off keeps Agent messages and the timer running." = "Quota notices show for 8 seconds. Pomodoro alerts stay until confirmation or the next phase. Turning this off keeps Agent messages and the timer running.";
+"Pet idle chatter" = "Pet idle chatter";
+"Idle chatter is hidden. Enable it in General / Pet display." = "Idle chatter is hidden. Enable it in General / Pet display.";
+"Message source" = "Message source";
+"Built-in" = "Built-in";
+"One phrase per line, used only while idle." = "One phrase per line, used only while idle.";
+"Add at least one non-empty phrase." = "Add at least one non-empty phrase.";
+"Speech style" = "Speech style";
+"15 local phrases per style; no model requests. Tasks, Agent replies and Superchat take priority." = "15 local phrases per style; no model requests. Tasks, Agent replies and Superchat take priority.";
+"Tsundere protector" = "Tsundere protector";
+"Lazy comfort" = "Lazy comfort";
+"Geek partner" = "Geek partner";
+"Next phrase" = "Next phrase";
+"Advanced filters" = "Advanced filters";
+"Visible sources affect task rows and public replies; they do not stop session tracking." = "Visible sources affect task rows and public replies; they do not stop session tracking.";
+"Claude Code advanced" = "Claude Code advanced";
+"Pet display" = "Pet display";
+"Menu bar" = "Menu bar";
+"Show pet" = "Show pet";
+"Show chat on menu bar" = "Show chat on menu bar";
+"Apply" = "Apply";
+"One phrase per line. Apply to use it only while idle." = "One phrase per line. Apply to use it only while idle.";
+"Sample tasks" = "Sample tasks";
+"Add sample task" = "Add sample task";
+"No sample tasks yet. Add one on the right." = "No sample tasks yet. Add one on the right.";
+"Remove sample task" = "Remove sample task";
+
+"Installed" = "Installed";
+
+"Not installed" = "Not installed";
+
+"Managed by DSH" = "Managed by DSH";
+
+"Background opacity" = "Background opacity";
+
+"Text opacity" = "Text opacity";
+
+"Random chatter every 20 seconds; 15 local phrases per style. Tasks, Agent replies and Superchat take priority." = "Random chatter every 20 seconds; 15 local phrases per style. Tasks, Agent replies and Superchat take priority.";
+
+/* Maintenance edition attribution */
+
+/* Lite project information */
+"A local desktop companion for your coding agents." = "A local desktop companion for your coding agents.";
+"Licenses" = "Licenses";
+"Source code" = "Source code";
+"View bundled licenses" = "View bundled licenses";
+"Third-party assets have their own licenses. The source code license does not cover all artwork." = "Third-party assets have their own licenses. The source code license does not cover all artwork.";
+"Acknowledgements" = "Acknowledgements";
+"Whale girl animations · PC2005-cloud/dsh-pet" = "Whale girl animations · PC2005-cloud/dsh-pet";
+"The whale girl animation assets are for non-commercial use. Keep the original project link when presenting or distributing derivatives." = "The whale girl animation assets are for non-commercial use. Keep the original project link when presenting or distributing derivatives.";
+
+"Task and bubble preview" = "Task and bubble preview";
+
+"Hide task and bubble preview" = "Hide task and bubble preview";
+
+"Use sample tasks to preview the pet and task bubble. This does not test Agent connections." = "Use sample tasks to preview the pet and task bubble. This does not test Agent connections.";
+
+"Completed" = "Completed";
+
+"Failed" = "Failed";
+
+"Stopped" = "Stopped";
+
+"Sample task %d" = "Sample task %d";
+
+"Working on the sample task" = "Working on the sample task";
+
+"Sample reply: the requested change is ready for review." = "Sample reply: the requested change is ready for review.";
+
+"Clicking a preview task marks only that sample as read. No Agent app is opened." = "Clicking a preview task marks only that sample as read. No Agent app is opened.";
+
+"Mark sample task as read" = "Mark sample task as read";
+
+"Show sample Agent reply" = "Show sample Agent reply";
+
+"Idle" = "Idle";
+
+
+"Celebrate" = "Celebrate";
+
+// Optional bundled DSH bridge
+"How to connect DSH" = "How to connect DSH";
+
+/* Animation management */
+"Select animations to remove" = "Select animations to remove";
+"Remove selected animations" = "Remove selected animations";
+"Remove animations?" = "Remove animations?";
+"Remove %ld animation(s) from “%@”? Other groups and original source files are kept." = "Remove %ld animation(s) from “%@”? Other groups and original source files are kept.";
+"Select animations to remove." = "Select animations to remove.";
+"The animation group changed. Review your selection and try again." = "The animation group changed. Review your selection and try again.";
+"Each group must keep at least one valid native animation from this pet. Imported animations do not replace this protection." = "Each group must keep at least one valid native animation from this pet. Imported animations do not replace this protection.";
+"Animation library exceeds the size limit." = "Animation library exceeds the size limit.";
+"Animation removed, but unused managed files could not be cleaned up:" = "Animation removed, but unused managed files could not be cleaned up:";
+"This pet is busy. Try again when the current operation finishes." = "This pet is busy. Try again when the current operation finishes.";
+"The pet has no valid native fallback. Repair its pack before removing animations." = "The pet has no valid native fallback. Repair its pack before removing animations.";
+"Marked for removal" = "Marked for removal";
+"Not marked for removal" = "Not marked for removal";
+"Pet assignment" = "Pet assignment";
+"Different pets come with different animations. When a purpose has no dedicated animation, this pet’s default animation is used. You can adjust or import animations in Animations." = "Different pets come with different animations. When a purpose has no dedicated animation, this pet’s default animation is used. You can adjust or import animations in Animations.";
+"Gallery pets may not include dedicated animations for all 9 purposes and can still be used normally. After adding one, select its existing animations or import your own in Animations." = "Gallery pets may not include dedicated animations for all 9 purposes and can still be used normally. After adding one, select its existing animations or import your own in Animations.";
+"Dismiss animation hint" = "Dismiss animation hint";
+
+"Animation Remove" = "Remove";
+
+"Import successful · %ld" = "Import successful · %ld";
+
+// Local agent interface connection tests
+"Integration details" = "Integration details";
+"Checking configuration" = "Checking configuration…";
+"Test again" = "Test again";
+"connection.testing" = "Connecting to the local interface…";
+"connection.connected" = "Local interface connected";
+"connection.cancelled" = "Test cancelled; temporary interface stopped.";
+"connection.timeout" = "Connection timed out. The temporary interface was stopped. Check the CLI installation, then retry.";
+"connection.missingCLI" = "CLI not found. Install this client and make its executable available on PATH.";
+"connection.startFailed" = "Could not start the temporary interface. Check the CLI installation and temporary-directory permissions.";
+"connection.unreachable" = "No valid response from this interface. Check that the installed CLI supports the documented protocol, then retry.";
+"connection.invalidResponse" = "The interface returned an invalid response. Check the client version.";
+"connection.rejected" = "The interface rejected the handshake. Check protocol compatibility in the client documentation.";
+"connection.authentication" = "The interface requires authentication. Use the client’s normal sign-in flow. Test does not copy credentials or change permissions.";
+"connection.versionUnsupported" = "This OpenCode version is unsupported. Use V1 ≥1.18.34 or V2 ≥2.0.29, then retry.";
+"connection.outputLimit" = "Interface output exceeded the limit. The temporary process was stopped.";
+"connection.agyUnsupported" = "This agy CLI has no verified public local handshake without running a prompt. No connection success is claimed. Use normal client activity to verify hooks.";
+"connection.unmaintained" = "This compatibility entry is not maintained for new connection tests. No client process was started.";
+"connection.scope" = "Tests only this temporary local interface. It does not verify model access, hooks, bubbles, task lifecycle or navigation; configuration state is unchanged.";
+"connection.scope.codex" = "Codex: isolated app-server stdio initialize → initialized; no thread or turn. No provider sign-in is needed for this handshake.";
+"connection.scope.opencode" = "OpenCode: V2 uses api --standalone GET /api/info with native private-server authentication; V1 uses ACP initialize. No shared service or session is opened.";
+"connection.scope.pi" = "Pi: offline RPC get_state, no saved session, tools, MCP or extensions. Provider credentials are not tested.";
+"connection.scope.dsh" = "Read-only check of your everyday DSH desktop integration. Does not install plugins, start model conversations, change configuration, navigate or mark messages read.";
+"connection.scope.antigravity" = "No prompt or Remote Control daemon is started by this test.";
+"connection.scope.claude" = "Existing install and removal remain available within the compatibility policy.";
+"integration.install" = "Install registers only AgentPet Lite. Remove deletes only recognized AgentPet Lite registrations, preserving the client, shared configuration and user data.";
+"integration.stale" = "An older AgentPet Lite registration needs updating. “Configured” means a registration exists. Safely Remove, then Install; ownership checks and backups still apply. Resolve conflicts before retrying.";
+"integration.codex" = "Review and trust this app’s hooks in Codex /hooks. The app does not grant trust or change shared policies.";
+"integration.opencode.install" = "Install only registers the AgentPet Lite plugin; Remove only unregisters it. The OpenCode client, shared configuration and existing history are preserved.";
+"integration.opencode" = "The plugin adapts automatically to your version. For v1, restart the client. Exact session navigation in v2 requires version 2.2.2 or later and a loaded TUI plugin.";
+"integration.opencode.reload" = "After changes, restart the client and check the pet’s bubbles and interactions during real use (Test checks connectivity only and cannot replace real-use verification).";
+"integration.agy" = "This entry registers agy hooks only; it does not change permissions or register a permission gate.";
+"integration.pi" = "Pi requires agent_settled (≥0.80.4; baseline 1.3.0). Install registers the extension; custom PI_CODING_AGENT_DIR needs manual management.";
+"integration.reload" = "After changing registration, reopen the actual client. Verify normal hooks and bubbles through normal client activity. Test does not replace that verification.";
+"integration.compatibility" = "Compatibility entry only; no new adaptation, version fixes or dedicated acceptance.";
+"操作已完成。接入说明见对应的ⓘ。" = "Operation completed. See the corresponding ⓘ for integration details.";
+"已配置" = "Configured";
+"未配置" = "Not configured";
+"connection.status.connected" = "Local interface connected";
+"connection.status.failed" = "Connection failed";
+"connection.status.timedOut" = "Connection timed out";
+"connection.status.cancelled" = "Test cancelled";
+"connection.status.unsupported" = "Connection test unsupported";
+"integration.checkFailed" = "The current configuration check failed. Any status shown is the last known result; configuration actions are blocked until a successful refresh.";
+
+"Drag to select a region. Shift-click selects a range; Shift-drag adds to the selection." = "Drag to select a region. Shift-click selects a range; Shift-drag adds to the selection.";
+
+// DSH beginner connection guide
+"dsh.guide.title" = "Connect DSH to AgentPet Lite";
+"dsh.guide.intro" = "Install the independently released @agentpet-lite/dsh-bridge in DSH to display tasks and public replies in AgentPet Lite. Compatible plugin updates do not require an AgentPet Lite update.";
+"dsh.guide.configured" = "Plugin registration found. Use Test to verify its live protocol and connection.";
+"dsh.guide.prepare.title" = "Launch and initialize DSH";
+"dsh.guide.prepare" = "Install the official DeepSeek Harness desktop app (0.2.1-rc.2 or newer). For a first installation, open it once to complete basic setup and local initialization. Existing users can skip this step.";
+"dsh.guide.quit.title" = "Quit DSH completely";
+"dsh.guide.quit" = "Choose Quit in the menu bar or press ⌘Q to quit completely. Closing only the window leaves the app running in the background. Make sure DSH is fully closed before installing the plugin.";
+"dsh.guide.install.title" = "Install in DSH";
+"dsh.guide.install" = "In DSH, open Plugins → Add plugin. Use a published npm package version, or the prebuilt .tgz from the plugin release. AgentPet does not bundle or install the plugin.";
+"dsh.guide.verify.title" = "Restart DSH and start using it";
+"dsh.guide.verify" = "After configuration, the card shows Configured. Reopen DSH and start a conversation normally; your desktop pet will respond and display bubbles automatically.";
+"dsh.guide.test" = "Test checks the live protocol, event connection and capabilities without model requests, navigation or read receipts. Plugin installation and removal are managed in DSH.";
+"dsh.guide.advanced" = "Advanced: folders and manual installation";
+"dsh.guide.location" = "Keep the default data folder unless you use a custom DSH setup.";
+"dsh.guide.manual" = "Use the independently released npm package or .tgz in DSH’s plugin manager. An npm package must be published before installing it by name; unpublished candidates use a local .tgz.";
+"更改数据目录…" = "Change data folder…";
+"显示插件包" = "Show plugin package";
+
+// DSH desktop readiness check (no ACP)
+"dsh.test.testing" = "Checking the DSH environment and waiting for a real bridge signal (up to 17 seconds)…";
+"dsh.test.desktopRequired" = "Check the actual DSH integration in the desktop app.";
+"dsh.test.status.readyToInstall" = "Environment ready to install the plugin";
+"dsh.test.next.readyToInstall" = "Install @agentpet-lite/dsh-bridge through DSH’s plugin manager, then Test again. AgentPet does not install it.";
+"dsh.test.status.startRequired" = "Plugin configured; DSH was not detected running";
+"dsh.test.next.startRequired" = "Open the selected DSH desktop app and Test again. Restart DSH after installing the plugin so it can load.";
+"dsh.test.status.repairRequired" = "Plugin configuration needs attention";
+"dsh.test.next.repairRequired" = "Review the details in DSH’s plugin manager. Compatible plugin versions do not have to match AgentPet’s version.";
+"dsh.test.status.connected" = "DSH bridge communication confirmed";
+"dsh.test.next.connected" = "The selected DSH instance has a verified compatible bridge connection. Verify bubbles, interactions and navigation during normal use.";
+"dsh.test.status.unconfirmed" = "Environment checked; communication unconfirmed";
+"dsh.test.next.unconfirmed" = "No verifiable bridge signal arrived before the wait ended. An idle DSH or a Profile with no sessions can also cause this; it is not proof of a fault. Restart after installation, check the data directory in ⓘ, and Test during your next normal use. No extra test conversation is needed.";
+"dsh.test.status.failed" = "DSH environment is not ready";
+"dsh.test.next.failed" = "Check the selected official DSH app and data directory, then Test again. Host SDK compatibility is managed by the plugin.";
+"dsh.test.status.cancelled" = "Check cancelled";
+"dsh.test.next.cancelled" = "The check has stopped. No temporary DSH, plugin installation or session change was made.";
+"dsh.test.check.application" = "Selected official DSH desktop application";
+"dsh.test.check.profile" = "Selected DSH data directory";
+"dsh.test.check.plugin" = "DSH plugin registration (diagnostic only)";
+"dsh.test.check.running" = "DSH desktop app is running";
+"dsh.test.check.running.failed" = "DSH desktop app was not detected running";
+"dsh.test.check.communication" = "Verified live bridge and event connection";
+
+"dsh.test.status.endpointUnavailable" = "Bridge reported; endpoint not confirmed";
+"dsh.test.next.endpointUnavailable" = "A matching Profile reported during this test, but the bridge endpoint could not be connected to or verified as belonging to the selected DSH app. Check the selected app and data directory in ⓘ, restart DSH if appropriate, then Test again. Test does not change socket permissions.";
+
+// Animation groups and shipped names (display only)
+"pet.animation.group.idle" = "Idle";
+"pet.animation.group.working" = "Work";
+"pet.animation.group.waiting" = "Wait";
+"pet.animation.group.success" = "Done";
+"pet.animation.group.failure" = "Failed";
+"pet.animation.group.quota" = "Low credit";
+"pet.animation.group.levelup" = "Level up";
+"pet.animation.group.tap" = "Click";
+"pet.animation.group.drag" = "Drag";
+"pet.animation.purpose" = "Purpose";
+"pet.animation.selectionHelp" = "Select one animation to always play it, or several to pick one at random on each trigger. Hover to preview.";
+"pet.animation.importing" = "Checking and importing animations…";
+"pet.animation.dropHelp" = "Drop MOV files into this group, or right-click empty space and choose Add.";
+"pet.animation.importSummary" = "Imported %ld animation(s) into “%@”.";
+"pet.animation.selected" = "Selected";
+"pet.animation.notSelected" = "Not selected";
+"pet.animation.sprite" = "Sprite clip %ld";
+"pet.animation.deepseek.dsh:悠闲哼歌" = "Humming";
+"pet.animation.deepseek.dsh:三球抛接" = "Juggling";
+"pet.animation.deepseek.dsh:优雅女仆舞" = "Maid dance";
+"pet.animation.deepseek.dsh:是啊，吃什么" = "What to eat?";
+"pet.animation.deepseek.dsh:玩游戏气急败坏" = "Gaming frustration";
+"pet.animation.deepseek.dsh:原地小憩沉眠" = "Napping";
+"pet.animation.deepseek.dsh:吃白饭" = "Eating rice";
+"pet.animation.deepseek.dsh:哈欠连天" = "Yawning";
+"pet.animation.deepseek.dsh:超大伸懒腰" = "Big stretch";
+"pet.animation.deepseek.dsh:写代码" = "Coding";
+"pet.animation.deepseek.dsh:工作状态-忙碌点按" = "Busy tapping";
+"pet.animation.deepseek.dsh:轻快记录" = "Taking notes";
+"pet.animation.deepseek.dsh:吃Token" = "Eating tokens";
+"pet.animation.deepseek.dsh:东张西望" = "Looking around";
+"pet.animation.deepseek.dsh:工作状态-原地踱步张望" = "Pacing";
+"pet.animation.deepseek.dsh:工作状态-思考冒泡" = "Thinking";
+"pet.animation.deepseek.dsh:用鲸鱼尾巴拍打地面" = "Tail tapping";
+"pet.animation.deepseek.dsh:工作状态-雀跃庆祝" = "Celebrating";
+"pet.animation.deepseek.dsh:点击回应-元气挥手" = "Waving";
+"pet.animation.deepseek.dsh:点击回应-开心跃动" = "Happy hop";
+"pet.animation.deepseek.dsh:轻快摇摆舞" = "Swaying dance";
+"pet.animation.deepseek.dsh:可爱宅舞" = "Cute dance";
+"pet.animation.deepseek.dsh:工作状态-垂头叹气冒汗" = "Sighing";
+"pet.animation.deepseek.dsh:点击回应-傲娇生气" = "Pouting";
+"pet.animation.deepseek.dsh:余额-分文不剩" = "No money left";
+"pet.animation.deepseek.dsh:余额-袋空如洗" = "Empty pockets";
+"pet.animation.deepseek.dsh:拆礼物" = "Opening a gift";
+"pet.animation.deepseek.dsh:整体换装试色" = "Trying outfits";
+"pet.animation.deepseek.dsh:原地跳跃抓碎头顶物品" = "Jump and smash";
+"pet.animation.deepseek.dsh:点击回应-害羞惊讶" = "Shy surprise";
+"pet.animation.deepseek.dsh:点击回应-挠痒咯咯笑" = "Ticklish giggle";
+"pet.animation.deepseek.dsh:打瞌睡被惊醒" = "Startled awake";
+"pet.animation.deepseek.dsh:被鼠标拖拽悬空反馈" = "Dangling";
+
+// Integration native dialogs and links
+"Codex Hooks 官方文档" = "Official Codex Hooks documentation";
+"OpenCode 版本迁移说明" = "OpenCode migration guide";
+"未找到 DSH 应用，请先安装并启动一次 DSH。" = "DSH was not found. Install it and open it once first.";
+"选择 DSH 数据目录" = "Choose the DSH data directory";
+"选择包含 profiles/desktop 的 DSH 数据目录。不会创建或初始化新 Profile。" = "Choose the DSH data directory containing profiles/desktop. This will not create or initialize a new Profile.";
+"确认 DSH 接入目标" = "Confirm the DSH integration target";
+"继续" = "Continue";
+"取消" = "Cancel";
+"已通过 DSH 插件管理器移除 AgentPet 接入。其他插件、会话和宠物数据保留。" = "Removed the AgentPet integration using DSH’s plugin manager. Other plugins, sessions and pet data are kept.";
+"已通过 DSH 插件管理器配置 AgentPet 接入。请重新打开 DSH 后使用。" = "Configured AgentPet using DSH’s plugin manager. Reopen DSH before using it.";
+"已移除全局 AgentPet 接入。请重开所用客户端，使内存中已加载的接入停止生效。客户端、其他插件、用户数据与恢复备份均保留。" = "Removed the global AgentPet integration. Reopen your client to unload it. The client, other plugins, user data and recovery backups are kept.";
+"已写入 Codex 接入。请在 Codex 的 /hooks 中审阅并信任 AgentPet 项，然后重开所用客户端。" = "Codex integration saved. Review and trust AgentPet in Codex /hooks, then reopen your client.";
+"已写入对应版本的 OpenCode 接入。V1 重开客户端；V2 请在当前任务结束后执行 opencode reload，再继续使用。" = "Saved the integration for your OpenCode version. V1: reopen the client. V2: run opencode reload after the current task ends.";
+"已写入接入，请重开所用客户端后使用。" = "Integration saved. Reopen your client before using it.";
+"dsh.target.confirmBody" = "Application: %@\nData directory: %@\nProfile: desktop\n\nConfirm this is the DSH data directory you normally use. Save your work and quit DSH completely first; AgentPet will not close it for you.";
+"dsh.package.notFound" = "Could not reveal the plugin package in Finder. Location: %@";
+"dsh.package.revealed" = "Plugin package and instructions: %@. Revealing files does not install the plugin.";
+"dsh.target.description" = "DSH: %@\nData directory: %@\nProfile: desktop";
+
+// Client integration notices
+"Codex 已关闭 hooks，请先在客户端配置中启用。" = "Codex hooks are disabled. Enable them in the client configuration first.";
+"安装或更新后，在 Codex 的 /hooks 中审阅并信任 AgentPet 项，再重开所用 Codex 客户端。此处不检测原生信任状态。" = "After installation or an update, review and trust AgentPet in Codex /hooks, then reopen Codex. Native trust status is not checked here.";
+"安装、更新或移除后，重开所用客户端，使接入变更生效。" = "Reopen your client after installation, an update or removal to apply the integration change.";
+"兼容入口，暂不维护或专项验收；变更后请重开客户端。" = "Compatibility entry only; no ongoing maintenance or dedicated acceptance testing. Reopen the client after changes.";
+
+// Integration configuration notes
+"现有 toolkit 包含 AgentPet bridge；请先在 DSH 拆分旧组合，避免重复加载。Lite 不会卸载其他 toolkit 功能。" = "The existing toolkit contains AgentPet bridge. Separate the old bundle in DSH first to avoid loading it twice. Lite will not remove other toolkit features.";
+"当前为旧名独立包 @acerz/dsh-agentpet-bridge。请完全退出 DSH，先 Remove，再 Install 新包 @agentpet-lite/dsh-bridge；其他 toolkit 功能和配置保留。" = "The old package @acerz/dsh-agentpet-bridge is registered. Quit DSH completely, Remove it, then Install @agentpet-lite/dsh-bridge. Other toolkit features and configuration are kept.";
+"已登记的 bridge 安装内容缺失或损坏；Update 可修复，也可 Remove。" = "The registered bridge package is missing or damaged. Quit DSH completely, then Remove and Install to repair it.";
+"bridge 文件缺失或已修改；Update 可修复，也可 Remove。" = "Bridge files are missing or modified. Quit DSH completely, then Remove and Install to repair them.";
+"Codex 已关闭 hooks。请先在 Codex 配置中启用 hooks，再安装接入；应用不会修改原生信任或管理策略。" = "Codex hooks are disabled. Enable hooks in Codex before installing the integration. AgentPet does not change native trust or management policies.";
+"接入写入后检查未通过，请刷新并检查配置。" = "The saved integration did not pass verification. Refresh and check the configuration.";
+"仍检测到 AgentPet 注册，请检查配置。" = "AgentPet registration is still present. Check the configuration.";
+"CODEX_HOME 必须为绝对路径，请先确认 CLI 与应用使用相同配置目录。" = "CODEX_HOME must be an absolute path. Confirm the CLI and app use the same configuration directory.";
+"检测到 OPENCODE_CONFIG_DIR 自定义目录。当前按钮仅管理标准全局目录，请人工确认接入位置。" = "A custom OPENCODE_CONFIG_DIR was found. These buttons manage only the standard global directory. Review the integration location manually.";
+"OPENCODE_CONFIG_CONTENT 中存在 AgentPet 引用，请先人工确认，避免重复接入。" = "OPENCODE_CONFIG_CONTENT references AgentPet. Review it manually first to avoid duplicate integrations.";
+"agy 的 agentpet 组已禁用，请先人工确认该组配置。" = "The agy agentpet group is disabled. Review its configuration first.";
+"无法识别或暂不支持该 OpenCode 版本。请使用 OpenCode V1（≥1.18.34）或 V2（≥2.0.29）后重试。" = "This OpenCode version is unrecognized or unsupported. Use V1 ≥1.18.34 or V2 ≥2.0.29 and retry.";
+"该 OpenCode 版本过旧。接入需要 V1 ≥1.18.34 或 V2 ≥2.0.29。" = "This OpenCode version is too old. Integration requires V1 ≥1.18.34 or V2 ≥2.0.29.";
+"未找到本机 OpenCode CLI，无法选择 V1/V2 插件。请先安装 OpenCode，再 Refresh。" = "OpenCode CLI was not found, so the V1/V2 plugin cannot be selected. Install OpenCode, then Refresh.";
+"无法创建 OpenCode 版本检测的临时文件。" = "Could not create temporary files for the OpenCode version check.";
+"无法运行 OpenCode --version，请检查本机 CLI。" = "Could not run OpenCode --version. Check the local CLI.";
+"OpenCode 版本检测超时，未安装接入。" = "OpenCode version check timed out. Integration was not installed.";
+"OpenCode --version 执行失败，未安装接入。" = "OpenCode --version failed. Integration was not installed.";
+
+/* Agent Orchestrator experimental source */
+"ao.experiment.badge" = "Experimental";
+"ao.experiment.details" = "Agent Orchestrator experiment details";
+"ao.experiment.toggle" = "Show Agent Orchestrator experimental tasks";
+"ao.experiment.scope" = "Groups AO sessions into one bubble per project and keeps completed unread results visible. Project clicks open the existing orchestrator or project board; standalone agents open their exact session.";
+"ao.experiment.unavailable" = "This version includes the help entry only. The experiment is unavailable and remains off.";
+"ao.experiment.permission" = "Navigation uses AO’s native external entry and does not require macOS Accessibility. Install an AO build that supports navigation v1; the official v0.14.6 build does not include this experimental entry.";
+"ao.experiment.step.1" = "Use an AO build with the external navigation v1 patch and keep it running.";
+"ao.experiment.step.2" = "Open the target project in AO and confirm its board and existing orchestrator are accessible.";
+"ao.experiment.step.3" = "In the experimental %@ build, enable Agent Orchestrator under Advanced filters. This source is off by default.";
+"ao.experiment.step.4" = "Click the project task bubble: open the existing orchestrator first, otherwise the same project’s board. An unsupported build or an unconfirmed page reports failure.";
+"ao.experiment.safety" = "Only a confirmed exact native-session page marks the clicked result read. Opening a project board does not mark other members read or approve requests. Disabling the source hides presentation and retains tracked records.";
+"ao.experiment.disabled" = "AO experimental display is off; navigation was not started.";
+
+/* Source maintenance status */
+"source.tag.maintenanceEnded" = "Maintenance ended";
+"source.tag.unmaintained" = "Unmaintained";
+
+"ao.navigation.stale" = "The AO connection changed or expired. Refresh the project observation and retry; unread state is unchanged.";
+
+"ao.navigation.unsupported" = "This AO instance has no current native navigation v1 entry. Use a supported AO build; macOS Accessibility is not required.";
+
+"ao.navigation.unconfirmed" = "AO did not confirm the requested page in the foreground. Retry in the supported AO build; unread state is unchanged.";
+
+"等待状态更新" = "Waiting for status update";
+"dsh.manage.button" = "Manage";
+"dsh.manage.notice" = "In DSH, open Plugins → Add plugin to install or update @agentpet-lite/dsh-bridge. AgentPet does not install or replace this independently released plugin.";
+"dsh.test.status.incompatible" = "Bridge protocol is incompatible";
+"dsh.test.next.incompatible" = "Install a bridge supporting AgentPet protocol v1 in DSH. Plugin release versions may differ from AgentPet.";
+"dsh.test.status.limited" = "Bridge connected with limited capabilities";
+"dsh.test.next.limited" = "Lifecycle communication works, but a desktop client or an interaction/navigation capability is unavailable. Check DSH’s client and plugin status.";
+"dsh.test.check.protocol" = "Compatible bridge protocol";
+"dsh.test.check.pending" = "Human interaction capability and unique client";
+"dsh.test.check.navigation" = "Precise navigation capability and unique client";
+"dsh.test.check.speech" = "Public reply preview capability";
+"dsh.health.ambiguous" = "Multiple bridge instances reported the same Profile; no instance was selected.";
+
+/* AO native results retain their unread indicator while the host is idle. */
+"回合已完成，未读" = "Turn completed, unread";
+"回合结果未知，未读" = "Turn result unknown, unread";
+
+"ao.project.unread.button" = "Unread %d";
+"ao.project.unread.hint" = "Open the next unread session; confirmation marks only that session read";
+"ao.project.unread.unavailable" = "Unread results remain; their exact session association is not currently confirmed";
+
+"source.tag.unsupported" = "Unsupported";
+
+/* Daily recorded Token usage */
+"usage.title" = "Token usage";
+"usage.about" = "Usage notes";
+"usage.today" = "Today";
+"usage.window" = "30 days";
+"usage.last30Days" = "Last 30 days";
+"usage.chart" = "Daily stacked Token usage";
+"usage.notStarted" = "Not started";
+"usage.partial" = "Partial coverage";
+"usage.unknown" = "Coverage unknown";
+"usage.recorded" = "Recorded";
+"usage.configure" = "Usage settings";
+"usage.checking" = "Reading usage";
+"usage.tokens" = "tokens";
+"usage.input" = "Input";
+"usage.cacheRead" = "Cache read";
+"usage.cacheWrite" = "Cache write";
+"usage.output" = "Output";
+"usage.dayHint" = "Hover for daily details; click to pin. Arrow keys change the date.";
+"usage.collecting" = "Enabled";
+"usage.startDate" = "Recording since %@";
+"usage.countingScope" = "Input, cache reads/writes and output (including reasoning)";
+"usage.collectionScope" = "Record from integration; Remove hides usage but keeps records";
+"usage.startScope" = "Recording follows the Agent integration automatically and keeps its start across restarts. Earlier history and test data are excluded. Remove stops collection; reinstall does not backfill the removed interval.";
+"usage.coverageScope" = "Dates use the current local time zone. Missing or unreadable records are not treated as zero. Partial or unknown coverage remains marked.";
+"integration.agy.scope" = "This integration is for Antigravity CLI (agy), not the Antigravity desktop app. agy inside DSH/TUI is managed through DSH integration.";
+"usage.error.storage" = "Usage storage is unavailable.";
+"usage.error.unavailable" = "Usage records are unavailable or unreadable.";
+"usage.error.unsupported" = "Some native record formats are unsupported.";
+"usage.error.corrupt" = "Some records are damaged; coverage is incomplete.";
+"usage.error.limit" = "Reading reached a safety limit; coverage is incomplete.";
+"usage.error.invalid" = "Some usage metadata could not be validated.";
+"usage.error.partial" = "Records are still being written; awaiting the next read.";
+"usage.error.legacyFork" = "Legacy OpenCode fork deduplication is not fully verified.";
+"usage.error.totalMismatch" = "A native total differs from its reported buckets; using the bucket sum.";
+"usage.issue.changedTime" = "Some usage metadata could not be validated.";
+"usage.issue.conflictingRevision" = "Some usage metadata could not be validated.";
+"usage.issue.invalidRecord" = "Some usage metadata could not be validated.";
+"usage.issue.missingFiles" = "Usage records are unavailable or unreadable.";
+"usage.autoRefresh" = "(60s refresh)";
+"usage.dataScope" = "Locally reported data only; not an official bill";
+"usage.dshScope" = "Shared directory and engine TUI; no independent backends";
+"usage.agyScope" = "DSH engine calls only; no standalone CLI";
+"usage.label.tokens" = "Tokens:";
+"usage.label.data" = "Data:";
+"usage.label.integration" = "Agent:";
+"usage.label.dsh" = "DSH:";
+"usage.label.agy" = "agy:";
+
+"usage.dayDetail" = "Usage details";
+
+"usage.beforeStartDay" = "Recording had not started for this day. Earlier history is excluded.";
+
+"usage.missingDay" = "No confirmed records are available. Missing data is not zero usage.";
+
+"usage.partialDay" = "Includes recorded periods only.";
+
+"usage.zeroDay" = "Coverage is complete; this day’s usage is confirmed as 0.";
+
+/* OpenCode session navigation capability */
+"navigation.opencode.unsupported" = "OpenCode V2 navigation requires ≥2.2.2 and the TUI plugin. Update the integration, reload after work finishes, and reopen the TUI.";
+"navigation.opencode.failed" = "OpenCode session navigation did not succeed; switch sessions in the original client.";
+
+"navigation.opencode.hint" = "Open the matching OpenCode session (V2 navigation requires ≥2.2.2 and a loaded TUI plugin).";
+
+"navigation.opencode.unavailable" = "This session is not associated with an active TUI. Open it in the original client first.";
+
+"navigation.opencode.ambiguous" = "Multiple TUI instances hold this session. Switch manually in the original client.";
+
+/* Status HUD */
+"status.lastFed" = "Fed %@";
+"status.quotaTitle" = "Codex quota";
+"status.todayUsage" = "Today";
+"status.windowUsage" = "%d-day total";
+"status.rangeDays" = "%dd";
+"status.quotaLoading" = "Reading quota…";
+"status.quotaStale" = "Last quota · refresh pending";
+"status.quotaBarMeaning" = "Bars show remaining available quota.";
+
+/* Saved AO attention reminders are independent of current session status. */
+"ao.attention.title" = "AO reminder · %@";
+"ao.attention.previousInput" = "Previously waiting for input";
+"ao.attention.previousAttention" = "Previously needed attention";
+"ao.attention.historyHint" = "This is a saved waiting reminder, not the current session status. See the task status above.";
+"ao.attention.acknowledge" = "Dismiss";
+"ao.attention.acknowledgeHint" = "Dismiss only this reminder. This does not approve an action or mark session replies as read.";

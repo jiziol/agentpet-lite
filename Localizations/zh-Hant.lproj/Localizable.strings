@@ -1,0 +1,933 @@
+/* AgentPet , 正體中文 */
+
+/* Tabs */
+"General" = "通用";
+"Pet" = "寵物";
+"Bubble" = "氣泡";
+"About" = "關於";
+
+/* General / common */
+"Launch" = "啟動";
+"Launch at login" = "登入時啟動";
+"AgentPet Lite starts automatically when you sign in." = "登入時自動啟動 AgentPet Lite。";
+"Notifications" = "通知";
+"Show chat bubble" = "顯示聊天氣泡";
+"Messages" = "訊息";
+"System" = "系統";
+"Custom" = "自定義";
+"One message per line; a random one is shown." = "每行一句；隨機顯示其中一句。";
+"Reset to defaults" = "恢復預設";
+"Reset to default" = "恢復預設";
+"Sounds" = "聲音";
+"Agent integrations" = "Agent 整合";
+"Hook installed" = "已安裝 Hook";
+"Coming soon" = "即將推出";
+"Enable" = "啟用";
+"Open Settings" = "開啟設定";
+"Quit AgentPet Lite" = "退出 AgentPet Lite";
+"Upload…" = "上傳…";
+"Default" = "預設";
+"Working" = "工作中";
+"Waiting" = "等待中";
+"Done" = "完成";
+/* Bubble tab */
+"Bubble mode" = "氣泡模式";
+"Multi-agent bubble" = "多 Agent 氣泡";
+"Structured rows with icons, state dots, and activity messages." = "帶圖示、狀態點和活動訊息的結構化行。";
+"Appearance" = "外觀";
+"Theme" = "主題";
+"Font size" = "字號";
+"Opacity" = "不透明度";
+"Show idle message" = "顯示空閒訊息";
+"The pet's chatter while no agent is running." = "沒有 Agent 執行時寵物的碎碎念。";
+"Display" = "顯示";
+"Rows" = "行";
+"Sessions" = "會話";
+"Filter" = "篩選";
+"Include states" = "包含狀態";
+"Which session states appear in the bubble." = "氣泡中顯示哪些會話狀態。";
+"Visible agents" = "可見 Agent";
+"Row content" = "行內容";
+"Preview" = "預覽";
+"Presets" = "預設";
+"Original" = "原始";
+"Standard" = "標準";
+"Detailed" = "詳細";
+"Tap a chip above to add tokens" = "點選上方的標籤新增元素";
+"All tokens are in use" = "所有元素都已使用";
+"Preview updates as you add, remove, or reorder tokens below." = "在下方新增、刪除或重新排序元素時，預覽會實時更新。";
+"Style" = "樣式";
+"Separator" = "分隔符";
+"State dot" = "狀態點";
+"Agent icons" = "Agent 圖示";
+"Brand logos" = "品牌標誌";
+"SF Symbols" = "SF Symbols";
+"Change…" = "更改…";
+"Activity messages" = "活動訊息";
+"Vocabulary" = "詞彙風格";
+"Bubble messages" = "氣泡訊息";
+"Simple bubble" = "簡單氣泡";
+"All agents" = "所有 Agent";
+"Turn on multi-agent bubble above for per-agent rows with icons and activity." = "開啟上方的多 Agent 氣泡，即可為每個 Agent 顯示帶圖示和活動的獨立行。";
+
+/* About & Pet tab */
+"Author" = "作者";
+"Version" = "版本";
+"Choose pet" = "選擇寵物";
+"Animations" = "動畫";
+"Size on screen" = "螢幕上的大小";
+"Browse pets…" = "瀏覽寵物…";
+"Create pet…" = "建立寵物…";
+"No pets yet. Tap Browse to add one." = "還沒有寵物。點選“瀏覽”來新增。";
+"Hover a clip to preview it." = "將滑鼠懸停在片段上即可預覽。";
+"No pet selected" = "未選擇寵物";
+"State" = "狀態";
+/* Bubble pickers / tokens */
+"All rows" = "全部行";
+"Carousel" = "輪播";
+"Compact" = "緊湊";
+"All sessions" = "所有會話";
+"Grouped by agent" = "按 Agent 分組";
+"All states" = "所有狀態";
+"Done and above" = "完成及以上";
+"Working & Waiting" = "工作中和等待中";
+"Working only" = "僅工作中";
+"One row at a time. Auto-cycles every 3 s — swipe or drag to browse." = "每次一行，每 3 秒自動輪換，可滑動或拖動瀏覽。";
+"One row per agent kind (×N when multiple)" = "每種 Agent 一行（多個時顯示 ×N）";
+"One row per session" = "每個會話一行";
+"Show every row at once, up to the max below." = "一次顯示所有行，上限見下方。";
+"Summary header, first two rows, then fold the rest." = "摘要標題、前兩行，其餘摺疊。";
+"Plain dot" = "普通圓點";
+"Claude style" = "Claude 風格";
+"Flat color-coded circle" = "扁平彩色圓點";
+"Spinning ✻ asterisk while active" = "活動時旋轉的 ✻ 星號";
+"Agent icon" = "Agent 圖示";
+"Chat title" = "聊天標題";
+"Project folder" = "專案資料夾";
+"Activity message" = "活動訊息";
+"State label" = "狀態標籤";
+"Elapsed time" = "已用時間";
+"Title" = "標題";
+"Project" = "專案";
+"Message" = "訊息";
+"Elapsed" = "耗時";
+"Icon" = "圖示";
+"Dot" = "圓點";
+
+/* Theme & activity vocabulary names */
+"Light" = "淺色";
+"Dark" = "深色";
+"Chef" = "廚師";
+"Engineer" = "工程師";
+"Wizard" = "巫師";
+"Explorer" = "探險家";
+"Scientist" = "科學家";
+
+/* Demo panel, notifications, sounds, footers */
+"Fire webhooks for many agents with your current settings" = "用當前設定為多個 Agent 觸發 webhook";
+"Add" = "新增";
+"Quick scenarios" = "快捷場景";
+"Spawn 3 working" = "生成 3 個工作中";
+"Finish all" = "全部完成";
+"Clear all" = "清除全部";
+"Active webhooks" = "活動 Webhook";
+"No webhooks yet. Add one from the right →" = "還沒有 Webhook。從右側新增 →";
+"Notifications on" = "通知已開啟";
+"Notifications muted" = "通知已靜音";
+"Notifications denied" = "通知被拒絕";
+"Notifications unavailable" = "通知不可用";
+"Enable notifications" = "啟用通知";
+"Available once installed as AgentPet Lite.app" = "以 AgentPet Lite.app 安裝後可用";
+"Turn on in System Settings to get alerts" = "在系統設定中開啟以接收提醒";
+"Alerts when an agent finishes or needs input" = "Agent 完成或需要輸入時提醒";
+"Muted, the toggle turns alerts back on" = "已靜音，撥動開關重新開啟提醒";
+"When an agent finishes" = "當 Agent 完成時";
+"When an agent needs input" = "當 Agent 需要輸入時";
+"Per-agent overrides win over \"All agents\". A custom line replaces the live/theme text and the real pet honours it." = "針對單個 Agent 的設定優先於\"所有 Agent\"。自定義文案會替換實時/主題文字，真實寵物也會生效。";
+"Whimsical phrases shown while agents work, e.g. \"Brewing…\" or \"Compiling…\"." = "Agent 工作時顯示的趣味短語，例如 \"Brewing…\" 或 \"Compiling…\"。";
+
+/* Pet chat & idle messages */
+"Thinking…" = "思考中…";
+"Working on it…" = "處理中…";
+"On it!" = "馬上做！";
+"Crunching code…" = "埋頭敲程式碼…";
+"Hmm, let me see…" = "嗯，讓我看看…";
+"Cooking something up…" = "正在醞釀…";
+"Deep in thought…" = "陷入沉思…";
+"Brain go brrr…" = "大腦高速運轉…";
+"Almost there…" = "快好了…";
+"Wiring it up…" = "正在接線…";
+"I need you!" = "需要你！";
+"Your turn 👀" = "該你了 👀";
+"Waiting on you…" = "在等你…";
+"Can you check this?" = "能幫我看看這個嗎？";
+"Psst, need input!" = "嘿，需要你的輸入！";
+"Awaiting orders…" = "等待指令…";
+"Help me out?" = "幫幫我？";
+"Stuck, need you!" = "卡住了，需要你！";
+"All done! ✅" = "全部完成！✅";
+"Finished!" = "完成！";
+"Ta-da!" = "噠噠！";
+"Done and dusted!" = "大功告成！";
+"Nailed it!" = "搞定！";
+"That's a wrap!" = "收工！";
+"Mission complete!" = "任務完成！";
+"🎉 Woohoo!" = "🎉 哇哦！";
+"We did it!" = "我們做到了！";
+"Victory!" = "勝利！";
+"Yesss!" = "太棒了！";
+"High five! 🙌" = "擊掌！🙌";
+"Champion!" = "冠軍！";
+"Let's grill some bugs." = "來抓幾隻 bug 吧。";
+"I miss you. Open a branch for me." = "想你了，給我開個分支吧。";
+"Tiny commit, tiny dopamine." = "小提交，小確幸。";
+"The build is quiet. Too quiet." = "構建很安靜，安靜得可疑。";
+"Ship something small. Future you is watching." = "釋出點小東西吧，未來的你正看著呢。";
+"Your TODOs are pretending not to see us." = "你的 TODO 正假裝沒看見我們。";
+"No agents running. The keyboard has entered standby drama." = "沒有 Agent 在跑，鍵盤開始上演待機大戲。";
+"Turn coffee into code. Carefully." = "把咖啡變成程式碼，小心點。";
+"Open one file. Intimidate it professionally." = "開啟一個檔案，專業地震懾它。";
+"The repo is calm. Suspicious, but calm." = "倉庫很平靜。可疑，但平靜。";
+"Refactor lightly. Leave with dignity." = "輕輕重構，體面收場。";
+"One clean diff can fix the whole afternoon." = "一個乾淨的 diff 能救活整個下午。";
+"Waiting for your input" = "等待你的輸入";
+"Your turn — over to you" = "輪到你了";
+"Needs your input" = "需要你的輸入";
+
+/* App language picker */
+"Language" = "語言";
+
+/* App: onboarding, create-pet, browser, menu */
+"A desktop pet that watches your AI coding agents. Two quick steps to get going." = "盯著你的 AI 編碼 Agent 的桌面寵物。兩步即可開始。";
+"Added" = "已新增";
+"Browse pets" = "瀏覽寵物";
+"Cancel" = "取消";
+"Category" = "分類";
+"Choose image…" = "選擇圖片…";
+"Community" = "社群";
+"Create" = "建立";
+"Create pet" = "建立寵物";
+"Get alerted when an agent finishes or needs input." = "Agent 完成或需要輸入時收到提醒。";
+"Get started" = "開始";
+"Install a hook so AgentPet Lite can see when an agent works, finishes, or needs you." = "安裝 hook，讓 AgentPet Lite 知道 Agent 何時工作、完成或需要你。";
+"Loading pets…" = "正在載入寵物…";
+"Nothing running right now." = "當前沒有執行中的 Agent。";
+"Pet info" = "寵物資訊";
+"Pet size" = "寵物大小";
+"Retry" = "重試";
+"Sort by agent kind" = "按 Agent 型別排序";
+"Spritesheet" = "精靈圖";
+"Use the same 8×9 transparent spritesheet format as downloaded pets." = "使用與下載寵物相同的 8×9 透明精靈圖格式。";
+"Welcome to AgentPet Lite" = "歡迎使用 AgentPet Lite";
+
+/* Codex connection help */
+"Connect Codex" = "連線 Codex";
+"The hook is installed. Codex blocks unknown command hooks until you trust them once , a Codex security feature, not an AgentPet bug. Do this one time:" = "Hook 已安裝。Codex 會攔截未知的命令 hook，直到你信任一次 , 這是 Codex 的安全機制，並非 AgentPet 的問題。只需操作一次：";
+"Open Terminal and run: codex (launches the Codex CLI)" = "開啟終端並執行：codex（啟動 Codex CLI）";
+"Type /hooks and press Enter to list the hooks." = "輸入 /hooks 並回車以列出 hook。";
+"Press t to Trust all hooks." = "按 t 鍵信任所有 hook。";
+"Quit and reopen Codex (both the CLI and the desktop app)." = "退出並重新開啟 Codex（CLI 和桌面應用都要）。";
+"Run any prompt , your pet now shows the Codex session." = "執行任意提示 , 寵物就會顯示 Codex 會話。";
+"Trust is shared, so trusting once in the CLI also covers the Codex desktop app. If /hooks shows nothing, add  [features] hooks = true  to ~/.codex/config.toml, then retry." = "信任是共享的，在 CLI 中信任一次，Codex 桌面應用也會生效。如果 /hooks 沒有任何內容，請在 ~/.codex/config.toml 中新增  [features] hooks = true  後重試。";
+"Codex hooks docs" = "Codex hooks 文件";
+"Got it" = "知道了";
+"How to connect Codex" = "如何連線 Codex";
+"Installed , needs a one-time trust (tap ?)" = "已安裝 , 需要一次性信任（點選 ?）";
+
+/* Care (tamagotchi) */
+"Care" = "養成";
+"Companion" = "夥伴";
+"Hunger" = "飢餓度";
+"Today" = "今天";
+"Lifetime" = "累計";
+"Growth sources" = "養成來源";
+"Hatchling" = "初生";
+"Scout" = "偵察兵";
+"Hero" = "英雄";
+"Legend" = "傳奇";
+"Full" = "吃飽了";
+"Satisfied" = "滿足";
+"Peckish" = "有點餓";
+"Hungry" = "餓了";
+"Starving" = "餓壞了";
+"Last fed %@" = "上次進食 %@";
+"pet.status.fedAgo" = "%@進食";
+"%@ / %@ XP to next level" = "%@ / %@ 經驗升級";
+"The pet eats real work: tokens burnt by your agents and finished sessions." = "寵物吃的是真實工作：Agent 消耗的 token 和完成的會話。";
+"Tokens eaten" = "已吃 token";
+"Full! The daily bowl is empty." = "吃飽啦！今天的碗空了。";
+"Sessions finished" = "完成的會話";
+"Streak" = "連續天數";
+"%d days" = "%d 天";
+"Total tokens eaten" = "累計吃掉的 token";
+"Total sessions" = "累計會話";
+"Local token usage" = "本機 Token 用量";
+"Available token usage from local Codex and Claude Code sessions earns experience." = "可讀取的 Codex 和 Claude Code 本機會話 Token 用量計入養成經驗。";
+"Task completion rewards" = "任務完成獎勵";
+"About token usage" = "Token 用量說明";
+"Token usage: available local Codex and Claude Code session usage counts toward pet experience." = "Token 用量：根據可讀取的 Codex 和 Claude Code 本機會話用量累計養成經驗。";
+"Successfully completed agent turns also earn experience." = "成功完成的代理回合也會獲得經驗獎勵。";
+"Connected: subscription limits below." = "已連線：訂閱額度見下方。";
+"Optional: install OpenUsage to track every provider's limits." = "可選：安裝 OpenUsage 以跟蹤所有服務商的額度。";
+"Active" = "已啟用";
+"Connected" = "已連線";
+"Get it" = "去安裝";
+"left" = "剩餘";
+"Level up! Lv %d ⭐" = "升級啦！Lv %d ⭐";
+"Getting hungry… run an agent?" = "有點餓了……跑個 Agent 吧？";
+"A little snack? One small task?" = "來點小零食？一個小任務就行？";
+"My tummy is rumbling…" = "肚子咕咕叫了……";
+"Feed me some tokens, please." = "請餵我一點 token 吧。";
+"Starving… nothing to eat for days…" = "餓壞了……好幾天沒吃東西了……";
+"So weak… one tiny session, please…" = "好虛弱……求一個小小的會話……";
+"No tokens… no energy…" = "沒有 token……沒有能量……";
+"Remember me? Your pet? The hungry one?" = "還記得我嗎？你的寵物？那隻餓著的？";
+"Careful… your AI budget is almost gone." = "小心……你的 AI 預算快用完了。";
+"Low fuel: a usage limit is nearly reached!" = "燃料不足：某個用量額度快到上限了！";
+"Maybe save some tokens for tomorrow…" = "要不給明天留點 token 吧……";
+"1 day" = "1 天";
+
+/* Care v2: per-pet + web sync + popover */
+"Your pet" = "你的寵物";
+"Every pet levels up on its own: experience belongs to the companion you raise it with." = "每隻寵物獨立升級：經驗屬於陪你一起成長的那隻夥伴。";
+"All companions" = "所有夥伴";
+"Each companion keeps its own experience. Switch pets in the Pet tab to raise another one." = "每隻夥伴都有自己的經驗。在寵物標籤頁切換，去養另一隻吧。";
+"Raising" = "養成中";
+"Sign in on the site, open your profile, and enter the pairing code here." = "在網站登入，開啟主頁，然後在這裡輸入配對碼。";
+"Pairing code" = "配對碼";
+"Connecting…" = "連線中……";
+"Connect" = "連線";
+"Restore" = "復原";
+"Code not recognized. Codes expire after 10 minutes." = "無法識別該配對碼。配對碼 10 分鐘後過期。";
+"Could not reach the server." = "無法連線伺服器。";
+"Today %@ tokens · %d meals" = "今天 %@ token · %d 餐";
+"Today %@ tokens · 1 meal" = "今天 %@ token · 1 餐";
+
+/* Care v3: GitHub link + stats popover */
+"Last fed" = "上次進食";
+"%@ tokens · 1 meal" = "%@ token · 1 餐";
+"%@ tokens · %d meals" = "%@ token · %d 餐";
+"%@ tokens · %d sessions" = "%@ token · %d 會話";
+
+/* Care HUD */
+"Burn, last 7 days" = "近 7 天消耗";
+"Limits" = "額度";
+"days fed" = "天有進食";
+"tokens eaten" = "已吃 token";
+"completed" = "已完成";
+"1 meal" = "1 餐";
+"%d meals" = "%d 餐";
+
+/* Care v5: native limits + to-next-level */
+"≈ %@ tokens to Lv %d" = "≈ %@ token 升到 Lv %d";
+"Subscription limits" = "訂閱額度";
+"Subscription limits are for monitoring and reminders. They do not grant experience." = "訂閱額度僅用於監測與提醒，不計入養成經驗。";
+"No subscription data is available yet." = "暫未取得訂閱額度資料。";
+"Connected: adds limits for every other provider." = "已連線：補充其他所有服務商的額度。";
+
+/* Care v6: quota used + reset */
+"%d%% used" = "已用 %d%%";
+"resets in %dd" = "%d 天后重置";
+"resets in %dh" = "%d 小時後重置";
+"resets in %dm" = "%d 分鐘後重置";
+
+/* Coffee / donate */
+"Quét mã bằng app ngân hàng bất kỳ" = "用任意銀行 App 掃碼";
+/* Privacy clarity */
+/* Coffee methods */
+/* HUD footer */
+"Settings" = "設定";
+"Updates" = "更新";
+"Quit" = "退出";
+"Checking…" = "檢查中…";
+
+
+/* Achievements + per-project pets + break reminder (PR #27/#28) */
+"First Meal" = "首次進食";
+"100 Sessions" = "100 次工作階段";
+"500 Sessions" = "500 次工作階段";
+"1M Tokens" = "1M Token";
+"10M Tokens" = "10M Token";
+"50M Tokens" = "50M Token";
+"Level 5" = "5 級";
+"Level 10" = "10 級";
+"Level 20" = "20 級";
+"Level 35" = "35 級";
+"7-Day Streak" = "7 天連續";
+"14-Day Streak" = "14 天連續";
+"30-Day Streak" = "30 天連續";
+"Night Owl" = "夜貓子";
+"Finish your first agent session" = "完成第一個 agent 工作階段";
+"Finish 100 agent sessions" = "完成 100 次 agent 工作階段";
+"Finish 500 agent sessions" = "完成 500 次 agent 工作階段";
+"Burn 1M tokens" = "消耗 1M token";
+"Burn 10M tokens" = "消耗 10M token";
+"Burn 50M tokens" = "消耗 50M token";
+"Reach Level 5" = "達到 5 級";
+"Reach Level 10" = "達到 10 級";
+"Reach Level 20" = "達到 20 級";
+"Reach Level 35 (Legend)" = "達到 35 級（傳奇）";
+"Feed your pet 7 days in a row" = "連續 7 天餵養寵物";
+"Feed your pet 14 days in a row" = "連續 14 天餵養寵物";
+"Feed your pet 30 days in a row" = "連續 30 天餵養寵物";
+"Finish a session after midnight" = "在午夜後完成一次工作階段";
+"%d achievements unlocked! 🏆" = "解鎖 %d 個成就！🏆";
+"Achievement unlocked: %@ 🏆" = "成就解鎖：%@ 🏆";
+"Achievements" = "成就";
+"Hover a badge to see how to unlock it" = "將滑鼠停在徽章上查看解鎖方式";
+"Add a project folder to give it its own pet." = "新增專案資料夾來指派專屬寵物。";
+"Add project…" = "新增專案…";
+"Agents" = "Agent";
+"Animate pets" = "寵物動畫";
+"Animation speed" = "動畫速度";
+"Default pet" = "預設寵物";
+"Hide idle project pets" = "閒置時隱藏專案寵物";
+"Level up" = "升級";
+"Sleepy" = "想睡";
+"Model" = "模型";
+"No pets installed" = "未安裝寵物";
+"No project pets yet." = "還沒有專案寵物。";
+"Project pets" = "專案寵物";
+"Remind me to take breaks" = "提醒我休息";
+"Show a configured project's pet only while it's working; hide it when idle." = "僅在已設定的專案執行時顯示其寵物；閒置時隱藏。";
+"Spawn one pet per active project instead of one shared pet." = "為每個進行中的專案產生一個寵物，而非共用一個。";
+"Split pet" = "分割寵物";
+"Sprite frame rate. Idle is always capped at 2 fps." = "精靈影格率。閒置時一律限制為 2 fps。";
+"The home pet nudges you to rest after a work stretch." = "主寵物會在你工作一段時間後提醒休息。";
+"Turn off to freeze pet/bubble animation (lower CPU)." = "關閉以凍結寵物/氣泡動畫（降低 CPU）。";
+"missing" = "缺失";
+"Est. cost (Claude)" = "預估費用（Claude）";
+"Today %@ · Month %@" = "今天 %@ · 本月 %@";
+"Allow" = "允許";
+"Deny" = "拒絕";
+"Click to open this terminal" = "點擊開啟此終端";
+"Bash approval gate" = "Bash 審批開關";
+"Approve Bash from the bubble" = "在氣泡中審批 Bash";
+"Claude Code Bash requests show Allow/Deny in the bubble instead of the terminal." = "Claude Code 的 Bash 請求會在氣泡中顯示允許/拒絕，而不必回到終端。";
+
+"%d%% remaining" = "剩餘 %d%%";
+"5-hour" = "5小時";
+"Weekly" = "週額度";
+"%d-minute window" = "%d分鐘";
+"Primary quota" = "主額度";
+"Secondary quota" = "次額度";
+"Unavailable" = "無法取得";
+
+/* Unified pet speech */
+"Pet bubble" = "寵物氣泡";
+"Show Codex progress above your pet. When five-hour quota falls below 10%, remind you once with an animation and message." = "在寵物頭頂顯示 Codex 對話進度文字；五小時額度剩餘低於 10% 時，每個重設視窗僅提醒一次動畫和文字。";
+
+/* Shared task and pet bubble background opacity */
+"Bubble background opacity" = "氣泡背景不透明度";
+"Lower values reveal content behind both bubbles. Text and icons stay readable; 0% hides the background without blurring." = "數值越低越能看清氣泡後方內容，文字與圖示保持清晰；0% 隱藏背景，不模糊後方畫面。";
+
+"3 seconds" = "3 秒";
+
+"Hide AgentPet Lite menu bar icon" = "隱藏 AgentPet Lite 選單列圖示";
+
+"Clear ended tasks" = "清除已結束任務";
+
+"You can show the icon again here or open Settings from the pet's Status panel." = "可在此恢復圖示，也可從寵物的 Status 面板開啟設定。";
+
+"Pomodoro" = "番茄時鐘";
+
+"Focus" = "專注";
+
+"Break" = "休息";
+
+"min" = "分";
+
+"Focus minutes" = "專注分鐘數";
+
+"Break minutes" = "休息分鐘數";
+
+"Pause" = "暫停";
+
+"Resume" = "繼續";
+
+"End" = "結束";
+
+"Start focus" = "開始專注";
+
+"Start break" = "開始休息";
+
+"Phase finished" = "本階段已結束";
+
+"Focus finished. Start a break in Status." = "專注結束了，去Status開始休息吧。";
+
+"Break finished. Start your next focus in Status." = "休息結束了，去Status開始下一輪吧。";
+
+/* System notices: shared Pet bubble control */
+"Show Agent messages, Pomodoro alerts, and Codex low-quota and recovery reminders above your pet." = "在寵物頭頂顯示 Agent 訊息、番茄到點、Codex 低額度及恢復提醒。";
+
+/* Lightweight system notice text */
+"Codex quota: " = "Codex額度提醒：";
+"Codex restored: " = "Codex額度恢復：";
+"Pomodoro: " = "番茄時鐘：";
+"Timer: " = "番茄：";
+"Codex: " = "Codex：";
+"5h quota: %d%% left" = "5小時額度剩餘 %d%%";
+"5h quota restored, %d%% left" = "5小時額度已恢復，剩餘 %d%%";
+"Quota restored, %d%% left" = "額度已恢復，剩餘 %d%%";
+"%d min focus done, break %d min" = "%d分鐘專注完成，可休息%d分鐘";
+"%d min break done, ready to focus" = "%d分鐘休息結束，可繼續專注";
+"Focus done, break %d min" = "專注完成，可休息%d分鐘";
+"Break done, ready to focus" = "休息結束，可繼續專注";
+
+/* Settings UI .74 */
+"Application appearance" = "應用外觀";
+"Animation effects" = "動畫效果";
+"Pet motion and related bubble/clock effects. Tasks, alerts and countdowns continue when off." = "控制寵物動作及相關氣泡、時鐘動效；關閉後任務、提醒和倒數繼續。";
+"Sprite animation speed" = "精靈動畫速度";
+"Sprite clips only; idle is capped at 2 fps. Videos play at their original speed." = "僅調整精靈片段；閒置最多 2 fps。影片按素材原速播放。";
+"Bubble font size" = "氣泡字級";
+"Bubble text opacity" = "氣泡文字不透明度";
+"Text opacity affects bubble text and Agent prefixes only. Icons, status lights and progress bars keep their colors." = "文字不透明度只影響氣泡文字與 Agent 前綴；圖示、狀態燈和進度條保持原色。";
+"Task bubble" = "任務氣泡";
+"Task bubble click-through" = "任務氣泡點擊穿透";
+"Double-click the pet to toggle. While a task needs approval or attention, the bubble stays clickable." = "雙擊寵物可切換。有任務待批准或需要處理時，氣泡仍保持可點擊。";
+"Bubble click-through: " = "氣泡點擊穿透：";
+"Click-through: " = "穿透：";
+"On" = "已開啟";
+"Off" = "已關閉";
+"Could not enable. Handle waiting tasks first" = "開啟失敗，請優先處理等待任務";
+"Task bubble click-through is on" = "任務氣泡點擊穿透已開啟";
+"Task bubble click-through is on but paused while a task needs attention" = "任務氣泡點擊穿透已開啟，待處理任務期間暫停";
+"Tasks are always on. Running, waiting and unread tasks remain visible." = "預設顯示真實任務。執行中、待處理及未讀任務繼續保留。";
+"Agent messages" = "Agent 訊息";
+"Message display duration" = "訊息停留時間";
+"%d seconds" = "%d 秒";
+"1 second" = "1 秒";
+"10 seconds" = "10 秒";
+"Public replies are always on: up to 6 messages, 20 characters each. A full feed moves the oldest message out early." = "預設顯示公開回覆，最多 6 條、每條正文 20 字；滿位後最舊訊息會提前移出。";
+"Show Superchat" = "顯示 Superchat";
+"Quota notices show for 8 seconds. Pomodoro alerts stay until confirmation or the next phase. Turning this off keeps Agent messages and the timer running." = "額度提醒顯示 8 秒；番茄到點保留到確認或開始下一階段。關閉不影響 Agent 訊息和計時。";
+"Pet idle chatter" = "寵物閒聊";
+"Idle chatter is hidden. Enable it in General / Pet display." = "閒聊已隱藏，可在通用／寵物顯示中開啟。";
+"Message source" = "文案來源";
+"Built-in" = "內建";
+"One phrase per line, used only while idle." = "每行一句，只在閒置時使用。";
+"Add at least one non-empty phrase." = "請至少填寫一句非空文案。";
+"Speech style" = "語氣風格";
+"15 local phrases per style; no model requests. Tasks, Agent replies and Superchat take priority." = "每組 15 條本地文案，不呼叫模型；任務、Agent 回覆和 Superchat 優先。";
+"Tsundere protector" = "傲嬌護短";
+"Lazy comfort" = "慵懶治癒";
+"Geek partner" = "極客搭檔";
+"Next phrase" = "下一句";
+"Advanced filters" = "進階篩選";
+"Visible sources affect task rows and public replies; they do not stop session tracking." = "來源篩選影響任務列和公開回覆，不停止工作階段追蹤。";
+"Claude Code advanced" = "Claude Code 進階設定";
+"Pet display" = "寵物顯示";
+"Menu bar" = "選單列";
+"Show pet" = "顯示寵物";
+"Show chat on menu bar" = "選單列顯示訊息";
+"Apply" = "套用";
+"One phrase per line. Apply to use it only while idle." = "每行一句，點擊套用後僅用於閒置閒聊。";
+"Sample tasks" = "模擬任務";
+"Add sample task" = "新增模擬任務";
+"No sample tasks yet. Add one on the right." = "還沒有模擬任務，可從右側新增。";
+"Remove sample task" = "刪除模擬任務";
+
+"Installed" = "已安裝";
+
+"Not installed" = "未安裝";
+
+"Managed by DSH" = "由 DSH 管理";
+
+"Background opacity" = "背景不透明度";
+
+"Text opacity" = "文字不透明度";
+
+"Random chatter every 20 seconds; 15 local phrases per style. Tasks, Agent replies and Superchat take priority." = "閒置時每 20 秒隨機換句；每組 15 條本地文案。任務、Agent 回覆和 Superchat 優先。";
+
+/* Maintenance edition attribution */
+
+/* Lite project information */
+"A local desktop companion for your coding agents." = "陪伴程式設計 Agent 的本機桌面寵物。";
+"Licenses" = "授權條款";
+"Source code" = "原始碼";
+"View bundled licenses" = "檢視隨附授權條款";
+"Third-party assets have their own licenses. The source code license does not cover all artwork." = "第三方素材適用各自的授權條款；原始碼授權不涵蓋所有美術素材。";
+"Acknowledgements" = "致謝";
+"Whale girl animations · PC2005-cloud/dsh-pet" = "鯨魚娘動畫 · PC2005-cloud/dsh-pet";
+"The whale girl animation assets are for non-commercial use. Keep the original project link when presenting or distributing derivatives." = "鯨魚娘動畫素材僅限非商業使用；介紹、展示或散佈衍生作品時須保留原專案連結。";
+
+"Task and bubble preview" = "模擬任務與氣泡預覽";
+
+"Hide task and bubble preview" = "收起模擬任務與氣泡預覽";
+
+"Use sample tasks to preview the pet and task bubble. This does not test Agent connections." = "用模擬任務查看寵物動作與任務氣泡效果；無法用於驗證 Agent 連線。";
+
+"Completed" = "已完成";
+
+"Failed" = "失敗";
+
+"Stopped" = "已停止";
+
+"Sample task %d" = "模擬任務 %d";
+
+"Working on the sample task" = "正在處理模擬任務";
+
+"Sample reply: the requested change is ready for review." = "模擬回覆：修改已完成，可以查看結果。";
+
+"Clicking a preview task marks only that sample as read. No Agent app is opened." = "點擊預覽任務只會將該模擬任務標為已讀，不會開啟真實 Agent。";
+
+"Mark sample task as read" = "將模擬任務標為已讀";
+
+"Show sample Agent reply" = "顯示模擬 Agent 回覆";
+
+"Idle" = "空閒";
+
+
+"Celebrate" = "慶祝";
+
+// Optional bundled DSH bridge
+"How to connect DSH" = "DSH 接入目標和手動安裝";
+
+/* Animation management */
+"Select animations to remove" = "選擇要移除的動畫";
+"Remove selected animations" = "移除選取的動畫";
+"Remove animations?" = "移除動畫？";
+"Remove %ld animation(s) from “%@”? Other groups and original source files are kept." = "從「%2$@」群組移除 %1$ld 個動畫？其他群組和使用者原始檔案會保留。";
+"Select animations to remove." = "請先選擇要移除的動畫。";
+"The animation group changed. Review your selection and try again." = "動畫群組已變更，請檢查選擇後再試。";
+"Each group must keep at least one valid native animation from this pet. Imported animations do not replace this protection." = "每個群組至少保留一個有效的該寵物原生動作。自訂匯入項目不能取代這項保障。";
+"Animation library exceeds the size limit." = "動畫清單超過大小上限。";
+"Animation removed, but unused managed files could not be cleaned up:" = "動畫已移除，但未引用的應用程式管理檔案無法清理：";
+"This pet is busy. Try again when the current operation finishes." = "該寵物正在處理動畫，請等待目前操作完成後再試。";
+"The pet has no valid native fallback. Repair its pack before removing animations." = "該寵物沒有有效的原生備援動作，請先修復素材包再移除動畫。";
+"Marked for removal" = "待移除";
+"Not marked for removal" = "未標記移除";
+"Pet assignment" = "寵物配置";
+"Different pets come with different animations. When a purpose has no dedicated animation, this pet’s default animation is used. You can adjust or import animations in Animations." = "不同寵物自帶的動作有所不同。未設定專用動作時，將使用該寵物的預設動作；你可以在「動畫」中調整或匯入。";
+"Gallery pets may not include dedicated animations for all 9 purposes and can still be used normally. After adding one, select its existing animations or import your own in Animations." = "圖庫寵物可能未設定完整的 9 類動作，仍可正常使用。新增後，你可以在「動畫」中為各用途選擇現有動作，或匯入自己的動畫。";
+"Dismiss animation hint" = "關閉動畫提示";
+
+"Animation Remove" = "移除";
+
+"Import successful · %ld" = "匯入成功 · %ld 個";
+
+// Local agent interface connection tests
+"Integration details" = "接入詳情";
+"Checking configuration" = "正在檢查設定…";
+"Test again" = "再次 Test";
+"connection.testing" = "正在連線本地介面…";
+"connection.connected" = "本次本地介面連線成功";
+"connection.cancelled" = "測試已取消，臨時介面已停止。";
+"connection.timeout" = "連線逾時，臨時介面已停止。請檢查 CLI 安裝後重試。";
+"connection.missingCLI" = "找不到 CLI。請安裝該用戶端並確認執行檔位於 PATH。";
+"connection.startFailed" = "無法啟動臨時介面。請檢查 CLI 安裝與臨時目錄權限。";
+"connection.unreachable" = "介面未傳回有效回應。請確認已安裝 CLI 支援所需協定後重試。";
+"connection.invalidResponse" = "介面回應無效，請確認用戶端版本。";
+"connection.rejected" = "介面拒絕交握。請依用戶端文件確認協定相容性。";
+"connection.authentication" = "介面要求驗證。請透過用戶端正常登入；Test 不複製憑證或更改權限。";
+"connection.versionUnsupported" = "不支援此 OpenCode 版本。請使用 V1 ≥1.18.34 或 V2 ≥2.0.29 後重試。";
+"connection.outputLimit" = "介面輸出超過限制，臨時程序已停止。";
+"connection.agyUnsupported" = "此 agy CLI 尚無已核實的公開無推理本地交握路徑，無法回報連線成功。請透過正常使用驗證 Hook。";
+"connection.unmaintained" = "此相容入口不新增連線測試維護，未啟動用戶端程序。";
+"connection.scope" = "僅測試本次臨時本地介面，不驗證模型權限、Hook、氣泡、任務生命週期或導覽；設定狀態不變。";
+"connection.scope.codex" = "Codex：隔離 app-server stdio initialize → initialized，不建立執行緒或 turn。此交握不需模型帳號登入。";
+"connection.scope.opencode" = "OpenCode：V2 透過 api --standalone GET /api/info 使用原生私有服務驗證；V1 使用 ACP initialize。不開啟共享服務或工作階段。";
+"connection.scope.pi" = "Pi：離線 RPC get_state，不儲存工作階段，不載入工具、MCP 或擴充；不驗證模型認證。";
+"connection.scope.dsh" = "唯讀檢查 DSH 日常桌面接入。不安裝外掛、不發起模型對話、不修改設定，也不觸發跳轉或閱讀回條。";
+"connection.scope.antigravity" = "本測試不傳送 prompt，也不啟動 Remote Control 常駐程序。";
+"connection.scope.claude" = "現有安裝與移除繼續依相容入口政策保留。";
+"integration.install" = "Install 僅註冊 AgentPet Lite；Remove 僅清除可識別的 AgentPet Lite 註冊，保留用戶端、共享設定與使用者資料。";
+"integration.stale" = "已識別的舊 AgentPet Lite 註冊需要更新。「已配置」僅表示註冊存在。請先安全 Remove，再 Install；歸屬檢查和備份繼續生效，有衝突時先處理。";
+"integration.codex" = "請在 Codex /hooks 中審閱並信任本應用的 Hook；應用不代寫原生信任或更改共享政策。";
+"integration.opencode.install" = "Install 僅註冊 AgentPet Lite 外掛；Remove 僅解除外掛註冊，不會影響 OpenCode 用戶端本體、共享設定與既有歷史資料。";
+"integration.opencode" = "外掛將根據版本自動適配。v1 重啟用戶端即可；v2 工作階段精確跳轉僅支援 2.2.2 及以上版本（需已載入 TUI 外掛）";
+"integration.opencode.reload" = "變更後請重啟用戶端，在實際使用中觀察桌寵氣泡與互動效果（Test 按鈕僅檢查連通性，不能取代實際使用驗證）。";
+"integration.agy" = "此入口僅註冊 agy Hook，不更改權限，也不註冊權限閘門。";
+"integration.pi" = "Pi 依賴 agent_settled（≥0.80.4，基線 1.3.0）。Install 註冊擴充；自訂 PI_CODING_AGENT_DIR 暫需手動管理。";
+"integration.reload" = "變更註冊後重開實際用戶端，透過正常使用確認 Hook 與氣泡。Test 不取代此驗證。";
+"integration.compatibility" = "僅保留相容入口，不新增適配、版本修復或專項驗收。";
+"操作已完成。接入说明见对应的ⓘ。" = "操作已完成。接入說明見對應的ⓘ。";
+"已配置" = "已設定";
+"未配置" = "未設定";
+"connection.status.connected" = "連線成功";
+"connection.status.failed" = "連線失敗";
+"connection.status.timedOut" = "連線逾時";
+"connection.status.cancelled" = "已取消測試";
+"connection.status.unsupported" = "暫不支援連線測試";
+"integration.checkFailed" = "本次設定檢查失敗；若卡片顯示狀態，則為上次已知結果。成功重新整理前，設定操作已停用。";
+
+"Drag to select a region. Shift-click selects a range; Shift-drag adds to the selection." = "拖曳滑鼠框選；按住 Shift 點擊可連續選取，Shift 拖曳可追加選取。";
+
+// DSH beginner connection guide
+"dsh.guide.title" = "將 DSH 接入 AgentPet Lite";
+"dsh.guide.intro" = "在 DSH 安裝獨立發行的 @agentpet-lite/dsh-bridge，讓 AgentPet Lite 顯示任務與公開回覆。協定相容的外掛更新無需同步更新 AgentPet Lite。";
+"dsh.guide.configured" = "已找到外掛登記；請透過 Test 核實實際協定與連線。";
+"dsh.guide.prepare.title" = "啟動並初始化 DSH";
+"dsh.guide.prepare" = "安裝官方 DeepSeek Harness 桌面版（支援 0.2.1-rc.2 及以上版本）。首次安裝請先開啟執行一次，完成基本設定與本機環境初始化。（既有使用者可略過此步）";
+"dsh.guide.quit.title" = "完全結束 DSH";
+"dsh.guide.quit" = "在選單列選擇「結束」或按 ⌘Q 完全結束應用程式（注意：僅關閉視窗仍會在背景執行）。安裝外掛前需確認 DSH 已完全關閉。";
+"dsh.guide.install.title" = "在 DSH 安裝外掛";
+"dsh.guide.install" = "在 DSH 開啟「外掛 → 新增外掛」，填入已發行的 npm 套件版本，或使用外掛發行版的預編譯 .tgz。AgentPet 不內附或安裝外掛。";
+"dsh.guide.verify.title" = "重新啟動 DSH，開始使用";
+"dsh.guide.verify" = "設定成功後卡片將顯示「已設定」。重新開啟 DSH 正常發起對話，桌面寵物即可自動回應並展示氣泡。";
+"dsh.guide.test" = "Test 僅檢查實際協定、事件連線與能力，不呼叫模型、導覽或標記已讀。外掛安裝、更新與移除均由 DSH 管理。";
+"dsh.guide.advanced" = "進階：目錄與手動安裝";
+"dsh.guide.location" = "通常保留預設資料目錄即可；僅在使用自訂 DSH 環境時更改。";
+"dsh.guide.manual" = "使用獨立發行的 npm 套件或 .tgz，在 DSH 外掛管理器安裝。npm 套件發行後才能按名稱安裝；未發行候選使用本機 .tgz。";
+"更改数据目录…" = "更改資料目錄…";
+"显示插件包" = "顯示外掛包";
+
+// DSH desktop readiness check (no ACP)
+"dsh.test.testing" = "正在檢查 DSH 接入環境，等待真實 bridge 訊號（最多 17 秒）…";
+"dsh.test.desktopRequired" = "DSH 請在桌面應用程式中檢查實際接入環境。";
+"dsh.test.status.readyToInstall" = "環境已準備好，可以安裝外掛";
+"dsh.test.next.readyToInstall" = "請在 DSH 外掛管理器安裝 @agentpet-lite/dsh-bridge，再次 Test。AgentPet 不代為安裝。";
+"dsh.test.status.startRequired" = "外掛已設定，未偵測到 DSH 執行";
+"dsh.test.next.startRequired" = "請開啟所選 DSH 桌面應用程式後再次 Test。若剛安裝外掛，需要重新啟動 DSH 才能載入。";
+"dsh.test.status.repairRequired" = "外掛設定需要處理";
+"dsh.test.next.repairRequired" = "請在 DSH 外掛管理器檢查詳細資料。協定相容的外掛無需與 AgentPet 版本一致。";
+"dsh.test.status.connected" = "已確認 DSH bridge 通訊";
+"dsh.test.next.connected" = "已核實所選 DSH 執行個體的相容橋接連線。完整氣泡、人工待辦及導覽請在正常使用中驗證。";
+"dsh.test.status.unconfirmed" = "環境檢查通過，通訊尚未確認";
+"dsh.test.next.unconfirmed" = "等待結束仍未收到可核對的 bridge 訊號。DSH 閒置或尚無對話時也可能如此，不據此判定故障。若剛安裝請重新啟動 DSH，核對 ⓘ 中的資料目錄，並在下次正常使用時再次 Test；無需額外建立測試對話。";
+"dsh.test.status.failed" = "DSH 環境尚未準備好";
+"dsh.test.next.failed" = "請核對所選官方 DSH 應用程式與資料目錄後再次 Test。主機 SDK 相容由外掛管理。";
+"dsh.test.status.cancelled" = "已取消檢查";
+"dsh.test.next.cancelled" = "本次檢查已停止。沒有啟動臨時 DSH、安裝外掛或修改對話。";
+"dsh.test.check.application" = "所選官方 DSH 桌面應用程式";
+"dsh.test.check.profile" = "所選 DSH 資料目錄";
+"dsh.test.check.plugin" = "DSH 外掛登記（僅診斷）";
+"dsh.test.check.running" = "DSH 桌面應用程式正在執行";
+"dsh.test.check.running.failed" = "未偵測到 DSH 桌面應用程式執行";
+"dsh.test.check.communication" = "已驗證的即時橋接與事件連線";
+
+"dsh.test.status.endpointUnavailable" = "收到 bridge 回報，端點尚未確認";
+"dsh.test.next.endpointUnavailable" = "本次收到對應 Profile 的回報，但無法連接 bridge 端點，或無法確認它屬於所選 DSH 應用程式。請核對 ⓘ 中的應用程式與資料目錄，按需重新啟動 DSH 後再次 Test。Test 不修改 socket 權限。";
+
+// Animation groups and shipped names (display only)
+"pet.animation.group.idle" = "閒置";
+"pet.animation.group.working" = "工作";
+"pet.animation.group.waiting" = "等待";
+"pet.animation.group.success" = "成功";
+"pet.animation.group.failure" = "失敗";
+"pet.animation.group.quota" = "餘額不足";
+"pet.animation.group.levelup" = "升級";
+"pet.animation.group.tap" = "點擊";
+"pet.animation.group.drag" = "拖曳";
+"pet.animation.purpose" = "用途";
+"pet.animation.selectionHelp" = "各組均可多選：選擇一個時固定播放，選擇多個時每次觸發隨機選取一個。懸停可預覽。";
+"pet.animation.importing" = "正在檢查並匯入動畫…";
+"pet.animation.dropHelp" = "將 MOV 拖入此組，或在空白處按右鍵選擇 Add。";
+"pet.animation.importSummary" = "已匯入 %ld 個動畫到「%@」。";
+"pet.animation.selected" = "已選取";
+"pet.animation.notSelected" = "未選取";
+"pet.animation.sprite" = "原精靈片段 %ld";
+"pet.animation.deepseek.dsh:悠闲哼歌" = "悠閒哼歌";
+"pet.animation.deepseek.dsh:三球抛接" = "三球拋接";
+"pet.animation.deepseek.dsh:优雅女仆舞" = "優雅女僕舞";
+"pet.animation.deepseek.dsh:是啊，吃什么" = "是啊，吃什麼";
+"pet.animation.deepseek.dsh:玩游戏气急败坏" = "玩遊戲氣急敗壞";
+"pet.animation.deepseek.dsh:原地小憩沉眠" = "原地小憩沉眠";
+"pet.animation.deepseek.dsh:吃白饭" = "吃白飯";
+"pet.animation.deepseek.dsh:哈欠连天" = "哈欠連天";
+"pet.animation.deepseek.dsh:超大伸懒腰" = "超大伸懶腰";
+"pet.animation.deepseek.dsh:写代码" = "寫程式";
+"pet.animation.deepseek.dsh:工作状态-忙碌点按" = "工作狀態－忙碌點按";
+"pet.animation.deepseek.dsh:轻快记录" = "輕快記錄";
+"pet.animation.deepseek.dsh:吃Token" = "吃 Token";
+"pet.animation.deepseek.dsh:东张西望" = "東張西望";
+"pet.animation.deepseek.dsh:工作状态-原地踱步张望" = "工作狀態－原地踱步張望";
+"pet.animation.deepseek.dsh:工作状态-思考冒泡" = "工作狀態－思考冒泡";
+"pet.animation.deepseek.dsh:用鲸鱼尾巴拍打地面" = "用鯨魚尾巴拍打地面";
+"pet.animation.deepseek.dsh:工作状态-雀跃庆祝" = "工作狀態－雀躍慶祝";
+"pet.animation.deepseek.dsh:点击回应-元气挥手" = "點擊回應－元氣揮手";
+"pet.animation.deepseek.dsh:点击回应-开心跃动" = "點擊回應－開心躍動";
+"pet.animation.deepseek.dsh:轻快摇摆舞" = "輕快搖擺舞";
+"pet.animation.deepseek.dsh:可爱宅舞" = "可愛宅舞";
+"pet.animation.deepseek.dsh:工作状态-垂头叹气冒汗" = "工作狀態－垂頭嘆氣冒汗";
+"pet.animation.deepseek.dsh:点击回应-傲娇生气" = "點擊回應－傲嬌生氣";
+"pet.animation.deepseek.dsh:余额-分文不剩" = "餘額－分文不剩";
+"pet.animation.deepseek.dsh:余额-袋空如洗" = "餘額－袋空如洗";
+"pet.animation.deepseek.dsh:拆礼物" = "拆禮物";
+"pet.animation.deepseek.dsh:整体换装试色" = "整體換裝試色";
+"pet.animation.deepseek.dsh:原地跳跃抓碎头顶物品" = "原地跳躍抓碎頭頂物品";
+"pet.animation.deepseek.dsh:点击回应-害羞惊讶" = "點擊回應－害羞驚訝";
+"pet.animation.deepseek.dsh:点击回应-挠痒咯咯笑" = "點擊回應－搔癢咯咯笑";
+"pet.animation.deepseek.dsh:打瞌睡被惊醒" = "打瞌睡被驚醒";
+"pet.animation.deepseek.dsh:被鼠标拖拽悬空反馈" = "被滑鼠拖曳懸空回饋";
+
+// Integration native dialogs and links
+"Codex Hooks 官方文档" = "Codex Hooks 官方文件";
+"OpenCode 版本迁移说明" = "OpenCode 版本遷移說明";
+"未找到 DSH 应用，请先安装并启动一次 DSH。" = "找不到 DSH 應用程式，請先安裝並開啟一次 DSH。";
+"选择 DSH 数据目录" = "選擇 DSH 資料目錄";
+"选择包含 profiles/desktop 的 DSH 数据目录。不会创建或初始化新 Profile。" = "選擇包含 profiles/desktop 的 DSH 資料目錄。不會建立或初始化新 Profile。";
+"确认 DSH 接入目标" = "確認 DSH 接入目標";
+"继续" = "繼續";
+"取消" = "取消";
+"已通过 DSH 插件管理器移除 AgentPet 接入。其他插件、会话和宠物数据保留。" = "已透過 DSH 外掛管理員移除 AgentPet 接入。其他外掛、對話與寵物資料保留。";
+"已通过 DSH 插件管理器配置 AgentPet 接入。请重新打开 DSH 后使用。" = "已透過 DSH 外掛管理員設定 AgentPet 接入。請重新開啟 DSH 後使用。";
+"已移除全局 AgentPet 接入。请重开所用客户端，使内存中已加载的接入停止生效。客户端、其他插件、用户数据与恢复备份均保留。" = "已移除全域 AgentPet 接入。請重新開啟所用客戶端，停止記憶體中已載入的接入。客戶端、其他外掛、使用者資料與還原備份均保留。";
+"已写入 Codex 接入。请在 Codex 的 /hooks 中审阅并信任 AgentPet 项，然后重开所用客户端。" = "已寫入 Codex 接入。請在 Codex 的 /hooks 中檢閱並信任 AgentPet 項目，然後重新開啟所用客戶端。";
+"已写入对应版本的 OpenCode 接入。V1 重开客户端；V2 请在当前任务结束后执行 opencode reload，再继续使用。" = "已寫入對應版本的 OpenCode 接入。V1 請重新開啟客戶端；V2 請在目前任務結束後執行 opencode reload。";
+"已写入接入，请重开所用客户端后使用。" = "已寫入接入，請重新開啟所用客戶端後使用。";
+"dsh.target.confirmBody" = "應用程式：%@\n資料目錄：%@\nProfile：desktop\n\n請確認這是日常使用的 DSH 資料目錄。請先儲存工作並完全結束 DSH，AgentPet 不會替你關閉。";
+"dsh.package.notFound" = "無法在 Finder 中顯示外掛套件。位置：%@";
+"dsh.package.revealed" = "外掛套件與安裝說明位於：%@。顯示檔案不會安裝外掛。";
+"dsh.target.description" = "DSH：%@\n資料目錄：%@\nProfile：desktop";
+
+// Client integration notices
+"Codex 已关闭 hooks，请先在客户端配置中启用。" = "Codex hooks 已停用，請先在客戶端設定中啟用。";
+"安装或更新后，在 Codex 的 /hooks 中审阅并信任 AgentPet 项，再重开所用 Codex 客户端。此处不检测原生信任状态。" = "安裝或更新後，請在 Codex 的 /hooks 中檢閱並信任 AgentPet，再重新開啟 Codex。此處不檢查原生信任狀態。";
+"安装、更新或移除后，重开所用客户端，使接入变更生效。" = "安裝、更新或移除後，重新開啟所用客戶端，使接入變更生效。";
+"兼容入口，暂不维护或专项验收；变更后请重开客户端。" = "僅保留相容入口，暫不維護或專項驗收；變更後請重新開啟客戶端。";
+
+// Integration configuration notes
+"现有 toolkit 包含 AgentPet bridge；请先在 DSH 拆分旧组合，避免重复加载。Lite 不会卸载其他 toolkit 功能。" = "現有 toolkit 包含 AgentPet bridge；請先在 DSH 拆分舊組合，避免重複載入。Lite 不會移除其他 toolkit 功能。";
+"当前为旧名独立包 @acerz/dsh-agentpet-bridge。请完全退出 DSH，先 Remove，再 Install 新包 @agentpet-lite/dsh-bridge；其他 toolkit 功能和配置保留。" = "目前是舊名獨立套件 @acerz/dsh-agentpet-bridge。請完全結束 DSH，先 Remove，再 Install 新套件 @agentpet-lite/dsh-bridge；其他 toolkit 功能與設定保留。";
+"已登记的 bridge 安装内容缺失或损坏；Update 可修复，也可 Remove。" = "已註冊的 bridge 安裝內容遺失或損壞。請完全結束 DSH 後先 Remove 再 Install 修復。";
+"bridge 文件缺失或已修改；Update 可修复，也可 Remove。" = "bridge 檔案遺失或已修改。請完全結束 DSH 後先 Remove 再 Install 修復。";
+"Codex 已关闭 hooks。请先在 Codex 配置中启用 hooks，再安装接入；应用不会修改原生信任或管理策略。" = "Codex hooks 已停用。請先在 Codex 設定中啟用，再安裝接入；應用程式不會修改原生信任或管理原則。";
+"接入写入后检查未通过，请刷新并检查配置。" = "寫入接入後檢查未通過，請重新整理並檢查設定。";
+"仍检测到 AgentPet 注册，请检查配置。" = "仍偵測到 AgentPet 註冊，請檢查設定。";
+"CODEX_HOME 必须为绝对路径，请先确认 CLI 与应用使用相同配置目录。" = "CODEX_HOME 必須為絕對路徑，請先確認 CLI 與應用程式使用相同設定目錄。";
+"检测到 OPENCODE_CONFIG_DIR 自定义目录。当前按钮仅管理标准全局目录，请人工确认接入位置。" = "偵測到自訂 OPENCODE_CONFIG_DIR。目前按鈕只管理標準全域目錄，請手動確認接入位置。";
+"OPENCODE_CONFIG_CONTENT 中存在 AgentPet 引用，请先人工确认，避免重复接入。" = "OPENCODE_CONFIG_CONTENT 中存在 AgentPet 參照，請先手動確認，避免重複接入。";
+"agy 的 agentpet 组已禁用，请先人工确认该组配置。" = "agy 的 agentpet 群組已停用，請先手動確認該群組設定。";
+"无法识别或暂不支持该 OpenCode 版本。请使用 OpenCode V1（≥1.18.34）或 V2（≥2.0.29）后重试。" = "無法辨識或尚不支援此 OpenCode 版本。請使用 V1 ≥1.18.34 或 V2 ≥2.0.29 後重試。";
+"该 OpenCode 版本过旧。接入需要 V1 ≥1.18.34 或 V2 ≥2.0.29。" = "此 OpenCode 版本過舊。接入需要 V1 ≥1.18.34 或 V2 ≥2.0.29。";
+"未找到本机 OpenCode CLI，无法选择 V1/V2 插件。请先安装 OpenCode，再 Refresh。" = "找不到本機 OpenCode CLI，無法選擇 V1/V2 外掛。請先安裝 OpenCode，再 Refresh。";
+"无法创建 OpenCode 版本检测的临时文件。" = "無法建立 OpenCode 版本檢查的暫存檔。";
+"无法运行 OpenCode --version，请检查本机 CLI。" = "無法執行 OpenCode --version，請檢查本機 CLI。";
+"OpenCode 版本检测超时，未安装接入。" = "OpenCode 版本檢查逾時，未安裝接入。";
+"OpenCode --version 执行失败，未安装接入。" = "OpenCode --version 執行失敗，未安裝接入。";
+
+/* Agent Orchestrator experimental source */
+"ao.experiment.badge" = "實驗功能";
+"ao.experiment.details" = "Agent Orchestrator 實驗功能說明";
+"ao.experiment.toggle" = "顯示 Agent Orchestrator 實驗任務";
+"ao.experiment.scope" = "將 AO 同一專案的會話彙總為一個任務氣泡；完成未讀結果持續保留。專案點擊優先開啟現有編排器，否則開啟看板；獨立代理精確開啟對應會話。";
+"ao.experiment.unavailable" = "目前版本僅提供說明入口，實驗功能暫不可用，維持關閉。";
+"ao.experiment.permission" = "跳轉使用 AO 原生外部入口，無需 macOS 輔助使用權限。需使用支援導覽 v1 的 AO 建置；官方 v0.14.6 尚未包含此實驗入口。";
+"ao.experiment.step.1" = "使用含外部導覽 v1 修補的 AO 建置，並保持應用程式執行。";
+"ao.experiment.step.2" = "在 AO 中開啟目標專案，確認其看板與現有編排器可以存取。";
+"ao.experiment.step.3" = "在實驗版 %@ 的「進階篩選」中開啟 Agent Orchestrator；此工作來源預設關閉。";
+"ao.experiment.step.4" = "點擊專案工作氣泡：優先開啟既有編排器，否則進入同專案看板。版本不支援或頁面未確認時會回報失敗。";
+"ao.experiment.safety" = "精確開啟本條原生會話並確認後，僅將本條結果標為已讀；專案看板不會標讀其他成員，也不會批准請求。關閉來源僅隱藏顯示，保留追蹤記錄。";
+"ao.experiment.disabled" = "AO 實驗顯示已關閉，未開始跳轉。";
+
+/* Source maintenance status */
+"source.tag.maintenanceEnded" = "已停止維護";
+"source.tag.unmaintained" = "不維護";
+
+"ao.navigation.stale" = "AO 連線已變更或過期，請重新整理專案觀察後再試；未標記已讀。";
+
+"ao.navigation.unsupported" = "目前 AO 執行個體沒有有效的原生導覽 v1 入口，請使用含入口的 AO 建置；無需開啟輔助使用權限。";
+
+"ao.navigation.unconfirmed" = "AO 未確認目標頁面已在前景開啟，請在含入口的建置中再試；未標記已讀。";
+
+"等待状态更新" = "等待狀態更新";
+"dsh.manage.button" = "Manage";
+"dsh.manage.notice" = "請在 DSH 的「外掛 → 新增外掛」安裝或更新 @agentpet-lite/dsh-bridge。外掛獨立發行，AgentPet 不代為安裝或替換。";
+"dsh.test.status.incompatible" = "橋接協定不相容";
+"dsh.test.next.incompatible" = "請在 DSH 安裝支援 AgentPet 協定 v1 的橋接外掛。外掛發行版本無需與 AgentPet 相同。";
+"dsh.test.status.limited" = "橋已連線，部分能力無法使用";
+"dsh.test.next.limited" = "生命週期通訊可用，但桌面 Client、人工互動或導覽能力缺失。請檢查 DSH 用戶端及外掛狀態。";
+"dsh.test.check.protocol" = "橋接協定相容";
+"dsh.test.check.pending" = "人工待辦能力與唯一 Client";
+"dsh.test.check.navigation" = "精確導覽能力與唯一 Client";
+"dsh.test.check.speech" = "公開回覆預覽能力";
+"dsh.health.ambiguous" = "同一 Profile 存在多個橋接執行個體，未選擇任何一個。";
+
+/* AO native results retain their unread indicator while the host is idle. */
+"回合已完成，未读" = "回合已完成，未讀";
+"回合结果未知，未读" = "回合結果未知，未讀";
+
+"ao.project.unread.button" = "未讀 %d";
+"ao.project.unread.hint" = "開啟下一條未讀對話；精確跳轉確認後僅標讀該對話";
+"ao.project.unread.unavailable" = "仍有未讀結果，但目前尚未確認可精確跳轉的對話關聯";
+
+"source.tag.unsupported" = "不適配";
+
+/* Daily recorded Token usage */
+"usage.title" = "Token 用量";
+"usage.about" = "用量說明";
+"usage.today" = "今日";
+"usage.window" = "30 天";
+"usage.last30Days" = "最近 30 天";
+"usage.chart" = "每日 Token 堆疊圖";
+"usage.notStarted" = "尚未開始統計";
+"usage.partial" = "部分涵蓋";
+"usage.unknown" = "涵蓋未知";
+"usage.recorded" = "已記錄";
+"usage.configure" = "統計設定";
+"usage.checking" = "正在讀取用量";
+"usage.tokens" = "Token";
+"usage.input" = "輸入";
+"usage.cacheRead" = "快取讀";
+"usage.cacheWrite" = "快取寫";
+"usage.output" = "輸出";
+"usage.dayHint" = "懸停查看當日明細，點擊固定；方向鍵切換日期。";
+"usage.collecting" = "統計已啟用";
+"usage.startDate" = "統計起點：%@";
+"usage.countingScope" = "輸入、快取讀寫及輸出（含推理）";
+"usage.collectionScope" = "自接入起記錄；移除後隱藏但保留資料";
+"usage.startScope" = "接入後自動開始統計，重新啟動保留起點；不匯入之前的歷史和測試資料。移除接入後停止，重新接入不補算停用期間。";
+"usage.coverageScope" = "日期按目前本地時區劃分。缺失或無法讀取的記錄不當作零，部分涵蓋與未知狀態會保留提示。";
+"integration.agy.scope" = "此項接入 Antigravity CLI（agy 命令列），不代表 Antigravity 桌面用戶端已適配；DSH／TUI 內的 agy 由 DSH 整合管理。";
+"usage.error.storage" = "用量儲存無法使用。";
+"usage.error.unavailable" = "用量記錄不存在或無法讀取。";
+"usage.error.unsupported" = "部分原生記錄格式尚不支援。";
+"usage.error.corrupt" = "部分記錄損壞，統計涵蓋不完整。";
+"usage.error.limit" = "讀取達到容量限制，統計涵蓋不完整。";
+"usage.error.invalid" = "部分用量中繼資料未通過驗證。";
+"usage.error.partial" = "記錄仍在寫入，等待下次讀取。";
+"usage.error.legacyFork" = "舊 OpenCode 分支工作階段去重尚未完整驗證。";
+"usage.error.totalMismatch" = "原生總量與分桶不符，採用分桶之和。";
+"usage.issue.changedTime" = "部分用量中繼資料未通過驗證。";
+"usage.issue.conflictingRevision" = "部分用量中繼資料未通過驗證。";
+"usage.issue.invalidRecord" = "部分用量中繼資料未通過驗證。";
+"usage.issue.missingFiles" = "用量記錄不存在或無法讀取。";
+"usage.autoRefresh" = "（預設 60s 更新）";
+"usage.dataScope" = "僅彙總本機回報資料，非官方帳單";
+"usage.dshScope" = "共用目錄與核心TUI；不含獨立後端";
+"usage.agyScope" = "僅含 DSH 核心呼叫（不含獨立 CLI）";
+"usage.label.tokens" = "統計內容：";
+"usage.label.data" = "資料性質：";
+"usage.label.integration" = "接入規則：";
+"usage.label.dsh" = "DSH 範圍：";
+"usage.label.agy" = "agy 範圍：";
+
+"usage.dayDetail" = "用量明細";
+
+"usage.beforeStartDay" = "這一天尚未開始統計。啟用前的歷史不回填。";
+
+"usage.missingDay" = "暫時沒有可確認的記錄。資料缺失不視為零用量。";
+
+"usage.partialDay" = "僅包含已記錄的時段。";
+
+"usage.zeroDay" = "記錄完整，這一天的用量確認為 0。";
+
+/* OpenCode session navigation capability */
+"navigation.opencode.unsupported" = "OpenCode V2 導航需 ≥2.2.2 且已載入 TUI 外掛；請 Update 接入，工作結束後 reload 並重開 TUI";
+"navigation.opencode.failed" = "OpenCode 會話跳轉未成功；請在原用戶端中手動切換";
+
+"navigation.opencode.hint" = "點擊開啟對應 OpenCode 會話（V2 導航需 ≥2.2.2 且已載入 TUI 外掛）";
+
+"navigation.opencode.unavailable" = "此會話尚未關聯活躍 TUI；請先在原用戶端中開啟";
+
+"navigation.opencode.ambiguous" = "多個 TUI 實例持有此會話；請在原用戶端中手動切換";
+
+/* Status HUD */
+"status.lastFed" = "%@進食";
+"status.quotaTitle" = "Codex額度";
+"status.todayUsage" = "今日用量";
+"status.windowUsage" = "%d天累計用量";
+"status.rangeDays" = "%d天";
+"status.quotaLoading" = "正在讀取額度…";
+"status.quotaStale" = "顯示上次額度，重新整理待確認";
+"status.quotaBarMeaning" = "條形表示剩餘可用額度。";
+
+/* Saved AO attention reminders are independent of current session status. */
+"ao.attention.title" = "AO 提醒 · %@";
+"ao.attention.previousInput" = "先前等待使用者輸入";
+"ao.attention.previousAttention" = "先前等待人工處理";
+"ao.attention.historyHint" = "這是先前儲存的等待提醒，不代表會話仍在等待。目前狀態以任務狀態列為準。";
+"ao.attention.acknowledge" = "知道了";
+"ao.attention.acknowledgeHint" = "僅收起這一條提醒；不會批准操作，也不會將會話回覆標為已讀。";

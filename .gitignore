@@ -1,0 +1,69 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Brainstorm scratch
+.superpowers/
+
+# Cloudflare Pages local dev state
+landing/.wrangler/
+landing/node_modules/
+.wrangler/
+
+# Local AI memory notes (not committed)
+.agent-memory/
+
+# Claude Code local tooling
+.claude/
+
+# Local agent memory , never commit
+/CLAUDE.md
+/AGENTS.md
+
+# Local Python check cache
+__pycache__/
+
+# Local runtime, private maintenance records and backups
+/README.local.md
+/evidence/
+/backups/
+/docs/evidence/
+/docs/local-handoff/
+
+# Only public guides belong in docs; private process records live outside this repo.
+/docs/*
+!/docs/architecture.md
+!/docs/maintenance-policy.md
+!/docs/agent-integrations.md
+!/docs/dsh-bridge-protocol.md
+!/docs/pet-animation-packs.md
+!/docs/public-scope.md
+!/docs/feature-comparison.md
+
+# Secrets and generated dependency files
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+auth.json
+credentials.json
+node_modules/
+*.tsbuildinfo
+*.log
+
+# Preserved historical local artifacts; active adapter source is maintained independently.
+/integrations/dsh-agentpet-bridge/

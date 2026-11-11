@@ -1,0 +1,933 @@
+/* AgentPet , Tiếng Việt */
+
+/* Tabs */
+"General" = "Chung";
+"Pet" = "Thú cưng";
+"Bubble" = "Bong bóng";
+"About" = "Giới thiệu";
+
+/* General / common */
+"Launch" = "Khởi động";
+"Launch at login" = "Khởi động khi đăng nhập";
+"AgentPet Lite starts automatically when you sign in." = "AgentPet Lite tự chạy khi bạn đăng nhập.";
+"Notifications" = "Thông báo";
+"Show chat bubble" = "Hiện bong bóng chat";
+"Messages" = "Tin nhắn";
+"System" = "Hệ thống";
+"Custom" = "Tùy chỉnh";
+"One message per line; a random one is shown." = "Mỗi dòng một câu; hiển thị ngẫu nhiên một câu.";
+"Reset to defaults" = "Khôi phục mặc định";
+"Reset to default" = "Khôi phục mặc định";
+"Sounds" = "Âm thanh";
+"Agent integrations" = "Tích hợp agent";
+"Hook installed" = "Đã cài hook";
+"Coming soon" = "Sắp có";
+"Enable" = "Bật";
+"Open Settings" = "Mở Cài đặt";
+"Quit AgentPet Lite" = "Thoát AgentPet Lite";
+"Upload…" = "Tải lên…";
+"Default" = "Mặc định";
+"Working" = "Đang làm";
+"Waiting" = "Đang chờ";
+"Done" = "Xong";
+/* Bubble tab */
+"Bubble mode" = "Chế độ bong bóng";
+"Multi-agent bubble" = "Bong bóng đa agent";
+"Structured rows with icons, state dots, and activity messages." = "Các dòng có icon, chấm trạng thái và câu hoạt động.";
+"Appearance" = "Giao diện";
+"Theme" = "Chủ đề";
+"Font size" = "Cỡ chữ";
+"Opacity" = "Độ mờ";
+"Show idle message" = "Hiện câu lúc rảnh";
+"The pet's chatter while no agent is running." = "Câu pet nói khi không có agent chạy.";
+"Display" = "Hiển thị";
+"Rows" = "Dòng";
+"Sessions" = "Phiên";
+"Filter" = "Bộ lọc";
+"Include states" = "Gồm trạng thái";
+"Which session states appear in the bubble." = "Những trạng thái phiên nào hiện trong bong bóng.";
+"Visible agents" = "Agent hiển thị";
+"Row content" = "Nội dung dòng";
+"Preview" = "Xem trước";
+"Presets" = "Mẫu sẵn";
+"Original" = "Gốc";
+"Standard" = "Tiêu chuẩn";
+"Detailed" = "Chi tiết";
+"Tap a chip above to add tokens" = "Bấm một chip ở trên để thêm token";
+"All tokens are in use" = "Đã dùng hết token";
+"Preview updates as you add, remove, or reorder tokens below." = "Xem trước cập nhật khi bạn thêm, xóa hoặc sắp xếp lại token bên dưới.";
+"Style" = "Kiểu";
+"Separator" = "Dấu phân cách";
+"State dot" = "Chấm trạng thái";
+"Agent icons" = "Icon agent";
+"Brand logos" = "Logo thương hiệu";
+"SF Symbols" = "SF Symbols";
+"Change…" = "Đổi…";
+"Activity messages" = "Câu hoạt động";
+"Vocabulary" = "Bộ từ";
+"Bubble messages" = "Câu trong bong bóng";
+"Simple bubble" = "Bong bóng đơn giản";
+"All agents" = "Tất cả agent";
+"Turn on multi-agent bubble above for per-agent rows with icons and activity." = "Bật bong bóng đa agent ở trên để có dòng riêng từng agent kèm icon và hoạt động.";
+
+/* About & Pet tab */
+"Author" = "Tác giả";
+"Version" = "Phiên bản";
+"Choose pet" = "Chọn thú cưng";
+"Animations" = "Hoạt ảnh";
+"Size on screen" = "Kích thước trên màn hình";
+"Browse pets…" = "Duyệt thú cưng…";
+"Create pet…" = "Tạo thú cưng…";
+"No pets yet. Tap Browse to add one." = "Chưa có thú cưng. Bấm Duyệt để thêm.";
+"Hover a clip to preview it." = "Di chuột lên một clip để xem thử.";
+"No pet selected" = "Chưa chọn thú cưng";
+"State" = "Trạng thái";
+/* Bubble pickers / tokens */
+"All rows" = "Tất cả dòng";
+"Carousel" = "Băng chuyền";
+"Compact" = "Thu gọn";
+"All sessions" = "Tất cả phiên";
+"Grouped by agent" = "Gom theo agent";
+"All states" = "Tất cả trạng thái";
+"Done and above" = "Done trở lên";
+"Working & Waiting" = "Đang làm & Đang chờ";
+"Working only" = "Chỉ đang làm";
+"One row at a time. Auto-cycles every 3 s — swipe or drag to browse." = "Mỗi lần một dòng. Tự xoay mỗi 3 giây, vuốt hoặc kéo để xem.";
+"One row per agent kind (×N when multiple)" = "Mỗi loại agent một dòng (×N khi có nhiều)";
+"One row per session" = "Mỗi phiên một dòng";
+"Show every row at once, up to the max below." = "Hiện tất cả dòng cùng lúc, tối đa theo số dưới.";
+"Summary header, first two rows, then fold the rest." = "Tiêu đề tóm tắt, hai dòng đầu, phần còn lại gập lại.";
+"Plain dot" = "Chấm thường";
+"Claude style" = "Kiểu Claude";
+"Flat color-coded circle" = "Hình tròn màu phẳng";
+"Spinning ✻ asterisk while active" = "Dấu ✻ xoay khi đang hoạt động";
+"Agent icon" = "Icon agent";
+"Chat title" = "Tiêu đề chat";
+"Project folder" = "Thư mục dự án";
+"Activity message" = "Câu hoạt động";
+"State label" = "Nhãn trạng thái";
+"Elapsed time" = "Thời gian đã trôi";
+"Title" = "Tiêu đề";
+"Project" = "Dự án";
+"Message" = "Câu";
+"Elapsed" = "Thời gian";
+"Icon" = "Icon";
+"Dot" = "Chấm";
+
+/* Theme & activity vocabulary names */
+"Light" = "Sáng";
+"Dark" = "Tối";
+"Chef" = "Đầu bếp";
+"Engineer" = "Kỹ sư";
+"Wizard" = "Phù thủy";
+"Explorer" = "Nhà thám hiểm";
+"Scientist" = "Nhà khoa học";
+
+/* Demo panel, notifications, sounds, footers */
+"Fire webhooks for many agents with your current settings" = "Bắn webhook cho nhiều agent với cài đặt hiện tại";
+"Add" = "Thêm";
+"Quick scenarios" = "Kịch bản nhanh";
+"Spawn 3 working" = "Tạo 3 đang làm";
+"Finish all" = "Hoàn tất tất cả";
+"Clear all" = "Xóa tất cả";
+"Active webhooks" = "Webhook đang hoạt động";
+"No webhooks yet. Add one from the right →" = "Chưa có webhook. Thêm từ bên phải →";
+"Notifications on" = "Thông báo đang bật";
+"Notifications muted" = "Thông báo đang tắt tiếng";
+"Notifications denied" = "Thông báo bị từ chối";
+"Notifications unavailable" = "Thông báo không khả dụng";
+"Enable notifications" = "Bật thông báo";
+"Available once installed as AgentPet Lite.app" = "Khả dụng sau khi cài dưới dạng AgentPet Lite.app";
+"Turn on in System Settings to get alerts" = "Bật trong Cài đặt hệ thống để nhận thông báo";
+"Alerts when an agent finishes or needs input" = "Báo khi agent xong hoặc cần nhập";
+"Muted, the toggle turns alerts back on" = "Đang tắt tiếng, gạt công tắc để bật lại";
+"When an agent finishes" = "Khi một agent hoàn tất";
+"When an agent needs input" = "Khi một agent cần nhập";
+"Per-agent overrides win over \"All agents\". A custom line replaces the live/theme text and the real pet honours it." = "Câu riêng từng agent ưu tiên hơn \"Tất cả agent\". Câu tùy chỉnh thay cho text live/theme và pet thật cũng áp dụng.";
+"Whimsical phrases shown while agents work, e.g. \"Brewing…\" or \"Compiling…\"." = "Câu vui hiện khi agent làm việc, ví dụ \"Brewing…\" hoặc \"Compiling…\".";
+
+/* Pet chat & idle messages */
+"Thinking…" = "Đang nghĩ…";
+"Working on it…" = "Đang làm…";
+"On it!" = "Làm ngay!";
+"Crunching code…" = "Đang cày code…";
+"Hmm, let me see…" = "Hmm, để xem nào…";
+"Cooking something up…" = "Đang nấu món gì đó…";
+"Deep in thought…" = "Đang suy nghĩ sâu…";
+"Brain go brrr…" = "Não chạy hết công suất…";
+"Almost there…" = "Sắp xong rồi…";
+"Wiring it up…" = "Đang ráp nối…";
+"I need you!" = "Cần bạn đây!";
+"Your turn 👀" = "Tới lượt bạn 👀";
+"Waiting on you…" = "Đang chờ bạn…";
+"Can you check this?" = "Bạn xem giúp cái này nhé?";
+"Psst, need input!" = "Suỵt, cần ý kiến!";
+"Awaiting orders…" = "Đang chờ lệnh…";
+"Help me out?" = "Giúp mình với?";
+"Stuck, need you!" = "Kẹt rồi, cần bạn!";
+"All done! ✅" = "Xong hết! ✅";
+"Finished!" = "Hoàn tất!";
+"Ta-da!" = "Ta-da!";
+"Done and dusted!" = "Xong xuôi!";
+"Nailed it!" = "Chuẩn luôn!";
+"That's a wrap!" = "Khép lại nhé!";
+"Mission complete!" = "Hoàn thành nhiệm vụ!";
+"🎉 Woohoo!" = "🎉 Hoan hô!";
+"We did it!" = "Làm được rồi!";
+"Victory!" = "Chiến thắng!";
+"Yesss!" = "Tuyệt vời!";
+"High five! 🙌" = "Đập tay nào! 🙌";
+"Champion!" = "Nhà vô địch!";
+"Let's grill some bugs." = "Đi săn bug nào.";
+"I miss you. Open a branch for me." = "Nhớ bạn quá. Mở một nhánh đi.";
+"Tiny commit, tiny dopamine." = "Commit nhỏ, vui nhỏ.";
+"The build is quiet. Too quiet." = "Build đang im. Im đáng ngờ.";
+"Ship something small. Future you is watching." = "Ship cái gì nhỏ thôi. Bạn của tương lai đang nhìn đấy.";
+"Your TODOs are pretending not to see us." = "Đống TODO đang giả vờ không thấy mình.";
+"No agents running. The keyboard has entered standby drama." = "Không có agent nào chạy. Bàn phím đang diễn cảnh chờ.";
+"Turn coffee into code. Carefully." = "Biến cà phê thành code. Cẩn thận nhé.";
+"Open one file. Intimidate it professionally." = "Mở một file. Hù nó một cách chuyên nghiệp.";
+"The repo is calm. Suspicious, but calm." = "Repo đang yên. Đáng ngờ, nhưng yên.";
+"Refactor lightly. Leave with dignity." = "Refactor nhẹ thôi. Rút lui trong danh dự.";
+"One clean diff can fix the whole afternoon." = "Một diff sạch cứu cả buổi chiều.";
+"Waiting for your input" = "Đang chờ bạn nhập";
+"Your turn — over to you" = "Tới lượt bạn";
+"Needs your input" = "Cần bạn nhập";
+
+/* App language picker */
+"Language" = "Ngôn ngữ";
+
+/* App: onboarding, create-pet, browser, menu */
+"A desktop pet that watches your AI coding agents. Two quick steps to get going." = "Thú cưng desktop theo dõi các agent code AI của bạn. Hai bước nhanh để bắt đầu.";
+"Added" = "Đã thêm";
+"Browse pets" = "Duyệt thú cưng";
+"Cancel" = "Hủy";
+"Category" = "Danh mục";
+"Choose image…" = "Chọn ảnh…";
+"Community" = "Cộng đồng";
+"Create" = "Tạo";
+"Create pet" = "Tạo thú cưng";
+"Get alerted when an agent finishes or needs input." = "Được báo khi một agent xong hoặc cần bạn nhập.";
+"Get started" = "Bắt đầu";
+"Install a hook so AgentPet Lite can see when an agent works, finishes, or needs you." = "Cài hook để AgentPet Lite biết khi agent làm việc, hoàn tất, hoặc cần bạn.";
+"Loading pets…" = "Đang tải thú cưng…";
+"Nothing running right now." = "Hiện không có gì đang chạy.";
+"Pet info" = "Thông tin thú cưng";
+"Pet size" = "Kích thước thú cưng";
+"Retry" = "Thử lại";
+"Sort by agent kind" = "Sắp xếp theo loại agent";
+"Spritesheet" = "Spritesheet";
+"Use the same 8×9 transparent spritesheet format as downloaded pets." = "Dùng cùng định dạng spritesheet 8×9 trong suốt như pet tải về.";
+"Welcome to AgentPet Lite" = "Chào mừng đến với AgentPet Lite";
+
+/* Codex connection help */
+"Connect Codex" = "Kết nối Codex";
+"The hook is installed. Codex blocks unknown command hooks until you trust them once , a Codex security feature, not an AgentPet bug. Do this one time:" = "Hook đã được cài. Codex chặn các command hook lạ cho tới khi bạn duyệt một lần , đây là cơ chế bảo mật của Codex, không phải lỗi AgentPet. Chỉ cần làm một lần:";
+"Open Terminal and run: codex (launches the Codex CLI)" = "Mở Terminal và chạy: codex (mở Codex CLI)";
+"Type /hooks and press Enter to list the hooks." = "Gõ /hooks rồi nhấn Enter để liệt kê các hook.";
+"Press t to Trust all hooks." = "Nhấn phím t để Trust tất cả hook.";
+"Quit and reopen Codex (both the CLI and the desktop app)." = "Thoát rồi mở lại Codex (cả CLI lẫn app desktop).";
+"Run any prompt , your pet now shows the Codex session." = "Chạy thử một lệnh , pet sẽ hiện session Codex ngay.";
+"Trust is shared, so trusting once in the CLI also covers the Codex desktop app. If /hooks shows nothing, add  [features] hooks = true  to ~/.codex/config.toml, then retry." = "Trust dùng chung, nên duyệt một lần ở CLI là Codex desktop cũng chạy. Nếu /hooks không hiện gì, thêm  [features] hooks = true  vào ~/.codex/config.toml rồi thử lại.";
+"Codex hooks docs" = "Tài liệu Codex hooks";
+"Got it" = "Đã hiểu";
+"How to connect Codex" = "Cách kết nối Codex";
+"Installed , needs a one-time trust (tap ?)" = "Đã cài , cần duyệt một lần (bấm ?)";
+
+/* Care (tamagotchi) */
+"Care" = "Chăm sóc";
+"Companion" = "Bạn đồng hành";
+"Hunger" = "Cơn đói";
+"Today" = "Hôm nay";
+"Lifetime" = "Trọn đời";
+"Growth sources" = "Nguồn nuôi dưỡng";
+"Hatchling" = "Mới nở";
+"Scout" = "Trinh sát";
+"Hero" = "Anh hùng";
+"Legend" = "Huyền thoại";
+"Full" = "No căng";
+"Satisfied" = "Hài lòng";
+"Peckish" = "Hơi đói";
+"Hungry" = "Đói";
+"Starving" = "Đói lả";
+"Last fed %@" = "Ăn lần cuối %@";
+"pet.status.fedAgo" = "Ăn %@";
+"%@ / %@ XP to next level" = "%@ / %@ XP tới cấp tiếp theo";
+"The pet eats real work: tokens burnt by your agents and finished sessions." = "Pet ăn công việc thật: token mà agent của bạn đốt và các phiên hoàn thành.";
+"Tokens eaten" = "Token đã ăn";
+"Full! The daily bowl is empty." = "No rồi! Bát hôm nay đã hết.";
+"Sessions finished" = "Phiên hoàn thành";
+"Streak" = "Chuỗi ngày";
+"%d days" = "%d ngày";
+"Total tokens eaten" = "Tổng token đã ăn";
+"Total sessions" = "Tổng số phiên";
+"Local token usage" = "Lượng token cục bộ";
+"Available token usage from local Codex and Claude Code sessions earns experience." = "Lượng token đọc được từ các phiên Codex và Claude Code cục bộ được tính thành kinh nghiệm.";
+"Task completion rewards" = "Thưởng khi hoàn thành tác vụ";
+"About token usage" = "Thông tin về lượng token";
+"Token usage: available local Codex and Claude Code session usage counts toward pet experience." = "Lượng token: dữ liệu sử dụng đọc được từ các phiên Codex và Claude Code cục bộ được tính thành kinh nghiệm cho thú cưng.";
+"Successfully completed agent turns also earn experience." = "Các lượt làm việc của agent hoàn thành thành công cũng nhận được kinh nghiệm.";
+"Connected: subscription limits below." = "Đã kết nối: hạn mức gói bên dưới.";
+"Optional: install OpenUsage to track every provider's limits." = "Tuỳ chọn: cài OpenUsage để theo dõi hạn mức mọi nhà cung cấp.";
+"Active" = "Đang hoạt động";
+"Connected" = "Đã kết nối";
+"Get it" = "Tải về";
+"left" = "còn lại";
+"Level up! Lv %d ⭐" = "Lên cấp! Lv %d ⭐";
+"Getting hungry… run an agent?" = "Đói rồi… chạy một agent nhé?";
+"A little snack? One small task?" = "Ăn nhẹ chút không? Một task nhỏ thôi?";
+"My tummy is rumbling…" = "Bụng mình đang sôi ùng ục…";
+"Feed me some tokens, please." = "Cho mình ăn ít token đi mà.";
+"Starving… nothing to eat for days…" = "Đói lả… mấy ngày chưa có gì ăn…";
+"So weak… one tiny session, please…" = "Yếu quá rồi… một phiên bé xíu thôi…";
+"No tokens… no energy…" = "Không token… không năng lượng…";
+"Remember me? Your pet? The hungry one?" = "Còn nhớ mình không? Pet của bạn? Đứa đang đói ấy?";
+"Careful… your AI budget is almost gone." = "Cẩn thận… ngân sách AI sắp cạn rồi.";
+"Low fuel: a usage limit is nearly reached!" = "Sắp hết nhiên liệu: một hạn mức sắp chạm trần!";
+"Maybe save some tokens for tomorrow…" = "Hay là để dành ít token cho ngày mai…";
+"1 day" = "1 ngày";
+
+/* Care v2: per-pet + web sync + popover */
+"Your pet" = "Pet của bạn";
+"Every pet levels up on its own: experience belongs to the companion you raise it with." = "Mỗi pet tự lên cấp: kinh nghiệm thuộc về bạn đồng hành mà bạn nuôi cùng.";
+"All companions" = "Tất cả bạn đồng hành";
+"Each companion keeps its own experience. Switch pets in the Pet tab to raise another one." = "Mỗi bạn đồng hành giữ kinh nghiệm riêng. Đổi pet ở tab Thú cưng để nuôi con khác.";
+"Raising" = "Đang nuôi";
+"Sign in on the site, open your profile, and enter the pairing code here." = "Đăng nhập trên trang web, mở hồ sơ, rồi nhập mã ghép nối vào đây.";
+"Pairing code" = "Mã ghép nối";
+"Connecting…" = "Đang kết nối…";
+"Connect" = "Kết nối";
+"Restore" = "Khôi phục";
+"Code not recognized. Codes expire after 10 minutes." = "Không nhận ra mã. Mã hết hạn sau 10 phút.";
+"Could not reach the server." = "Không kết nối được máy chủ.";
+"Today %@ tokens · %d meals" = "Hôm nay %@ token · %d bữa";
+"Today %@ tokens · 1 meal" = "Hôm nay %@ token · 1 bữa";
+
+/* Care v3: GitHub link + stats popover */
+"Last fed" = "Ăn lần cuối";
+"%@ tokens · 1 meal" = "%@ token · 1 bữa";
+"%@ tokens · %d meals" = "%@ token · %d bữa";
+"%@ tokens · %d sessions" = "%@ token · %d phiên";
+
+/* Care HUD */
+"Burn, last 7 days" = "Token đốt, 7 ngày qua";
+"Limits" = "Hạn mức";
+"days fed" = "ngày được ăn";
+"tokens eaten" = "token đã ăn";
+"completed" = "đã hoàn thành";
+"1 meal" = "1 bữa";
+"%d meals" = "%d bữa";
+
+/* Care v5: native limits + to-next-level */
+"≈ %@ tokens to Lv %d" = "≈ %@ token để lên Lv %d";
+"Subscription limits" = "Hạn mức gói";
+"Subscription limits are for monitoring and reminders. They do not grant experience." = "Hạn mức gói chỉ dùng để theo dõi và nhắc nhở, không cộng kinh nghiệm.";
+"No subscription data is available yet." = "Chưa có dữ liệu hạn mức gói.";
+"Connected: adds limits for every other provider." = "Đã kết nối: bổ sung hạn mức cho mọi nhà cung cấp khác.";
+
+/* Care v6: quota used + reset */
+"%d%% used" = "đã dùng %d%%";
+"resets in %dd" = "làm mới sau %d ngày";
+"resets in %dh" = "làm mới sau %d giờ";
+"resets in %dm" = "làm mới sau %d phút";
+
+/* Coffee / donate */
+"Quét mã bằng app ngân hàng bất kỳ" = "Quét mã bằng app ngân hàng bất kỳ";
+/* Privacy clarity */
+/* Coffee methods */
+/* HUD footer */
+"Settings" = "Cài đặt";
+"Updates" = "Cập nhật";
+"Quit" = "Thoát";
+"Checking…" = "Đang kiểm tra…";
+
+
+/* Achievements + per-project pets + break reminder (PR #27/#28) */
+"First Meal" = "Bữa đầu tiên";
+"100 Sessions" = "100 phiên";
+"500 Sessions" = "500 phiên";
+"1M Tokens" = "1M token";
+"10M Tokens" = "10M token";
+"50M Tokens" = "50M token";
+"Level 5" = "Cấp 5";
+"Level 10" = "Cấp 10";
+"Level 20" = "Cấp 20";
+"Level 35" = "Cấp 35";
+"7-Day Streak" = "Chuỗi 7 ngày";
+"14-Day Streak" = "Chuỗi 14 ngày";
+"30-Day Streak" = "Chuỗi 30 ngày";
+"Night Owl" = "Cú đêm";
+"Finish your first agent session" = "Hoàn thành phiên agent đầu tiên";
+"Finish 100 agent sessions" = "Hoàn thành 100 phiên agent";
+"Finish 500 agent sessions" = "Hoàn thành 500 phiên agent";
+"Burn 1M tokens" = "Đốt 1M token";
+"Burn 10M tokens" = "Đốt 10M token";
+"Burn 50M tokens" = "Đốt 50M token";
+"Reach Level 5" = "Đạt cấp 5";
+"Reach Level 10" = "Đạt cấp 10";
+"Reach Level 20" = "Đạt cấp 20";
+"Reach Level 35 (Legend)" = "Đạt cấp 35 (Huyền thoại)";
+"Feed your pet 7 days in a row" = "Cho pet ăn 7 ngày liên tiếp";
+"Feed your pet 14 days in a row" = "Cho pet ăn 14 ngày liên tiếp";
+"Feed your pet 30 days in a row" = "Cho pet ăn 30 ngày liên tiếp";
+"Finish a session after midnight" = "Hoàn thành phiên sau nửa đêm";
+"%d achievements unlocked! 🏆" = "Mở khóa %d thành tựu! 🏆";
+"Achievement unlocked: %@ 🏆" = "Mở khóa thành tựu: %@ 🏆";
+"Achievements" = "Thành tựu";
+"Hover a badge to see how to unlock it" = "Rê chuột vào huy hiệu để xem cách mở khóa";
+"Add a project folder to give it its own pet." = "Thêm thư mục dự án để gán pet riêng.";
+"Add project…" = "Thêm dự án…";
+"Agents" = "Agent";
+"Animate pets" = "Hoạt ảnh pet";
+"Animation speed" = "Tốc độ hoạt ảnh";
+"Default pet" = "Pet mặc định";
+"Hide idle project pets" = "Ẩn pet dự án khi rảnh";
+"Level up" = "Lên cấp";
+"Sleepy" = "Buồn ngủ";
+"Model" = "Model";
+"No pets installed" = "Chưa cài pet nào";
+"No project pets yet." = "Chưa có pet dự án nào.";
+"Project pets" = "Pet theo dự án";
+"Remind me to take breaks" = "Nhắc tôi nghỉ giải lao";
+"Show a configured project's pet only while it's working; hide it when idle." = "Chỉ hiện pet của dự án đã cấu hình khi đang chạy; ẩn khi rảnh.";
+"Spawn one pet per active project instead of one shared pet." = "Tạo một pet cho mỗi dự án đang chạy thay vì dùng chung một pet.";
+"Split pet" = "Tách pet";
+"Sprite frame rate. Idle is always capped at 2 fps." = "Tốc độ khung hình sprite. Khi rảnh luôn giới hạn 2 fps.";
+"The home pet nudges you to rest after a work stretch." = "Pet chính sẽ nhắc bạn nghỉ sau một quãng làm việc.";
+"Turn off to freeze pet/bubble animation (lower CPU)." = "Tắt để dừng hoạt ảnh pet/bong bóng (giảm CPU).";
+"missing" = "thiếu";
+"Est. cost (Claude)" = "Ước tính chi phí (Claude)";
+"Today %@ · Month %@" = "Hôm nay %@ · Tháng %@";
+"Allow" = "Cho phép";
+"Deny" = "Từ chối";
+"Click to open this terminal" = "Bấm để mở terminal này";
+"Bash approval gate" = "Cổng duyệt Bash";
+"Approve Bash from the bubble" = "Duyệt Bash từ bong bóng";
+"Claude Code Bash requests show Allow/Deny in the bubble instead of the terminal." = "Yêu cầu Bash của Claude Code hiện Cho phép/Từ chối trong bong bóng thay vì ở terminal.";
+
+"%d%% remaining" = "Còn %d%%";
+"5-hour" = "5 giờ";
+"Weekly" = "Hàng tuần";
+"%d-minute window" = "%d phút";
+"Primary quota" = "Hạn mức chính";
+"Secondary quota" = "Hạn mức phụ";
+"Unavailable" = "Không khả dụng";
+
+/* Unified pet speech */
+"Pet bubble" = "Bong bóng thú cưng";
+"Show Codex progress above your pet. When five-hour quota falls below 10%, remind you once with an animation and message." = "Hiển thị tiến độ Codex trên thú cưng. Khi hạn mức 5 giờ còn dưới 10%, nhắc một lần bằng hoạt ảnh và văn bản.";
+
+/* Shared task and pet bubble background opacity */
+"Bubble background opacity" = "Độ mờ nền bong bóng";
+"Lower values reveal content behind both bubbles. Text and icons stay readable; 0% hides the background without blurring." = "Giá trị thấp giúp nhìn rõ phía sau cả hai bong bóng. Chữ và biểu tượng giữ nguyên; 0% ẩn nền và không làm mờ phía sau.";
+
+"3 seconds" = "3 giây";
+
+"Hide AgentPet Lite menu bar icon" = "Ẩn biểu tượng AgentPet Lite trên thanh menu";
+
+"Clear ended tasks" = "Xóa các tác vụ đã kết thúc";
+
+"You can show the icon again here or open Settings from the pet's Status panel." = "Có thể hiện lại biểu tượng ở đây hoặc mở Cài đặt từ bảng Status của thú cưng.";
+
+"Pomodoro" = "Đồng hồ Pomodoro";
+
+"Focus" = "Tập trung";
+
+"Break" = "Nghỉ";
+
+"min" = "phút";
+
+"Focus minutes" = "Số phút tập trung";
+
+"Break minutes" = "Số phút nghỉ";
+
+"Pause" = "Tạm dừng";
+
+"Resume" = "Tiếp tục";
+
+"End" = "Kết thúc";
+
+"Start focus" = "Bắt đầu tập trung";
+
+"Start break" = "Bắt đầu nghỉ";
+
+"Phase finished" = "Giai đoạn đã kết thúc";
+
+"Focus finished. Start a break in Status." = "Đã tập trung xong. Bắt đầu nghỉ trong Status.";
+
+"Break finished. Start your next focus in Status." = "Đã nghỉ xong. Bắt đầu lượt tập trung tiếp theo trong Status.";
+
+/* System notices: shared Pet bubble control */
+"Show Agent messages, Pomodoro alerts, and Codex low-quota and recovery reminders above your pet." = "Hiển thị tin nhắn Agent, thông báo Pomodoro và nhắc hạn mức Codex thấp hoặc đã phục hồi phía trên thú cưng.";
+
+/* Lightweight system notice text */
+"Codex quota: " = "Hạn mức Codex: ";
+"Codex restored: " = "Codex phục hồi: ";
+"Pomodoro: " = "Pomodoro: ";
+"Timer: " = "Hẹn giờ: ";
+"Codex: " = "Codex: ";
+"5h quota: %d%% left" = "Hạn mức 5 giờ: còn %d%%";
+"5h quota restored, %d%% left" = "Hạn mức 5 giờ đã phục hồi, còn %d%%";
+"Quota restored, %d%% left" = "Đã phục hồi, còn %d%%";
+"%d min focus done, break %d min" = "Đã tập trung %d phút, nghỉ %d phút";
+"%d min break done, ready to focus" = "Đã nghỉ %d phút, sẵn sàng tập trung";
+"Focus done, break %d min" = "Xong tập trung, nghỉ %d phút";
+"Break done, ready to focus" = "Xong nghỉ, sẵn sàng tập trung";
+
+/* Settings UI .74 */
+"Application appearance" = "Giao diện ứng dụng";
+"Animation effects" = "Hiệu ứng chuyển động";
+"Pet motion and related bubble/clock effects. Tasks, alerts and countdowns continue when off." = "Chuyển động thú cưng và hiệu ứng bong bóng/đồng hồ. Tác vụ, thông báo và đếm ngược vẫn tiếp tục khi tắt.";
+"Sprite animation speed" = "Tốc độ hoạt ảnh sprite";
+"Sprite clips only; idle is capped at 2 fps. Videos play at their original speed." = "Chỉ cho sprite; khi rảnh tối đa 2 fps. Video phát ở tốc độ gốc.";
+"Bubble font size" = "Cỡ chữ bong bóng";
+"Bubble text opacity" = "Độ đục chữ bong bóng";
+"Text opacity affects bubble text and Agent prefixes only. Icons, status lights and progress bars keep their colors." = "Độ đục chỉ áp dụng cho chữ và tiền tố Agent. Biểu tượng, đèn trạng thái và thanh tiến độ giữ nguyên màu.";
+"Task bubble" = "Bong bóng tác vụ";
+"Task bubble click-through" = "Bấm xuyên bong bóng tác vụ";
+"Double-click the pet to toggle. While a task needs approval or attention, the bubble stays clickable." = "Nhấp đúp vào thú cưng để bật/tắt. Khi có tác vụ cần phê duyệt hoặc xử lý, bong bóng vẫn nhận nhấp.";
+"Bubble click-through: " = "Bấm xuyên bong bóng: ";
+"Click-through: " = "Bấm xuyên: ";
+"On" = "Đã bật";
+"Off" = "Đã tắt";
+"Could not enable. Handle waiting tasks first" = "Không thể bật. Vui lòng xử lý tác vụ đang chờ trước";
+"Task bubble click-through is on" = "Bấm xuyên bong bóng tác vụ đang bật";
+"Task bubble click-through is on but paused while a task needs attention" = "Bấm xuyên bong bóng tác vụ đang bật nhưng tạm dừng khi có tác vụ cần xử lý";
+"Tasks are always on. Running, waiting and unread tasks remain visible." = "Tác vụ luôn hiển thị. Tác vụ đang chạy, chờ và chưa đọc vẫn được giữ.";
+"Agent messages" = "Tin nhắn Agent";
+"Message display duration" = "Thời gian hiển thị tin nhắn";
+"%d seconds" = "%d giây";
+"1 second" = "1 giây";
+"10 seconds" = "10 giây";
+"Public replies are always on: up to 6 messages, 20 characters each. A full feed moves the oldest message out early." = "Luôn hiển thị phản hồi công khai: tối đa 6 tin, mỗi tin 20 ký tự. Khi đầy, tin cũ nhất sẽ rời sớm.";
+"Show Superchat" = "Hiển thị Superchat";
+"Quota notices show for 8 seconds. Pomodoro alerts stay until confirmation or the next phase. Turning this off keeps Agent messages and the timer running." = "Thông báo hạn mức hiện 8 giây; Pomodoro giữ đến khi xác nhận hoặc bắt đầu giai đoạn tiếp. Tắt không ảnh hưởng tin Agent và bộ đếm.";
+"Pet idle chatter" = "Lời nói khi rảnh";
+"Idle chatter is hidden. Enable it in General / Pet display." = "Lời nói khi rảnh đã ẩn. Bật trong Chung / Hiển thị thú cưng.";
+"Message source" = "Nguồn lời thoại";
+"Built-in" = "Có sẵn";
+"One phrase per line, used only while idle." = "Mỗi dòng một câu, chỉ dùng khi rảnh.";
+"Add at least one non-empty phrase." = "Hãy nhập ít nhất một câu không trống.";
+"Speech style" = "Phong cách lời thoại";
+"15 local phrases per style; no model requests. Tasks, Agent replies and Superchat take priority." = "Mỗi phong cách có 15 câu cục bộ, không gọi mô hình. Tác vụ, phản hồi Agent và Superchat được ưu tiên.";
+"Tsundere protector" = "Kiêu ngạo nhưng quan tâm";
+"Lazy comfort" = "Lười biếng dịu dàng";
+"Geek partner" = "Bạn đồng hành geek";
+"Next phrase" = "Câu tiếp theo";
+"Advanced filters" = "Bộ lọc nâng cao";
+"Visible sources affect task rows and public replies; they do not stop session tracking." = "Nguồn hiển thị ảnh hưởng hàng tác vụ và phản hồi công khai, không dừng theo dõi phiên.";
+"Claude Code advanced" = "Cài đặt nâng cao Claude Code";
+"Pet display" = "Hiển thị thú cưng";
+"Menu bar" = "Thanh menu";
+"Show pet" = "Hiển thị thú cưng";
+"Show chat on menu bar" = "Hiển thị tin nhắn trên thanh menu";
+"Apply" = "Áp dụng";
+"One phrase per line. Apply to use it only while idle." = "Mỗi dòng một câu. Nhấn Áp dụng để dùng khi rảnh.";
+"Sample tasks" = "Tác vụ mẫu";
+"Add sample task" = "Thêm tác vụ mẫu";
+"No sample tasks yet. Add one on the right." = "Chưa có tác vụ mẫu. Thêm từ bên phải.";
+"Remove sample task" = "Xóa tác vụ mẫu";
+
+"Installed" = "Đã cài đặt";
+
+"Not installed" = "Chưa cài đặt";
+
+"Managed by DSH" = "Do DSH quản lý";
+
+"Background opacity" = "Độ đục nền";
+
+"Text opacity" = "Độ đục chữ";
+
+"Random chatter every 20 seconds; 15 local phrases per style. Tasks, Agent replies and Superchat take priority." = "Trò chuyện ngẫu nhiên mỗi 20 giây; 15 câu mỗi phong cách. Tác vụ, trả lời của Agent và Superchat được ưu tiên.";
+
+/* Maintenance edition attribution */
+
+/* Lite project information */
+"A local desktop companion for your coding agents." = "Thú cưng trên màn hình đồng hành cùng các agent lập trình.";
+"Licenses" = "Giấy phép";
+"Source code" = "Mã nguồn";
+"View bundled licenses" = "Xem giấy phép đi kèm";
+"Third-party assets have their own licenses. The source code license does not cover all artwork." = "Tài nguyên bên thứ ba có giấy phép riêng; giấy phép mã nguồn không áp dụng cho toàn bộ hình ảnh.";
+"Acknowledgements" = "Lời cảm ơn";
+"Whale girl animations · PC2005-cloud/dsh-pet" = "Hoạt ảnh cô gái cá voi · PC2005-cloud/dsh-pet";
+"The whale girl animation assets are for non-commercial use. Keep the original project link when presenting or distributing derivatives." = "Tài nguyên hoạt ảnh cô gái cá voi chỉ dành cho mục đích phi thương mại; giữ liên kết dự án gốc khi giới thiệu, trưng bày hoặc phân phối tác phẩm phái sinh.";
+
+"Task and bubble preview" = "Xem trước tác vụ và bong bóng";
+
+"Hide task and bubble preview" = "Ẩn xem trước tác vụ và bong bóng";
+
+"Use sample tasks to preview the pet and task bubble. This does not test Agent connections." = "Dùng tác vụ mẫu để xem trước thú cưng và bong bóng tác vụ; không kiểm tra kết nối Agent.";
+
+"Completed" = "Đã hoàn thành";
+
+"Failed" = "Thất bại";
+
+"Stopped" = "Đã dừng";
+
+"Sample task %d" = "Tác vụ mẫu %d";
+
+"Working on the sample task" = "Đang xử lý tác vụ mẫu";
+
+"Sample reply: the requested change is ready for review." = "Phản hồi mẫu: thay đổi đã sẵn sàng để xem xét.";
+
+"Clicking a preview task marks only that sample as read. No Agent app is opened." = "Nhấp vào tác vụ xem trước chỉ đánh dấu tác vụ mẫu đó là đã đọc, không mở ứng dụng Agent.";
+
+"Mark sample task as read" = "Đánh dấu tác vụ mẫu là đã đọc";
+
+"Show sample Agent reply" = "Hiện phản hồi Agent mẫu";
+
+"Idle" = "Rảnh";
+
+
+"Celebrate" = "Ăn mừng";
+
+// Optional bundled DSH bridge
+"How to connect DSH" = "Mục tiêu DSH và cài đặt thủ công";
+
+/* Animation management */
+"Select animations to remove" = "Chọn hoạt ảnh cần gỡ";
+"Remove selected animations" = "Gỡ các hoạt ảnh đã chọn";
+"Remove animations?" = "Gỡ hoạt ảnh?";
+"Remove %ld animation(s) from “%@”? Other groups and original source files are kept." = "Gỡ %ld hoạt ảnh khỏi “%@”? Các nhóm khác và tệp nguồn gốc được giữ lại.";
+"Select animations to remove." = "Hãy chọn hoạt ảnh cần gỡ.";
+"The animation group changed. Review your selection and try again." = "Nhóm hoạt ảnh đã thay đổi. Kiểm tra lựa chọn rồi thử lại.";
+"Each group must keep at least one valid native animation from this pet. Imported animations do not replace this protection." = "Mỗi nhóm phải giữ ít nhất một hoạt ảnh gốc hợp lệ của thú cưng này. Hoạt ảnh nhập không thay thế được yêu cầu này.";
+"Animation library exceeds the size limit." = "Thư viện hoạt ảnh vượt giới hạn kích thước.";
+"Animation removed, but unused managed files could not be cleaned up:" = "Đã gỡ hoạt ảnh nhưng không thể dọn tệp được quản lý không còn tham chiếu:";
+"This pet is busy. Try again when the current operation finishes." = "Thú cưng đang xử lý hoạt ảnh. Hãy thử lại khi thao tác hoàn tất.";
+"The pet has no valid native fallback. Repair its pack before removing animations." = "Thú cưng không có hoạt ảnh gốc dự phòng hợp lệ. Sửa gói trước khi gỡ hoạt ảnh.";
+"Marked for removal" = "Đã đánh dấu để gỡ";
+"Not marked for removal" = "Chưa đánh dấu để gỡ";
+"Pet assignment" = "Gán thú cưng";
+"Different pets come with different animations. When a purpose has no dedicated animation, this pet’s default animation is used. You can adjust or import animations in Animations." = "Mỗi thú cưng có các hoạt ảnh riêng. Nếu chưa có hoạt ảnh cho một mục đích, hoạt ảnh mặc định của thú cưng sẽ được dùng. Bạn có thể điều chỉnh hoặc nhập trong Hoạt ảnh.";
+"Gallery pets may not include dedicated animations for all 9 purposes and can still be used normally. After adding one, select its existing animations or import your own in Animations." = "Thú cưng trong thư viện có thể chưa có hoạt ảnh riêng cho đủ 9 mục đích nhưng vẫn dùng bình thường. Sau khi thêm, bạn có thể chọn hoạt ảnh có sẵn hoặc nhập hoạt ảnh riêng trong Hoạt ảnh.";
+"Dismiss animation hint" = "Đóng gợi ý hoạt ảnh";
+
+"Animation Remove" = "Gỡ bỏ";
+
+"Import successful · %ld" = "Nhập thành công · %ld";
+
+// Local agent interface connection tests
+"Integration details" = "Chi tiết tích hợp";
+"Checking configuration" = "Đang kiểm tra cấu hình…";
+"Test again" = "Test lại";
+"connection.testing" = "Đang kết nối giao diện cục bộ…";
+"connection.connected" = "Đã kết nối giao diện cục bộ";
+"connection.cancelled" = "Đã hủy Test và dừng giao diện tạm.";
+"connection.timeout" = "Kết nối hết thời gian. Giao diện tạm đã dừng. Kiểm tra CLI rồi thử lại.";
+"connection.missingCLI" = "Không tìm thấy CLI. Cài ứng dụng và thêm tệp thực thi vào PATH.";
+"connection.startFailed" = "Không thể khởi động giao diện tạm. Kiểm tra CLI và quyền thư mục tạm.";
+"connection.unreachable" = "Giao diện không trả lời hợp lệ. Kiểm tra CLI có hỗ trợ giao thức rồi thử lại.";
+"connection.invalidResponse" = "Phản hồi giao diện không hợp lệ. Kiểm tra phiên bản ứng dụng.";
+"connection.rejected" = "Giao diện từ chối bắt tay. Kiểm tra tính tương thích giao thức.";
+"connection.authentication" = "Giao diện yêu cầu xác thực. Đăng nhập bằng ứng dụng; Test không sao chép thông tin xác thực hay đổi quyền.";
+"connection.versionUnsupported" = "Phiên bản OpenCode không hỗ trợ. Dùng V1 ≥1.18.34 hoặc V2 ≥2.0.29 rồi thử lại.";
+"connection.outputLimit" = "Đầu ra vượt giới hạn. Tiến trình tạm đã dừng.";
+"connection.agyUnsupported" = "agy CLI chưa có bắt tay cục bộ công khai đã xác minh mà không chạy lời nhắc. Không báo kết nối thành công. Kiểm tra Hook khi dùng bình thường.";
+"connection.unmaintained" = "Mục tương thích này không được bổ sung Test kết nối. Không khởi động tiến trình.";
+"connection.scope" = "Chỉ kiểm tra giao diện cục bộ tạm. Không xác minh mô hình, Hook, bong bóng, vòng đời tác vụ hay điều hướng; cấu hình không đổi.";
+"connection.scope.codex" = "Codex: app-server stdio cách ly initialize → initialized; không tạo thread hay turn. Không cần đăng nhập mô hình.";
+"connection.scope.opencode" = "OpenCode: V2 dùng api --standalone GET /api/info và xác thực riêng; V1 dùng ACP initialize. Không mở dịch vụ chung hay phiên.";
+"connection.scope.pi" = "Pi: RPC get_state ngoại tuyến, không lưu phiên, không tải công cụ, MCP hay tiện ích. Không kiểm tra xác thực mô hình.";
+"connection.scope.dsh" = "Kiểm tra chỉ đọc tích hợp DSH desktop đang dùng. Không cài plugin, gọi mô hình, đổi cấu hình, điều hướng hay đánh dấu đã đọc.";
+"connection.scope.antigravity" = "Test không gửi prompt hay khởi động Remote Control.";
+"connection.scope.claude" = "Cài đặt và gỡ bỏ hiện có vẫn theo chính sách tương thích.";
+"integration.install" = "Install chỉ đăng ký AgentPet Lite; Remove chỉ xóa đăng ký AgentPet Lite được nhận diện, giữ ứng dụng, cấu hình chung và dữ liệu.";
+"integration.stale" = "Đăng ký AgentPet Lite cũ cần cập nhật. “Đã cấu hình” chỉ nghĩa là đăng ký tồn tại. Remove an toàn rồi Install; vẫn kiểm tra quyền sở hữu và sao lưu.";
+"integration.codex" = "Xem và tin cậy hook của ứng dụng trong Codex /hooks. Ứng dụng không tự cấp tin cậy hay đổi chính sách chung.";
+"integration.opencode.install" = "Install chỉ đăng ký plugin AgentPet Lite; Remove chỉ hủy đăng ký plugin, không ảnh hưởng ứng dụng OpenCode, cấu hình chung hay lịch sử hiện có.";
+"integration.opencode" = "Plugin tự thích ứng theo phiên bản. Với v1, chỉ cần khởi động lại ứng dụng; điều hướng chính xác phiên trong v2 cần phiên bản 2.2.2 trở lên và plugin TUI đã tải.";
+"integration.opencode.reload" = "Sau khi thay đổi, khởi động lại ứng dụng và quan sát bong bóng, tương tác của thú cưng khi sử dụng thực tế (Test chỉ kiểm tra kết nối, không thay thế kiểm chứng khi sử dụng thực tế).";
+"integration.agy" = "Mục này chỉ đăng ký hook agy; không đổi quyền hay đăng ký cổng phê duyệt.";
+"integration.pi" = "Pi cần agent_settled (≥0.80.4; mốc 1.3.0). Install đăng ký extension; PI_CODING_AGENT_DIR tùy chỉnh cần quản lý thủ công.";
+"integration.reload" = "Sau khi đổi đăng ký, mở lại ứng dụng và kiểm tra Hook/bong bóng khi dùng bình thường. Test không thay việc này.";
+"integration.compatibility" = "Chỉ giữ tương thích; không bổ sung thích ứng, sửa phiên bản hay nghiệm thu riêng.";
+"操作已完成。接入说明见对应的ⓘ。" = "Đã hoàn tất. Xem ⓘ tương ứng để biết chi tiết.";
+"已配置" = "Đã cấu hình";
+"未配置" = "Chưa cấu hình";
+"connection.status.connected" = "Kết nối thành công";
+"connection.status.failed" = "Kết nối thất bại";
+"connection.status.timedOut" = "Kết nối hết thời gian";
+"connection.status.cancelled" = "Đã hủy Test";
+"connection.status.unsupported" = "Chưa hỗ trợ Test kết nối";
+"integration.checkFailed" = "Kiểm tra cấu hình thất bại. Trạng thái hiển thị là kết quả đã biết trước đó; thao tác cấu hình bị chặn đến khi làm mới thành công.";
+
+"Drag to select a region. Shift-click selects a range; Shift-drag adds to the selection." = "Kéo để chọn một vùng. Shift-nhấp chọn một dải; Shift-kéo thêm vào vùng chọn.";
+
+// DSH beginner connection guide
+"dsh.guide.title" = "Kết nối DSH với AgentPet Lite";
+"dsh.guide.intro" = "Cài @agentpet-lite/dsh-bridge phát hành độc lập trong DSH để hiển thị tác vụ và trả lời công khai trong AgentPet Lite. Cập nhật plugin tương thích không cần cập nhật AgentPet Lite.";
+"dsh.guide.configured" = "Đã tìm thấy đăng ký plugin. Dùng Test để kiểm tra giao thức và kết nối thực tế.";
+"dsh.guide.prepare.title" = "Khởi chạy và khởi tạo DSH";
+"dsh.guide.prepare" = "Cài bản desktop DeepSeek Harness chính thức (0.2.1-rc.2 trở lên). Khi cài lần đầu, mở một lần để hoàn tất thiết lập cơ bản và khởi tạo môi trường cục bộ. Người dùng hiện có có thể bỏ qua bước này.";
+"dsh.guide.quit.title" = "Thoát hoàn toàn DSH";
+"dsh.guide.quit" = "Chọn Thoát trên thanh menu hoặc nhấn ⌘Q để thoát hoàn toàn. Chỉ đóng cửa sổ vẫn để ứng dụng chạy nền. Đảm bảo DSH đã đóng hoàn toàn trước khi cài tiện ích.";
+"dsh.guide.install.title" = "Cài trong DSH";
+"dsh.guide.install" = "Mở Plugins → Add plugin trong DSH. Dùng phiên bản npm đã phát hành hoặc .tgz dựng sẵn của plugin. AgentPet không kèm hay cài plugin.";
+"dsh.guide.verify.title" = "Khởi động lại DSH và bắt đầu sử dụng";
+"dsh.guide.verify" = "Sau khi cấu hình, thẻ hiện Đã cấu hình. Mở lại DSH và trò chuyện bình thường; thú cưng sẽ tự động phản hồi và hiển thị bong bóng.";
+"dsh.guide.test" = "Test chỉ kiểm tra giao thức, kết nối và khả năng thực tế; không gọi mô hình, điều hướng hay đánh dấu đã đọc. DSH quản lý cài đặt và gỡ plugin.";
+"dsh.guide.advanced" = "Nâng cao: thư mục và cài thủ công";
+"dsh.guide.location" = "Giữ thư mục dữ liệu mặc định, trừ khi bạn dùng môi trường DSH tùy chỉnh.";
+"dsh.guide.manual" = "Cài gói npm đã phát hành hoặc .tgz độc lập bằng trình quản lý plugin DSH. Bản chưa phát hành dùng .tgz cục bộ.";
+"更改数据目录…" = "Đổi thư mục dữ liệu…";
+"显示插件包" = "Hiện gói tiện ích";
+
+// DSH desktop readiness check (no ACP)
+"dsh.test.testing" = "Đang kiểm tra môi trường DSH và chờ tín hiệu bridge thật (tối đa 17 giây)…";
+"dsh.test.desktopRequired" = "Kiểm tra tích hợp DSH thực tế trong ứng dụng desktop.";
+"dsh.test.status.readyToInstall" = "Môi trường sẵn sàng để cài plugin";
+"dsh.test.next.readyToInstall" = "Cài @agentpet-lite/dsh-bridge trong trình quản lý plugin DSH rồi Test lại. AgentPet không cài plugin.";
+"dsh.test.status.startRequired" = "Đã cấu hình plugin; chưa phát hiện DSH đang chạy";
+"dsh.test.next.startRequired" = "Mở ứng dụng DSH đã chọn rồi Test lại. Khởi động lại DSH sau khi cài plugin để nạp plugin.";
+"dsh.test.status.repairRequired" = "Cấu hình plugin cần xử lý";
+"dsh.test.next.repairRequired" = "Kiểm tra chi tiết trong trình quản lý plugin DSH. Phiên bản plugin tương thích không cần khớp AgentPet.";
+"dsh.test.status.connected" = "Đã xác nhận giao tiếp DSH bridge";
+"dsh.test.next.connected" = "Đã xác minh kết nối bridge tương thích thuộc DSH đã chọn. Kiểm tra bong bóng, tương tác và điều hướng khi sử dụng bình thường.";
+"dsh.test.status.unconfirmed" = "Đã kiểm tra môi trường; chưa xác nhận giao tiếp";
+"dsh.test.next.unconfirmed" = "Hết thời gian chờ mà chưa nhận tín hiệu bridge có thể xác minh. DSH đang rảnh hoặc Profile chưa có phiên cũng có thể gây ra điều này; chưa đủ để kết luận lỗi. Khởi động lại sau khi cài, kiểm tra thư mục dữ liệu trong ⓘ rồi Test khi sử dụng bình thường lần tới. Không cần tạo cuộc trò chuyện thử.";
+"dsh.test.status.failed" = "Môi trường DSH chưa sẵn sàng";
+"dsh.test.next.failed" = "Kiểm tra ứng dụng DSH chính thức và thư mục dữ liệu đã chọn rồi Test lại. Plugin quản lý tương thích SDK của host.";
+"dsh.test.status.cancelled" = "Đã hủy kiểm tra";
+"dsh.test.next.cancelled" = "Đã dừng kiểm tra. Không mở DSH tạm, cài plugin hay thay đổi phiên.";
+"dsh.test.check.application" = "Ứng dụng DSH chính thức đã chọn";
+"dsh.test.check.profile" = "Thư mục dữ liệu DSH đã chọn";
+"dsh.test.check.plugin" = "Đăng ký plugin DSH (chỉ chẩn đoán)";
+"dsh.test.check.running" = "Ứng dụng DSH desktop đang chạy";
+"dsh.test.check.running.failed" = "Chưa phát hiện ứng dụng DSH desktop đang chạy";
+"dsh.test.check.communication" = "Bridge trực tiếp và kết nối sự kiện đã xác minh";
+
+"dsh.test.status.endpointUnavailable" = "Đã nhận báo cáo bridge; chưa xác nhận đầu cuối";
+"dsh.test.next.endpointUnavailable" = "Đã nhận báo cáo từ Profile tương ứng, nhưng không thể kết nối đầu cuối bridge hoặc xác minh đầu cuối thuộc ứng dụng DSH đã chọn. Kiểm tra ứng dụng và thư mục dữ liệu trong ⓘ, khởi động lại DSH nếu phù hợp rồi Test lại. Test không thay đổi quyền socket.";
+
+// Animation groups and shipped names (display only)
+"pet.animation.group.idle" = "Rảnh";
+"pet.animation.group.working" = "Làm việc";
+"pet.animation.group.waiting" = "Chờ";
+"pet.animation.group.success" = "Xong";
+"pet.animation.group.failure" = "Lỗi";
+"pet.animation.group.quota" = "Ít tín dụng";
+"pet.animation.group.levelup" = "Lên cấp";
+"pet.animation.group.tap" = "Nhấp";
+"pet.animation.group.drag" = "Kéo";
+"pet.animation.purpose" = "Mục đích";
+"pet.animation.selectionHelp" = "Chọn một hoạt ảnh để luôn phát, hoặc chọn nhiều để phát ngẫu nhiên mỗi lần kích hoạt. Di chuột để xem trước.";
+"pet.animation.importing" = "Đang kiểm tra và nhập hoạt ảnh…";
+"pet.animation.dropHelp" = "Kéo tệp MOV vào nhóm này, hoặc nhấp phải vào chỗ trống rồi chọn Add.";
+"pet.animation.importSummary" = "Đã nhập %ld hoạt ảnh vào “%@”.";
+"pet.animation.selected" = "Đã chọn";
+"pet.animation.notSelected" = "Chưa chọn";
+"pet.animation.sprite" = "Đoạn sprite %ld";
+"pet.animation.deepseek.dsh:悠闲哼歌" = "Ngân nga";
+"pet.animation.deepseek.dsh:三球抛接" = "Tung ba bóng";
+"pet.animation.deepseek.dsh:优雅女仆舞" = "Múa hầu gái";
+"pet.animation.deepseek.dsh:是啊，吃什么" = "Ăn gì nhỉ?";
+"pet.animation.deepseek.dsh:玩游戏气急败坏" = "Bực vì trò chơi";
+"pet.animation.deepseek.dsh:原地小憩沉眠" = "Ngủ trưa";
+"pet.animation.deepseek.dsh:吃白饭" = "Ăn cơm";
+"pet.animation.deepseek.dsh:哈欠连天" = "Ngáp";
+"pet.animation.deepseek.dsh:超大伸懒腰" = "Vươn vai";
+"pet.animation.deepseek.dsh:写代码" = "Viết mã";
+"pet.animation.deepseek.dsh:工作状态-忙碌点按" = "Bấm liên tục";
+"pet.animation.deepseek.dsh:轻快记录" = "Ghi chép";
+"pet.animation.deepseek.dsh:吃Token" = "Ăn token";
+"pet.animation.deepseek.dsh:东张西望" = "Nhìn quanh";
+"pet.animation.deepseek.dsh:工作状态-原地踱步张望" = "Đi qua đi lại";
+"pet.animation.deepseek.dsh:工作状态-思考冒泡" = "Suy nghĩ";
+"pet.animation.deepseek.dsh:用鲸鱼尾巴拍打地面" = "Đập đuôi";
+"pet.animation.deepseek.dsh:工作状态-雀跃庆祝" = "Ăn mừng";
+"pet.animation.deepseek.dsh:点击回应-元气挥手" = "Vẫy tay";
+"pet.animation.deepseek.dsh:点击回应-开心跃动" = "Nhảy vui";
+"pet.animation.deepseek.dsh:轻快摇摆舞" = "Nhún nhảy";
+"pet.animation.deepseek.dsh:可爱宅舞" = "Điệu nhảy dễ thương";
+"pet.animation.deepseek.dsh:工作状态-垂头叹气冒汗" = "Thở dài";
+"pet.animation.deepseek.dsh:点击回应-傲娇生气" = "Giận dỗi";
+"pet.animation.deepseek.dsh:余额-分文不剩" = "Hết tiền";
+"pet.animation.deepseek.dsh:余额-袋空如洗" = "Túi rỗng";
+"pet.animation.deepseek.dsh:拆礼物" = "Mở quà";
+"pet.animation.deepseek.dsh:整体换装试色" = "Thử trang phục";
+"pet.animation.deepseek.dsh:原地跳跃抓碎头顶物品" = "Nhảy đập vỡ";
+"pet.animation.deepseek.dsh:点击回应-害羞惊讶" = "Ngạc nhiên ngượng ngùng";
+"pet.animation.deepseek.dsh:点击回应-挠痒咯咯笑" = "Cười vì nhột";
+"pet.animation.deepseek.dsh:打瞌睡被惊醒" = "Giật mình tỉnh giấc";
+"pet.animation.deepseek.dsh:被鼠标拖拽悬空反馈" = "Bị kéo lơ lửng";
+
+// Integration native dialogs and links
+"Codex Hooks 官方文档" = "Tài liệu Codex Hooks chính thức";
+"OpenCode 版本迁移说明" = "Hướng dẫn chuyển phiên bản OpenCode";
+"未找到 DSH 应用，请先安装并启动一次 DSH。" = "Không tìm thấy DSH. Hãy cài và mở DSH một lần trước.";
+"选择 DSH 数据目录" = "Chọn thư mục dữ liệu DSH";
+"选择包含 profiles/desktop 的 DSH 数据目录。不会创建或初始化新 Profile。" = "Chọn thư mục dữ liệu DSH chứa profiles/desktop. Không tạo hay khởi tạo Profile mới.";
+"确认 DSH 接入目标" = "Xác nhận đích tích hợp DSH";
+"继续" = "Tiếp tục";
+"取消" = "Hủy";
+"已通过 DSH 插件管理器移除 AgentPet 接入。其他插件、会话和宠物数据保留。" = "Đã gỡ tích hợp AgentPet bằng trình quản lý plugin DSH. Giữ các plugin khác, phiên và dữ liệu thú cưng.";
+"已通过 DSH 插件管理器配置 AgentPet 接入。请重新打开 DSH 后使用。" = "Đã cấu hình AgentPet bằng trình quản lý plugin DSH. Hãy mở lại DSH để sử dụng.";
+"已移除全局 AgentPet 接入。请重开所用客户端，使内存中已加载的接入停止生效。客户端、其他插件、用户数据与恢复备份均保留。" = "Đã gỡ tích hợp AgentPet toàn cục. Mở lại ứng dụng để ngừng tích hợp đã nạp. Giữ ứng dụng, plugin khác, dữ liệu và bản sao lưu.";
+"已写入 Codex 接入。请在 Codex 的 /hooks 中审阅并信任 AgentPet 项，然后重开所用客户端。" = "Đã lưu tích hợp Codex. Xem xét và tin cậy AgentPet trong Codex /hooks, rồi mở lại ứng dụng.";
+"已写入对应版本的 OpenCode 接入。V1 重开客户端；V2 请在当前任务结束后执行 opencode reload，再继续使用。" = "Đã lưu tích hợp cho phiên bản OpenCode. V1: mở lại ứng dụng. V2: chạy opencode reload khi tác vụ hiện tại kết thúc.";
+"已写入接入，请重开所用客户端后使用。" = "Đã lưu tích hợp. Mở lại ứng dụng trước khi sử dụng.";
+"dsh.target.confirmBody" = "Ứng dụng: %@\nThư mục dữ liệu: %@\nProfile: desktop\n\nXác nhận đây là thư mục DSH thường dùng. Lưu công việc và thoát hoàn toàn DSH trước; AgentPet không đóng DSH giúp bạn.";
+"dsh.package.notFound" = "Không thể hiển thị gói plugin trong Finder. Vị trí: %@";
+"dsh.package.revealed" = "Gói plugin và hướng dẫn: %@. Hiển thị tệp không cài plugin.";
+"dsh.target.description" = "DSH: %@\nThư mục dữ liệu: %@\nProfile: desktop";
+
+// Client integration notices
+"Codex 已关闭 hooks，请先在客户端配置中启用。" = "Hooks của Codex đang tắt. Hãy bật trong cấu hình ứng dụng trước.";
+"安装或更新后，在 Codex 的 /hooks 中审阅并信任 AgentPet 项，再重开所用 Codex 客户端。此处不检测原生信任状态。" = "Sau khi cài hoặc cập nhật, xem xét và tin cậy AgentPet trong Codex /hooks rồi mở lại Codex. Không kiểm tra trạng thái tin cậy gốc ở đây.";
+"安装、更新或移除后，重开所用客户端，使接入变更生效。" = "Mở lại ứng dụng sau khi cài, cập nhật hoặc gỡ để áp dụng thay đổi tích hợp.";
+"兼容入口，暂不维护或专项验收；变更后请重开客户端。" = "Chỉ giữ mục tương thích, không bảo trì hay kiểm thử nghiệm thu riêng. Mở lại ứng dụng sau khi thay đổi.";
+
+// Integration configuration notes
+"现有 toolkit 包含 AgentPet bridge；请先在 DSH 拆分旧组合，避免重复加载。Lite 不会卸载其他 toolkit 功能。" = "Toolkit hiện có chứa AgentPet bridge. Tách bộ cũ trong DSH trước để tránh nạp hai lần. Lite không gỡ các tính năng toolkit khác.";
+"当前为旧名独立包 @acerz/dsh-agentpet-bridge。请完全退出 DSH，先 Remove，再 Install 新包 @agentpet-lite/dsh-bridge；其他 toolkit 功能和配置保留。" = "Đang dùng gói cũ @acerz/dsh-agentpet-bridge. Thoát hẳn DSH, Remove rồi Install @agentpet-lite/dsh-bridge. Giữ các tính năng toolkit khác và cấu hình.";
+"已登记的 bridge 安装内容缺失或损坏；Update 可修复，也可 Remove。" = "Gói bridge đã đăng ký bị thiếu hoặc hỏng. Thoát hẳn DSH, rồi Remove và Install để sửa.";
+"bridge 文件缺失或已修改；Update 可修复，也可 Remove。" = "Tệp bridge bị thiếu hoặc thay đổi. Thoát hẳn DSH, rồi Remove và Install để sửa.";
+"Codex 已关闭 hooks。请先在 Codex 配置中启用 hooks，再安装接入；应用不会修改原生信任或管理策略。" = "Hooks của Codex đang tắt. Bật hooks trong Codex trước khi cài tích hợp. AgentPet không đổi tin cậy hay chính sách quản lý gốc.";
+"接入写入后检查未通过，请刷新并检查配置。" = "Tích hợp đã lưu chưa qua xác minh. Hãy Refresh và kiểm tra cấu hình.";
+"仍检测到 AgentPet 注册，请检查配置。" = "Vẫn phát hiện đăng ký AgentPet. Hãy kiểm tra cấu hình.";
+"CODEX_HOME 必须为绝对路径，请先确认 CLI 与应用使用相同配置目录。" = "CODEX_HOME phải là đường dẫn tuyệt đối. Xác nhận CLI và ứng dụng dùng cùng thư mục cấu hình.";
+"检测到 OPENCODE_CONFIG_DIR 自定义目录。当前按钮仅管理标准全局目录，请人工确认接入位置。" = "Phát hiện OPENCODE_CONFIG_DIR tùy chỉnh. Các nút chỉ quản lý thư mục toàn cục tiêu chuẩn. Hãy kiểm tra vị trí tích hợp thủ công.";
+"OPENCODE_CONFIG_CONTENT 中存在 AgentPet 引用，请先人工确认，避免重复接入。" = "OPENCODE_CONFIG_CONTENT có tham chiếu AgentPet. Xem xét thủ công trước để tránh tích hợp trùng.";
+"agy 的 agentpet 组已禁用，请先人工确认该组配置。" = "Nhóm agentpet của agy đang tắt. Hãy kiểm tra cấu hình nhóm trước.";
+"无法识别或暂不支持该 OpenCode 版本。请使用 OpenCode V1（≥1.18.34）或 V2（≥2.0.29）后重试。" = "Không nhận diện hoặc chưa hỗ trợ phiên bản OpenCode này. Dùng V1 ≥1.18.34 hoặc V2 ≥2.0.29 rồi thử lại.";
+"该 OpenCode 版本过旧。接入需要 V1 ≥1.18.34 或 V2 ≥2.0.29。" = "Phiên bản OpenCode quá cũ. Tích hợp cần V1 ≥1.18.34 hoặc V2 ≥2.0.29.";
+"未找到本机 OpenCode CLI，无法选择 V1/V2 插件。请先安装 OpenCode，再 Refresh。" = "Không tìm thấy CLI OpenCode để chọn plugin V1/V2. Cài OpenCode rồi Refresh.";
+"无法创建 OpenCode 版本检测的临时文件。" = "Không thể tạo tệp tạm để kiểm tra phiên bản OpenCode.";
+"无法运行 OpenCode --version，请检查本机 CLI。" = "Không thể chạy OpenCode --version. Hãy kiểm tra CLI cục bộ.";
+"OpenCode 版本检测超时，未安装接入。" = "Kiểm tra phiên bản OpenCode hết thời gian. Chưa cài tích hợp.";
+"OpenCode --version 执行失败，未安装接入。" = "OpenCode --version thất bại. Chưa cài tích hợp.";
+
+/* Agent Orchestrator experimental source */
+"ao.experiment.badge" = "Thử nghiệm";
+"ao.experiment.details" = "Chi tiết tính năng thử nghiệm Agent Orchestrator";
+"ao.experiment.toggle" = "Hiện tác vụ thử nghiệm Agent Orchestrator";
+"ao.experiment.scope" = "Gộp các phiên AO thành một bong bóng cho mỗi dự án và giữ kết quả hoàn tất chưa đọc. Nhấp dự án mở trình điều phối hiện có hoặc bảng dự án; tác nhân độc lập mở đúng phiên.";
+"ao.experiment.unavailable" = "Phiên bản này chỉ có phần hướng dẫn. Tính năng thử nghiệm chưa khả dụng và luôn tắt.";
+"ao.experiment.permission" = "Điều hướng dùng lối vào gốc của AO và không cần quyền Trợ năng macOS. Cần bản AO hỗ trợ điều hướng v1; bản chính thức v0.14.6 chưa có lối vào thử nghiệm này.";
+"ao.experiment.step.1" = "Dùng bản AO có bản vá điều hướng bên ngoài v1 và giữ ứng dụng đang chạy.";
+"ao.experiment.step.2" = "Mở dự án đích trong AO và kiểm tra bảng tác vụ cùng bộ điều phối hiện có.";
+"ao.experiment.step.3" = "Trong bản thử nghiệm %@, bật Agent Orchestrator ở Bộ lọc nâng cao. Nguồn này mặc định tắt.";
+"ao.experiment.step.4" = "Nhấp bong bóng tác vụ dự án: ưu tiên bộ điều phối hiện có, nếu không có thì mở bảng của cùng dự án. Bản không hỗ trợ hoặc trang chưa xác nhận sẽ báo lỗi.";
+"ao.experiment.safety" = "Chỉ đánh dấu kết quả vừa nhấp là đã đọc sau khi xác nhận mở đúng phiên gốc. Mở bảng dự án không đánh dấu thành viên khác đã đọc hoặc phê duyệt yêu cầu. Tắt nguồn chỉ ẩn hiển thị và giữ bản ghi theo dõi.";
+"ao.experiment.disabled" = "Hiển thị thử nghiệm AO đã tắt; chưa bắt đầu điều hướng.";
+
+/* Source maintenance status */
+"source.tag.maintenanceEnded" = "Đã ngừng bảo trì";
+"source.tag.unmaintained" = "Không bảo trì";
+
+"ao.navigation.stale" = "Kết nối AO đã thay đổi hoặc hết hạn. Làm mới theo dõi dự án rồi thử lại; trạng thái chưa đọc được giữ nguyên.";
+
+"ao.navigation.unsupported" = "Phiên AO này không có lối vào điều hướng gốc v1 hợp lệ. Hãy dùng bản AO được hỗ trợ; không cần bật Trợ năng.";
+
+"ao.navigation.unconfirmed" = "AO chưa xác nhận trang đích ở phía trước. Thử lại với bản AO có lối vào; trạng thái chưa đọc được giữ nguyên.";
+
+"等待状态更新" = "Đang chờ cập nhật trạng thái";
+"dsh.manage.button" = "Manage";
+"dsh.manage.notice" = "Mở Plugins → Add plugin trong DSH để cài hoặc cập nhật @agentpet-lite/dsh-bridge. AgentPet không cài hay thay thế plugin phát hành độc lập này.";
+"dsh.test.status.incompatible" = "Giao thức bridge không tương thích";
+"dsh.test.next.incompatible" = "Cài bridge hỗ trợ giao thức AgentPet v1 trong DSH. Phiên bản phát hành plugin có thể khác AgentPet.";
+"dsh.test.status.limited" = "Bridge đã kết nối nhưng thiếu khả năng";
+"dsh.test.next.limited" = "Giao tiếp vòng đời hoạt động nhưng thiếu client desktop hoặc khả năng tương tác/điều hướng. Kiểm tra client và plugin DSH.";
+"dsh.test.check.protocol" = "Giao thức bridge tương thích";
+"dsh.test.check.pending" = "Khả năng tương tác và client duy nhất";
+"dsh.test.check.navigation" = "Khả năng điều hướng chính xác và client duy nhất";
+"dsh.test.check.speech" = "Khả năng xem trước trả lời công khai";
+"dsh.health.ambiguous" = "Nhiều bridge cùng báo một Profile; không chọn bridge nào.";
+
+/* AO native results retain their unread indicator while the host is idle. */
+"回合已完成，未读" = "Lượt đã hoàn thành, chưa đọc";
+"回合结果未知，未读" = "Chưa rõ kết quả lượt, chưa đọc";
+
+"ao.project.unread.button" = "Chưa đọc %d";
+"ao.project.unread.hint" = "Mở phiên chưa đọc tiếp theo; xác nhận chỉ đánh dấu phiên đó đã đọc";
+"ao.project.unread.unavailable" = "Vẫn còn kết quả chưa đọc; liên kết phiên chính xác hiện chưa được xác nhận";
+
+"source.tag.unsupported" = "Chưa tương thích";
+
+/* Daily recorded Token usage */
+"usage.title" = "Lượng Token";
+"usage.about" = "Thông tin sử dụng";
+"usage.today" = "Hôm nay";
+"usage.window" = "30 ngày";
+"usage.last30Days" = "30 ngày gần nhất";
+"usage.chart" = "Biểu đồ Token theo ngày";
+"usage.notStarted" = "Chưa bắt đầu";
+"usage.partial" = "Bao phủ một phần";
+"usage.unknown" = "Chưa rõ độ bao phủ";
+"usage.recorded" = "Đã ghi";
+"usage.configure" = "Cài đặt thống kê";
+"usage.checking" = "Đang đọc lượng dùng";
+"usage.tokens" = "Token";
+"usage.input" = "Đầu vào";
+"usage.cacheRead" = "Đọc cache";
+"usage.cacheWrite" = "Ghi cache";
+"usage.output" = "Đầu ra";
+"usage.dayHint" = "Di chuột để xem chi tiết; nhấp để ghim. Dùng phím mũi tên để đổi ngày.";
+"usage.collecting" = "Đã bật";
+"usage.startDate" = "Bắt đầu từ %@";
+"usage.countingScope" = "Đầu vào, đọc/ghi bộ nhớ đệm và đầu ra (gồm suy luận)";
+"usage.collectionScope" = "Ghi từ khi tích hợp; Remove ẩn nhưng giữ dữ liệu";
+"usage.startScope" = "Tự ghi theo trạng thái tích hợp Agent và giữ mốc qua khởi động lại. Không nhập lịch sử hay dữ liệu thử. Remove dừng ghi; tích hợp lại không bù khoảng đã gỡ.";
+"usage.coverageScope" = "Ngày dùng múi giờ địa phương hiện tại. Dữ liệu thiếu hoặc không đọc được không tính là không dùng; vẫn đánh dấu bao phủ một phần/chưa rõ.";
+"integration.agy.scope" = "Tích hợp này dành cho Antigravity CLI (agy), không xác nhận hỗ trợ ứng dụng desktop. agy trong DSH/TUI được quản lý qua tích hợp DSH.";
+"usage.error.storage" = "Không truy cập được kho lượng dùng.";
+"usage.error.unavailable" = "Không có hoặc không đọc được bản ghi.";
+"usage.error.unsupported" = "Một số định dạng gốc chưa được hỗ trợ.";
+"usage.error.corrupt" = "Một số bản ghi hỏng; độ bao phủ chưa đầy đủ.";
+"usage.error.limit" = "Đã đạt giới hạn đọc; độ bao phủ chưa đầy đủ.";
+"usage.error.invalid" = "Một số siêu dữ liệu không hợp lệ.";
+"usage.error.partial" = "Bản ghi đang được ghi; chờ lần đọc tiếp.";
+"usage.error.legacyFork" = "Chưa xác minh đầy đủ khử trùng lặp nhánh OpenCode cũ.";
+"usage.error.totalMismatch" = "Tổng gốc khác tổng các nhóm; dùng tổng các nhóm.";
+"usage.issue.changedTime" = "Một số siêu dữ liệu không hợp lệ.";
+"usage.issue.conflictingRevision" = "Một số siêu dữ liệu không hợp lệ.";
+"usage.issue.invalidRecord" = "Một số siêu dữ liệu không hợp lệ.";
+"usage.issue.missingFiles" = "Không có hoặc không đọc được bản ghi.";
+"usage.autoRefresh" = "(Làm mới 60s)";
+"usage.dataScope" = "Chỉ dữ liệu báo cục bộ, không phải hóa đơn chính thức";
+"usage.dshScope" = "Thư mục chung và TUI dùng lõi DSH; không gồm backend độc lập";
+"usage.agyScope" = "Chỉ gọi qua lõi DSH, không gồm CLI độc lập";
+"usage.label.tokens" = "Token:";
+"usage.label.data" = "Dữ liệu:";
+"usage.label.integration" = "Tích hợp:";
+"usage.label.dsh" = "DSH:";
+"usage.label.agy" = "agy:";
+
+"usage.dayDetail" = "Chi tiết dùng";
+
+"usage.beforeStartDay" = "Chưa bắt đầu ghi nhận trong ngày này. Không bổ sung lịch sử trước đó.";
+
+"usage.missingDay" = "Chưa có bản ghi được xác nhận. Thiếu dữ liệu không có nghĩa là dùng 0.";
+
+"usage.partialDay" = "Chỉ gồm các khoảng thời gian đã ghi nhận.";
+
+"usage.zeroDay" = "Đã ghi nhận đầy đủ; mức sử dụng ngày này được xác nhận là 0.";
+
+/* OpenCode session navigation capability */
+"navigation.opencode.unsupported" = "Điều hướng OpenCode V2 cần ≥2.2.2 và TUI plugin. Update tích hợp, reload sau tác vụ rồi mở lại TUI.";
+"navigation.opencode.failed" = "Không thể chuyển đến phiên OpenCode; hãy chuyển phiên trong ứng dụng gốc.";
+
+"navigation.opencode.hint" = "Mở phiên OpenCode tương ứng (V2 cần ≥2.2.2 và TUI plugin đã tải).";
+
+"navigation.opencode.unavailable" = "Phiên chưa gắn với TUI đang hoạt động. Hãy mở trong ứng dụng gốc trước.";
+
+"navigation.opencode.ambiguous" = "Nhiều TUI đang giữ phiên này. Hãy chuyển thủ công trong ứng dụng gốc.";
+
+/* Status HUD */
+"status.lastFed" = "Ăn %@";
+"status.quotaTitle" = "Hạn mức Codex";
+"status.todayUsage" = "Hôm nay";
+"status.windowUsage" = "Tổng %d ngày";
+"status.rangeDays" = "%d ngày";
+"status.quotaLoading" = "Đang đọc hạn mức…";
+"status.quotaStale" = "Hạn mức cũ · chờ làm mới";
+"status.quotaBarMeaning" = "Thanh thể hiện hạn mức khả dụng còn lại.";
+
+/* Saved AO attention reminders are independent of current session status. */
+"ao.attention.title" = "Nhắc nhở AO · %@";
+"ao.attention.previousInput" = "Trước đó chờ nhập liệu";
+"ao.attention.previousAttention" = "Trước đó cần xử lý thủ công";
+"ao.attention.historyHint" = "Đây là lời nhắc đã lưu, không phải trạng thái hiện tại. Xem trạng thái tác vụ ở trên.";
+"ao.attention.acknowledge" = "Đã biết";
+"ao.attention.acknowledgeHint" = "Chỉ ẩn lời nhắc này. Không phê duyệt thao tác hoặc đánh dấu phản hồi đã đọc.";

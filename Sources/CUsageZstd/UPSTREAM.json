@@ -1,0 +1,6 @@
+{
+  "project": "https://github.com/facebook/zstd",
+  "tag": "v1.5.7",
+  "archive_sha256": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3",
+  "scope": "Unmodified lib/common and lib/decompress C sources; legacy and assembly disabled; BSD license"
+}
