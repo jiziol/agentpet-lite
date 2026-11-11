@@ -364,6 +364,10 @@ final class PetSpeechPanelTests: XCTestCase {
             model.hoverTask(false)
             return
         }
+        // Hold hover on the stable body while replacing the task view's data.
+        // The old task view legitimately sends hoverTask(false) on disappearance.
+        model.hoverBody(true)
+        defer { model.hoverBody(false) }
         model.sessions = (0..<(side == nil ? 10 : 30)).map { i in
             var item = AgentSession(id: "hover-long-\(i)", agentKind: .codex, state: .working,
                                     source: .hook, updatedAt: Date())
@@ -371,7 +375,9 @@ final class PetSpeechPanelTests: XCTestCase {
             return item
         }
         model.hoverTask(true)
-        RunLoop.main.run(until: Date().addingTimeInterval(0.4))
+        XCTAssertTrue(NativeTestWait.until { host.frame.height > task.frame.height },
+                      "Expanded long content must exceed the native viewport")
+        XCTAssertTrue(model.messageListExpanded)
         XCTAssertGreaterThan(host.frame.height, task.frame.height)
         if side == nil { XCTAssertLessThanOrEqual(task.frame.height, 293) }
         scroll.contentView.scroll(to: NSPoint(x: 0, y: host.frame.height - task.frame.height))

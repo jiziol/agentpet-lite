@@ -64,12 +64,13 @@ final class PetStatsPopoverLayoutTests: XCTestCase {
         let frame = NSRect(x: 100, y: 200, width: 300, height: 100)
         let messages = try solidSnapshot(frame: frame)
         var closed = 0, restored = 0, showingStats = true
+        var restore: ((PetBubbleSnapshot?) -> Void)?
         controller.show(content: NSView(frame: NSRect(origin: .zero, size: frame.size)),
             frame: frame, petBody: { nil }, restoreMessages: { completion in
                 restored += 1
-                completion(messages)
+                restore = completion
             }, onClose: { closed += 1; showingStats = false })
-        RunLoop.main.run(until: Date().addingTimeInterval(0.35))
+        XCTAssertTrue(NativeTestWait.until { controller.phase == .shown })
         XCTAssertEqual(controller.phase, .shown)
         // An external mouse-down starts close(), then the application deactivates.
         controller.close()
@@ -78,13 +79,16 @@ final class PetStatsPopoverLayoutTests: XCTestCase {
         XCTAssertEqual(controller.phase, .closingStatus, "Deactivation must preserve the user-started shrink")
         XCTAssertEqual(closed, 0)
         XCTAssertTrue(showingStats)
-        RunLoop.main.run(until: Date().addingTimeInterval(0.28))
+        XCTAssertTrue(NativeTestWait.until { restore != nil })
         XCTAssertEqual(controller.phase, .openingMessages)
         XCTAssertEqual(restored, 1)
+        // Start the real second animation only after inspecting the preceding
+        // phase; a slow runner must not skip the deactivation test point.
+        try XCTUnwrap(restore)(messages)
         NotificationCenter.default.post(name: NSApplication.didResignActiveNotification, object: NSApplication.shared)
         XCTAssertEqual(controller.phase, .openingMessages, "The message restoration must also finish")
         XCTAssertEqual(closed, 0)
-        RunLoop.main.run(until: Date().addingTimeInterval(0.35))
+        XCTAssertTrue(NativeTestWait.until { controller.phase == .hidden })
         XCTAssertEqual(controller.phase, .hidden)
         XCTAssertFalse(controller.isPresented)
         XCTAssertFalse(showingStats)
@@ -400,17 +404,17 @@ final class PetStatsPopoverLayoutTests: XCTestCase {
             }, onClose: { events.append("reveal messages") })
         XCTAssertEqual(controller.phase, .hidingMessages)
         XCTAssertFalse(controller.isShown, "Status must not open before message Genie finishes")
-        RunLoop.main.run(until: Date().addingTimeInterval(0.65))
+        XCTAssertTrue(NativeTestWait.until { controller.phase == .openingStatus })
         XCTAssertEqual(controller.phase, .openingStatus)
-        RunLoop.main.run(until: Date().addingTimeInterval(0.65))
+        XCTAssertTrue(NativeTestWait.until { controller.phase == .shown })
         XCTAssertEqual(controller.phase, .shown)
         controller.close()
         XCTAssertEqual(controller.phase, .closingStatus)
         XCTAssertEqual(events, ["hide messages"], "Messages cannot expand while status is closing")
-        RunLoop.main.run(until: Date().addingTimeInterval(0.65))
+        XCTAssertTrue(NativeTestWait.until { controller.phase == .openingMessages })
         XCTAssertEqual(controller.phase, .openingMessages)
         XCTAssertEqual(events, ["hide messages", "prepare fresh messages"])
-        RunLoop.main.run(until: Date().addingTimeInterval(0.65))
+        XCTAssertTrue(NativeTestWait.until { controller.phase == .hidden })
         XCTAssertEqual(controller.phase, .hidden)
         XCTAssertEqual(events, ["hide messages", "prepare fresh messages", "reveal messages"])
     }

@@ -133,6 +133,15 @@ final class PetEdgeTransitionTests: XCTestCase {
         return (r, g, b, a)
     }
 
+    private func waitForBodyReveal(_ transition: PetEdgeTransition) -> Bool {
+        NativeTestWait.until(timeout: 5) {
+            guard let proxy = transition.expandPanel?.contentView?.layer?.sublayers?.first(where: {
+                $0.name == "petEdgeBodyProxy"
+            }), let opacity = proxy.presentation()?.opacity else { return false }
+            return opacity >= 0.4 && opacity <= 0.65
+        }
+    }
+
     func testLateExpansionSnapshotContainsTheRevealedBodyAndMesh() throws {
         _ = NSApplication.shared
         let parent = NSPanel(contentRect: NSRect(x: 200, y: 200, width: 160, height: 120),
@@ -149,8 +158,8 @@ final class PetEdgeTransitionTests: XCTestCase {
         transition.holdExpansion(snapshot: source, in: parent)
         transition.animateExpand(snapshot: source,
             to: NSRect(x: 220, y: 220, width: 100, height: 80), side: .right,
-            in: parent, duration: 1.0) {}
-        RunLoop.main.run(until: Date().addingTimeInterval(0.85))
+            in: parent, duration: 3.0) {}
+        XCTAssertTrue(waitForBodyReveal(transition), "Capture while both body and mesh are visible")
         let composite = try XCTUnwrap(transition.visibleExpansionSnapshot())
         let colors = try colorMaxima(composite.image)
         print("LATE_EXPANSION_VISIBLE_COMPOSITE", colors)
@@ -175,13 +184,15 @@ final class PetEdgeTransitionTests: XCTestCase {
             frame: NSRect(x: 220, y: 220, width: 100, height: 80))
         transition.holdExpansion(snapshot: peek, in: parent)
         transition.animateExpand(snapshot: peek, to: body.frame, side: .right,
-                                 in: parent, duration: 1, body: body) {}
-        RunLoop.main.run(until: Date().addingTimeInterval(0.6))
+                                 in: parent, duration: 3, body: body) {}
+        XCTAssertTrue(NativeTestWait.until {
+            transition.expandPanel?.contentView?.layer?.presentation() != nil
+        })
         parent.setFrameOrigin(NSPoint(x: 280, y: 185))
         let updated = PetEdgeSnapshot(image: try solid(.green),
             frame: body.frame.offsetBy(dx: 80, dy: -15))
         transition.updateExpansionBody(updated)
-        RunLoop.main.run(until: Date().addingTimeInterval(0.25))
+        XCTAssertTrue(waitForBodyReveal(transition), "Capture the updated proxy during the real reveal")
         let snapshot = try XCTUnwrap(transition.visibleExpansionSnapshot())
         let colors = try colorMaxima(snapshot.image)
         XCTAssertGreaterThan(colors.green, 80, "The compositor must display and capture the newest supplied body frame")
@@ -201,10 +212,15 @@ final class PetEdgeTransitionTests: XCTestCase {
             interactive: true, holdAtEnd: true) {}
         RunLoop.main.run(until: Date().addingTimeInterval(0.1))
         var completed = false
-        transition.crossfade(to: PetEdgeSnapshot(image: try solid(.red), frame: frame), duration: 1) {
+        transition.crossfade(to: PetEdgeSnapshot(image: try solid(.red), frame: frame), duration: 3) {
             completed = true
         }
-        RunLoop.main.run(until: Date().addingTimeInterval(0.5))
+        XCTAssertTrue(NativeTestWait.until(timeout: 5) {
+            guard let peek = transition.interactivePanel?.contentView?.layer?.sublayers?.first(where: {
+                $0.animation(forKey: "petEdgePeekIn") != nil
+            }), let opacity = peek.presentation()?.opacity else { return false }
+            return opacity >= 0.35 && opacity <= 0.55
+        }, "Capture the real crossfade before either material disappears")
         let snapshot = try XCTUnwrap(transition.visibleCollapseSnapshot())
         let colors = try colorMaxima(snapshot.image)
         print("COLLAPSE_CROSSFADE_VISIBLE_COMPOSITE", colors)
@@ -215,7 +231,7 @@ final class PetEdgeTransitionTests: XCTestCase {
         XCTAssertEqual(transition.interactivePanel?.alphaValue, 1,
                        "The compositor owns opacity; do not split it across NSWindow alpha animations")
         transition.cancel()
-        RunLoop.main.run(until: Date().addingTimeInterval(0.6))
+        RunLoop.main.run(until: Date().addingTimeInterval(3.1))
         XCTAssertFalse(completed, "A cancelled crossfade must not run a late show-peek callback")
     }
 
@@ -306,7 +322,7 @@ final class PetEdgeTransitionTests: XCTestCase {
         RunLoop.main.run(until: Date().addingTimeInterval(0.1))
         XCTAssertNotNil(transition.visibleExpansionSnapshot(), "No-proxy video must retain the expanding visible source")
         XCTAssertFalse(finished, "Missing poster/sample must not hard-switch directly to the live movie")
-        RunLoop.main.run(until: Date().addingTimeInterval(0.3))
+        XCTAssertTrue(NativeTestWait.until { finished })
         XCTAssertTrue(finished)
         XCTAssertEqual(video.layer?.opacity, 1)
         XCTAssertNil(transition.expandPanel)
@@ -391,7 +407,7 @@ final class PetEdgeTransitionTests: XCTestCase {
         XCTAssertGreaterThan(during, before + 0.12, "Do not seek or pause live video to align the proxy")
         XCTAssertFalse(completed)
         print("LIVE_MOVIE_HANDOFF timeBefore=\(before) timeDuring=\(during) opacity=\(opacity)")
-        RunLoop.main.run(until: Date().addingTimeInterval(0.15))
+        XCTAssertTrue(NativeTestWait.until { completed })
         XCTAssertTrue(completed)
         XCTAssertNil(transition.expandPanel)
         XCTAssertEqual(video.layer?.opacity, 1)

@@ -123,7 +123,7 @@ final class PetClickDisambiguationTests: XCTestCase {
         XCTAssertNil(notices.current)
     }
 
-    func testDoubleClickAtBoundaryTogglesOnceAndSuppressesAllSingleBusiness() throws {
+    func testDoubleClickAtBoundaryTogglesOnceAndSuppressesAllSingleBusiness() async throws {
         let saved = settings.taskBubbleClickThrough
         let savedSuperchat = settings.superchatEnabled
         settings.taskBubbleClickThrough = false
@@ -137,9 +137,17 @@ final class PetClickDisambiguationTests: XCTestCase {
             settings.superchatEnabled = savedSuperchat
         }
         click(controller, at: point, in: body, clicks: 1)
-        wait(clickWindow * 0.9)
-        XCTAssertEqual(model.petTapCount, 0)
-        click(controller, at: point, in: body, clicks: 2)
+        let secondClick = expectation(description: "Second native click inside the system window")
+        // Schedule the input itself before the single-click deadline. Returning
+        // from run(until:) can be late and would change this into a late click.
+        DispatchQueue.main.asyncAfter(deadline: .now() + clickWindow * 0.9) {
+            MainActor.assumeIsolated {
+                XCTAssertEqual(model.petTapCount, 0)
+                self.click(controller, at: point, in: body, clicks: 2)
+                secondClick.fulfill()
+            }
+        }
+        await fulfillment(of: [secondClick], timeout: clickWindow + 3)
         XCTAssertTrue(settings.taskBubbleClickThrough, "Double-click toggles exactly once")
         XCTAssertEqual(model.petTapCount, 0, "A double-click has no pet animation")
         XCTAssertEqual(notices.current?.kind, .clickThroughOn, "Exactly one Superchat feedback is shown")

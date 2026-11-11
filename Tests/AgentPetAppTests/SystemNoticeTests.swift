@@ -277,7 +277,8 @@ final class SystemNoticeViewTests: XCTestCase {
         XCTAssertEqual(source.fractionRemaining, hidden, accuracy: 0.001)
         XCTAssertLessThanOrEqual(hidden, remaining)
         controller.isVisible = true
-        RunLoop.main.run(until: Date().addingTimeInterval(0.2))
+        XCTAssertTrue(NativeTestWait.until { source.fractionRemaining < hidden },
+                      "The real notice timer must resume after the panel becomes visible")
         XCTAssertTrue(controller.isSystemNoticeVisible(id: "native-recovery"))
         XCTAssertLessThan(source.fractionRemaining, hidden)
     }

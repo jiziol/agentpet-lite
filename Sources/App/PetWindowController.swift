@@ -844,17 +844,11 @@ final class PetWindowController: ObservableObject {
         let frame = NSRect(x: x, y: y, width: width, height: height)
         if managed.lastTaskFrame != frame {
             managed.lastTaskFrame = frame
-            // SwiftUI switches the content size immediately. Interpolating the
-            // native viewport size clips that new content until the animation
-            // finishes (especially on hover). Only animate positional changes.
-            if panel.frame.size == frame.size && panel.isVisible
-                && PetController.shared.animationsEnabled && !managed.model.isAnimationDragging
-                && !NSWorkspace.shared.accessibilityDisplayShouldReduceMotion && !managed.model.messagesTransitionHidden {
-                NSAnimationContext.runAnimationGroup { context in
-                    context.duration = 0.14
-                    panel.animator().setFrame(frame, display: true)
-                }
-            } else { panel.setFrame(frame, display: true, animate: false) }
+            // Speech content and its native frame update immediately. Its
+            // companion must move in the same layout pass: independently
+            // interpolating this frame crosses the newly enlarged speech panel.
+            // SwiftUI still owns the content's appearance animations.
+            panel.setFrame(frame, display: true, animate: false)
         }
         if managed.model.messagesTransitionHidden { panel.orderOut(nil) }
         else { panel.orderFrontRegardless() }

@@ -413,7 +413,9 @@ final class PetEdgePeekControllerTests: XCTestCase {
         XCTAssertEqual(controller.isEdgePeekedForTesting(key: key), shouldTuck)
         XCTAssertFalse(model.isAnimationDragging)
         if shouldTuck {
-            RunLoop.main.run(until: Date().addingTimeInterval(0.4))
+            XCTAssertTrue(NativeTestWait.until {
+                controller.edgeTransitionPanelForTesting(key: key) == nil
+            }, "The collapse and peek crossfade must finish")
             let peek = try XCTUnwrap(controller.peekPanelForTesting(key: key))
             XCTAssertTrue(peek.isVisible)
             XCTAssertEqual(side == .right ? peek.frame.maxX : peek.frame.minX,
@@ -605,7 +607,9 @@ final class PetEdgePeekControllerTests: XCTestCase {
         let controller = try prepare()
         XCTAssertTrue(controller.enterEdgePeekForTesting(key: key, side: .right))
         _ = try XCTUnwrap(controller.startEdgeTransitionForTesting(key: key, duration: 0.06))
-        RunLoop.main.run(until: Date().addingTimeInterval(0.25))
+        XCTAssertTrue(NativeTestWait.until {
+            controller.edgeTransitionPanelForTesting(key: key) == nil
+        }, "The collapse and peek crossfade must finish")
         XCTAssertTrue(controller.isEdgePeekedForTesting(key: key))
         let peek = try XCTUnwrap(controller.peekPanelForTesting(key: key))
         XCTAssertTrue(peek.isVisible)
