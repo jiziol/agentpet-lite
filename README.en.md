@@ -82,7 +82,7 @@ Choose a prebuilt DMG or build from source:
 - **Option A: install the prebuilt DMG (recommended)**<br>
   Open `AgentPet-Lite-1.0.0-arm64.dmg`, drag **AgentPet Lite.app** to **Finder → Applications**, eject the image, then launch from Applications. Use this project’s [Releases](https://github.com/jiziol/agentpet-lite/releases) and the matching `.dmg.sha256`; if no matching installer is available, build from source below.
 - **Option B: build from source**<br>
-  Requires full Xcode (Swift 6+) and Python 3.9+. Initial dependency resolution needs network access. From the repository root:
+  Requires full Xcode and Python 3.9+. The verified toolchain is Xcode 26.3 / Swift 6.2.4; CI uses the same version. Initial dependency resolution needs network access. From the repository root:
 
   ```sh
   swift package resolve --force-resolved-versions

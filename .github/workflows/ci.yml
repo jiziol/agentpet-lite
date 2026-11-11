@@ -10,6 +10,8 @@ jobs:
     name: Full verification (XCTest, Swift, Node, Python)
     runs-on: macos-15
     timeout-minutes: 30
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.3.app/Contents/Developer
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

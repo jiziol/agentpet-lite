@@ -80,7 +80,7 @@ Codex 低额度和自然恢复提醒，把“还剩多少、什么时候恢复�
 - **方式一：安装预编译包（推荐）**<br>
   打开获得的 `AgentPet-Lite-1.0.0-arm64.dmg`，把 **AgentPet Lite.app** 拖入 **访达 → 应用程序（Applications）**，弹出磁盘映像后，从应用程序文件夹启动。下载入口为本项目 [Releases](https://github.com/jiziol/agentpet-lite/releases)；核对同版 `.dmg.sha256`，若尚无对应安装附件，可按下方说明从源码构建。
 - **方式二：从源码构建**<br>
-  需要完整 Xcode（Swift 6+）与 Python 3.9+，首次解析依赖需要联网。在项目根目录执行：
+  需要完整 Xcode 与 Python 3.9+；已验证的工具链为 Xcode 26.3 / Swift 6.2.4，CI 使用同一版本。首次解析依赖需要联网。在项目根目录执行：
 
   ```sh
   swift package resolve --force-resolved-versions

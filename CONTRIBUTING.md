@@ -4,7 +4,7 @@
 
 ## 本地开发
 
-使用完整 Xcode、Swift 6+、Node.js 22+ 和 Python 3.9+。首次构建需要网络解析 SwiftPM 依赖：
+使用完整 Xcode、Node.js 22+ 和 Python 3.9+。已验证的工具链为 Xcode 26.3 / Swift 6.2.4，CI 通过 `DEVELOPER_DIR` 固定到同一版本；旧版 Swift 的 XCTest 主线程隔离检查可能无法编译现有测试。首次构建需要网络解析 SwiftPM 依赖：
 
 ~~~sh
 swift package resolve --force-resolved-versions
