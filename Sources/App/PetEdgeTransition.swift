@@ -179,6 +179,15 @@ final class PetEdgeTransition {
     var interactivePanel: NSPanel? { panel }
     var expandPanel: NSPanel? { childPanel }
 
+    private static func meshColumns(from: NSRect, to: NSRect, scale: CGFloat) -> Int {
+        // Subpixel-wide clipped/antialiased layers lose coverage when rendered,
+        // especially at a narrow peek on a 1x display. Keep each endpoint's
+        // source columns at least one device pixel wide, up to the usual 64.
+        let pixels = min(from.width, to.width) * max(1, scale)
+        guard pixels.isFinite, pixels > 0 else { return 1 }
+        return max(1, Int(min(64, pixels.rounded(.down))))
+    }
+
     static func edgeFrames(from: NSRect, to: NSRect, side: PetEdgeSide,
                            progress: CGFloat, count: Int = 64) -> [NSRect] {
         guard count > 0, from.width > 0, from.height > 0,
@@ -238,10 +247,14 @@ final class PetEdgeTransition {
         }
         cancel()
         let steps = 20
+        let scale = NSScreen.screens.first {
+            $0.frame.contains(NSPoint(x: target.midX, y: target.midY))
+        }?.backingScaleFactor ?? 1
+        let columns = Self.meshColumns(from: snapshot.frame, to: target, scale: scale)
         let meshFrames = (0...steps).map { step -> [NSRect] in
             let p = CGFloat(step) / CGFloat(steps)
             return Self.edgeFrames(from: snapshot.frame, to: target, side: side,
-                                   progress: collapsing ? p : 1 - p)
+                                   progress: collapsing ? p : 1 - p, count: columns)
         }
         guard let finalFrames = meshFrames.last, !finalFrames.isEmpty else {
             completion()
@@ -472,9 +485,10 @@ final class PetEdgeTransition {
         let body = body ?? parent.contentView?.layer.flatMap { Self.capture($0, in: parent) }
 
         let steps = 16
+        let columns = Self.meshColumns(from: snapshot.frame, to: target, scale: parent.backingScaleFactor)
         let meshFrames = (0...steps).map { step -> [NSRect] in
             Self.edgeFrames(from: snapshot.frame, to: target, side: side,
-                            progress: CGFloat(step) / CGFloat(steps))
+                            progress: CGFloat(step) / CGFloat(steps), count: columns)
         }
         guard let finalFrames = meshFrames.last, !finalFrames.isEmpty else {
             completion()
