@@ -11,8 +11,8 @@ case "$APP_NAME" in
 esac
 if [[ "$APP_NAME" == 'AgentPet Lite' ]]; then
   BUNDLE_ID='io.github.jiziol.agentpet-lite'
-  APP_VERSION='1.0.0'
-  BUILD_VERSION='1.0.0'
+  APP_VERSION='1.0.1'
+  BUILD_VERSION='1.0.1'
 else
   BUNDLE_ID='local.acerz.agentpet'
   APP_VERSION='1.17.1-local.209'

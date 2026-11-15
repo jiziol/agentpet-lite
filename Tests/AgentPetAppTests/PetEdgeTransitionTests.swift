@@ -206,7 +206,9 @@ final class PetEdgeTransitionTests: XCTestCase {
         _ = NSApplication.shared
         let transition = PetEdgeTransition()
         defer { transition.cancel() }
-        let frame = NSRect(x: 400, y: 220, width: 24, height: 50)
+        // Whole-pixel slices isolate layer inclusion from fractional-strip
+        // rasterization, which is a separate narrow-snapshot observation.
+        let frame = NSRect(x: 400, y: 220, width: 128, height: 50)
         transition.animate(snapshot: PetEdgeSnapshot(image: try solid(.blue), frame: frame),
             to: frame, side: .right, collapsing: true, duration: 0.01,
             interactive: true, holdAtEnd: true) {}

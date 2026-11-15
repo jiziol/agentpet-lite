@@ -175,7 +175,11 @@ final class PomodoroControllerTests: XCTestCase {
         let host = try XCTUnwrap(panel.contentView as? NSHostingView<PetSpeechView>)
         let model = host.rootView.model
         XCTAssertEqual(model.quotaText, "额度优先测试")
-        RunLoop.main.run(until: Date().addingTimeInterval(8.25))
+        // The quota clock counts visible time, not time since post(). Wait for
+        // its deferred handoff and native hit-testing update on a busy display.
+        XCTAssertTrue(NativeTestWait.until(timeout: 15) {
+            pet.systemNotices.current?.kind == .pomodoro && !panel.ignoresMouseEvents
+        }, "The deferred timer confirmation must become visible and clickable")
         XCTAssertEqual(pet.systemNotices.current?.kind, .pomodoro)
         XCTAssertEqual(pet.systemNotices.current?.confirmationLabel, "Start break")
         XCTAssertFalse(model.quotaText.isEmpty)

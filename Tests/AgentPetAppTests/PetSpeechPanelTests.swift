@@ -6,6 +6,53 @@ import AgentPetCore
 
 @MainActor
 final class PetSpeechPanelTests: XCTestCase {
+    func testTaskPositionOnlyMoveRetainsNativeTransition() throws {
+        try TestIsolation.require()
+        _ = NSApplication.shared
+        let pet = PetController.shared, settings = BubbleSettings.shared
+        let animations = pet.animationsEnabled, show = pet.showChat
+        let enabled = settings.petBubbleEnabled
+        defer {
+            pet.animationsEnabled = animations; pet.showChat = show
+            settings.petBubbleEnabled = enabled
+        }
+        pet.animationsEnabled = true; pet.showChat = true
+        settings.petBubbleEnabled = true
+        let controller = PetWindowController(refreshStatsUsage: {})
+        defer { controller.stop() }
+        let existing = Set(NSApp.windows.map(\.windowNumber))
+        let session = AgentSession(id: "position-transition", agentKind: .codex,
+                                   state: .working, source: .hook, updatedAt: Date())
+        let specs = PetWindowPlanner.plan(sessions: [session], split: false,
+                                         mappings: [], defaultPetID: "position-transition")
+        controller.sync(specs: specs) { _ in
+            .init(petID: "position-transition", mood: .working, sessions: [session], count: 1, chatLine: "")
+        }
+        RunLoop.main.run(until: Date().addingTimeInterval(0.3))
+        let panels = NSApp.windows.filter { !existing.contains($0.windowNumber) }
+        let body = try XCTUnwrap(panels.first { $0.title == "AgentPet Lite Body" })
+        let task = try XCTUnwrap(panels.first { $0.title == "AgentPet Lite Tasks" })
+        let visible = try XCTUnwrap(body.screen?.visibleFrame)
+        controller.moveWindow(forKey: "default", to: NSPoint(x: visible.midX, y: visible.minY + 50))
+        RunLoop.main.run(until: Date().addingTimeInterval(0.3))
+        let start = task.frame
+        let delta: CGFloat = 80
+        let targetX = start.minX + delta
+        var positions: [CGFloat] = []
+        let observer = NotificationCenter.default.addObserver(
+            forName: NSWindow.didMoveNotification, object: task, queue: .main
+        ) { _ in
+            MainActor.assumeIsolated { positions.append(task.frame.minX) }
+        }
+        defer { NotificationCenter.default.removeObserver(observer) }
+        controller.moveWindow(forKey: "default", to: NSPoint(x: body.frame.minX + delta, y: body.frame.minY))
+        XCTAssertTrue(NativeTestWait.until { abs(task.frame.minX - targetX) < 0.5 })
+        XCTAssertEqual(task.frame.minY, start.minY, accuracy: 0.5)
+        XCTAssertTrue(positions.contains { $0 > start.minX + 0.5 && $0 < targetX - 0.5 },
+                      "A position-only move must retain intermediate native frames")
+        print("TASK_POSITION_TRANSITION intermediate=\(positions.filter { $0 > start.minX + 0.5 && $0 < targetX - 0.5 }.count)")
+    }
+
     func testSpeechTransitionsNeverCrossTaskPanel() throws {
         _ = NSApplication.shared
         let pet = PetController.shared, settings = BubbleSettings.shared

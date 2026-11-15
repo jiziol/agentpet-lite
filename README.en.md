@@ -80,7 +80,7 @@ For **macOS 13+ / Apple Silicon**.
 Choose a prebuilt DMG or build from source:
 
 - **Option A: install the prebuilt DMG (recommended)**<br>
-  Open `AgentPet-Lite-1.0.0-arm64.dmg`, drag **AgentPet Lite.app** to **Finder → Applications**, eject the image, then launch from Applications. Use this project’s [Releases](https://github.com/jiziol/agentpet-lite/releases) and the matching `.dmg.sha256`; if no matching installer is available, build from source below.
+  Open `AgentPet-Lite-1.0.1-arm64.dmg`, drag **AgentPet Lite.app** to **Finder → Applications**, eject the image, then launch from Applications. Use this project’s [Releases](https://github.com/jiziol/agentpet-lite/releases) and the matching `.dmg.sha256`; if no matching installer is available, build from source below.
 - **Option B: build from source**<br>
   Requires full Xcode and Python 3.9+. The verified toolchain is Xcode 26.3 / Swift 6.2.4; CI uses the same version. Initial dependency resolution needs network access. From the repository root:
 
@@ -89,7 +89,7 @@ Choose a prebuilt DMG or build from source:
   AGENTPET_APP_NAME="AgentPet Lite" bash scripts/build-local.sh
   ```
 
-  This produces `build/AgentPet Lite.app` (1.0.0), using `io.github.jiziol.agentpet-lite` and `~/.agentpet-lite`. To create a DMG, run `python3 scripts/package-dmg.py`. After verification, it retains the DMG and `.dmg.sha256`, and removes the duplicate intermediate `.app`. It does not change installed apps, install, migrate or publish anything.
+  This produces `build/AgentPet Lite.app` (1.0.1), using `io.github.jiziol.agentpet-lite` and `~/.agentpet-lite`. To create a DMG, run `python3 scripts/package-dmg.py`. After verification, it retains the DMG and `.dmg.sha256`, and removes the duplicate intermediate `.app`. It does not change installed apps, install, migrate or publish anything.
 
 Existing AgentPet Local users should follow the [migration notes](docs/agent-integrations.md#从-local-迁移到-lite) first; do not overwrite data directories.
 

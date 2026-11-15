@@ -78,7 +78,7 @@ Codex 低额度和自然恢复提醒，把“还剩多少、什么时候恢复�
 你可以安装预编译 DMG，或从源码自行构建：
 
 - **方式一：安装预编译包（推荐）**<br>
-  打开获得的 `AgentPet-Lite-1.0.0-arm64.dmg`，把 **AgentPet Lite.app** 拖入 **访达 → 应用程序（Applications）**，弹出磁盘映像后，从应用程序文件夹启动。下载入口为本项目 [Releases](https://github.com/jiziol/agentpet-lite/releases)；核对同版 `.dmg.sha256`，若尚无对应安装附件，可按下方说明从源码构建。
+  打开获得的 `AgentPet-Lite-1.0.1-arm64.dmg`，把 **AgentPet Lite.app** 拖入 **访达 → 应用程序（Applications）**，弹出磁盘映像后，从应用程序文件夹启动。下载入口为本项目 [Releases](https://github.com/jiziol/agentpet-lite/releases)；核对同版 `.dmg.sha256`，若尚无对应安装附件，可按下方说明从源码构建。
 - **方式二：从源码构建**<br>
   需要完整 Xcode 与 Python 3.9+；已验证的工具链为 Xcode 26.3 / Swift 6.2.4，CI 使用同一版本。首次解析依赖需要联网。在项目根目录执行：
 
@@ -87,7 +87,7 @@ Codex 低额度和自然恢复提醒，把“还剩多少、什么时候恢复�
   AGENTPET_APP_NAME="AgentPet Lite" bash scripts/build-local.sh
   ```
 
-  产物为 `build/AgentPet Lite.app`，版本 `1.0.0`，Bundle ID 为 `io.github.jiziol.agentpet-lite`，数据目录为 `~/.agentpet-lite`。需要 DMG 时再执行 `python3 scripts/package-dmg.py`；脚本校验成功后保留 DMG 与 `.dmg.sha256`，移除重复的构建 `.app`，不修改已安装应用，也不自动安装、迁移或发布。
+  产物为 `build/AgentPet Lite.app`，版本 `1.0.1`，Bundle ID 为 `io.github.jiziol.agentpet-lite`，数据目录为 `~/.agentpet-lite`。需要 DMG 时再执行 `python3 scripts/package-dmg.py`；脚本校验成功后保留 DMG 与 `.dmg.sha256`，移除重复的构建 `.app`，不修改已安装应用，也不自动安装、迁移或发布。
 
 已有 AgentPet Local 数据的用户，请先按[迁移说明](docs/agent-integrations.md#从-local-迁移到-lite)操作，不要直接覆盖数据目录。
 

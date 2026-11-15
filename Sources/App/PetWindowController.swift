@@ -36,6 +36,7 @@ final class PetWindowController: ObservableObject {
         var speechSize: CGSize = .zero
         var companionLayoutScheduled = false
         var lastTaskFrame: NSRect?
+        var lastTaskSpeechHeight: CGFloat?
         var moveObserver: Any?
         var occlusionObserver: Any?
 
@@ -842,13 +843,21 @@ final class PetWindowController: ObservableObject {
         // while the displayed approval/waiting/failure rows appear or clear.
         applyTaskBubbleClickThrough(managed, bubbleVisible: true)
         let frame = NSRect(x: x, y: y, width: width, height: height)
+        let speechHeightChanged = managed.lastTaskSpeechHeight != managed.model.speechHeight
+        managed.lastTaskSpeechHeight = managed.model.speechHeight
         if managed.lastTaskFrame != frame {
             managed.lastTaskFrame = frame
-            // Speech content and its native frame update immediately. Its
-            // companion must move in the same layout pass: independently
-            // interpolating this frame crosses the newly enlarged speech panel.
-            // SwiftUI still owns the content's appearance animations.
-            panel.setFrame(frame, display: true, animate: false)
+            // A changed speech stack moves its boundary immediately; keep its
+            // companion in the same layout pass to avoid crossing that content.
+            // Unrelated position-only updates retain their existing transition.
+            if !speechHeightChanged && panel.frame.size == frame.size && panel.isVisible
+                && PetController.shared.animationsEnabled && !managed.model.isAnimationDragging
+                && !NSWorkspace.shared.accessibilityDisplayShouldReduceMotion && !managed.model.messagesTransitionHidden {
+                NSAnimationContext.runAnimationGroup { context in
+                    context.duration = 0.14
+                    panel.animator().setFrame(frame, display: true)
+                }
+            } else { panel.setFrame(frame, display: true, animate: false) }
         }
         if managed.model.messagesTransitionHidden { panel.orderOut(nil) }
         else { panel.orderFrontRegardless() }

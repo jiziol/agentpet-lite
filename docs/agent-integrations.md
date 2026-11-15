@@ -173,7 +173,7 @@ coverage; the info button reports these limits.
 
 ## 从 Local 迁移到 Lite
 
-正式应用为 `AgentPet Lite.app`（1.0.0），Bundle ID `io.github.jiziol.agentpet-lite`，数据目录 `~/.agentpet-lite`。开发版Local保持独立的 `local.acerz.agentpet`／`~/.agentpet-local` 身份。当前签名为ad-hoc，本机迁移不代表已公证或公开发布。
+正式应用为 `AgentPet Lite.app`（1.0.1），Bundle ID `io.github.jiziol.agentpet-lite`，数据目录 `~/.agentpet-lite`。开发版Local保持独立的 `local.acerz.agentpet`／`~/.agentpet-local` 身份。安装包使用 ad-hoc 签名、未公证；公开版本见本项目 [Releases](https://github.com/jiziol/agentpet-lite/releases)。
 
 `python3 scripts/migrate-local-to-lite.py --help`提供显式的只读plan与copy操作。先正常退出Local并导出其最新偏好；目标根目录必须尚不存在。copy在取得来源实例锁后，以校验摘要和SQLite一致备份迁移会话／已读、AO提醒、历史、宠物与声音、用量账本和队列，并生成`migrated-preferences.plist`及`local-migration-v1.json`。复制不导入系统偏好、不安装应用、不改客户端配置或登录项，也不删除来源。运行方须核对报告，再导入新Bundle偏好域并登记已存在的本项目接入。遇目标冲突、运行中来源、符号链接／硬链接、未知账本或复制中发生变化时停止，不能把空白目标当迁移成功。
 

@@ -28,7 +28,7 @@ AionUI／AionUI Team 专用适配已停止维护；不再新增适配、跟进�
 
 保留现有用户偏好、宠物、养成、会话和阅读回执。页面移除不等于删除底层数据；应用替换不回灌旧运行状态。对客户端配置只修改明确属于 AgentPet 的条目，保留其他处理器、共享开关、原生权限和信任流程。
 
-当前更新器停用、Updates 入口隐藏，不使用上游 feed。首版身份为 AgentPet Lite 1.0.0，使用 `io.github.jiziol.agentpet-lite` 与 `~/.agentpet-lite`；本地安装候选为 Apple Silicon DMG，使用 ad-hoc 签名、未公证。尚未公开发布或建立自动更新渠道；后续通过新版 DMG 或源码构建更新，具体以实际发布说明为准。
+当前更新器停用、Updates 入口隐藏，不使用上游 feed。当前稳定版本为 AgentPet Lite 1.0.1，使用 `io.github.jiziol.agentpet-lite` 与 `~/.agentpet-lite`；Apple Silicon DMG 使用 ad-hoc 签名、未公证。公开版本见本项目 [Releases](https://github.com/jiziol/agentpet-lite/releases)，通过新版 DMG 或源码构建更新；尚无自动更新渠道。
 
 ## 验证边界
 
